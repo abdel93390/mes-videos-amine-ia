@@ -1,0 +1,186 @@
+{
+ "ref": "V1",
+ "langue_source": "en",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "Y6xvABxtaN8MwiDAba44",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "Tableau d'éveil en double promo !",
+   "debut": 0.4,
+   "fin_fenetre": 1.86
+  },
+  {
+   "id": "L2",
+   "texte": "Clique bien sur la carte en dessous,",
+   "debut": 2.26,
+   "fin_fenetre": 3.95
+  },
+  {
+   "id": "L3",
+   "texte": "elle active la livraison rapide offerte et la promo en cours.",
+   "debut": 4.07,
+   "fin_fenetre": 7.65
+  },
+  {
+   "id": "L4",
+   "texte": "Il s'allume avec cette clé et s'éteint.",
+   "debut": 7.7,
+   "fin_fenetre": 10.38
+  },
+  {
+   "id": "L5",
+   "texte": "Plein d'interrupteurs.",
+   "debut": 10.4,
+   "fin_fenetre": 11.78
+  },
+  {
+   "id": "L6",
+   "texte": "Les enfants adorent !",
+   "debut": 11.82,
+   "fin_fenetre": 12.88
+  },
+  {
+   "id": "L7",
+   "texte": "Cadeau de Noël ou d'anniversaire ? Fonce sur la double promo.",
+   "debut": 13.26,
+   "fin_fenetre": 16.22
+  },
+  {
+   "id": "L8",
+   "texte": "La promo se termine bientôt.",
+   "debut": 16.62,
+   "fin_fenetre": 18.95
+  }
+ ],
+ "mix": {
+  "fond": "aucun"
+ },
+ "rendu": {
+  "crf": 17,
+  "encodeur": "x264",
+  "patches": [
+   {
+    "images": [
+     0,
+     569
+    ],
+    "rect": [
+     71,
+     300,
+     289,
+     336
+    ],
+    "rayon": 5,
+    "remplir": [
+     219,
+     49,
+     61
+    ],
+    "lignes": [
+     {
+      "texte": "Double réduction",
+      "x": 180,
+      "y": 318,
+      "taille": 23,
+      "graisse": 500,
+      "couleur": [
+       255,
+       255,
+       255
+      ],
+      "largeur": 200
+     }
+    ]
+   },
+   {
+    "images": [
+     0,
+     569
+    ],
+    "rect": [
+     78,
+     334,
+     282,
+     371
+    ],
+    "rayon": 5,
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Bientôt terminé",
+      "x": 180,
+      "y": 352,
+      "taille": 23,
+      "graisse": 500,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "largeur": 190
+     }
+    ]
+   }
+  ],
+  "sous_titres": {
+   "mode": "phrase",
+   "y": 540,
+   "taille": 21,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    1,
+    2
+   ],
+   "max_car_ligne": 22,
+   "trait": 3,
+   "scinder": {
+    "L7": [
+     "Cadeau de Noël ou d'anniversaire ?",
+     "Fonce sur la double promo."
+    ]
+   }
+  }
+ },
+ "marque": "",
+ "produit": "tableau d'éveil",
+ "site": "",
+ "offre": "celle de la source (double réduction, livraison rapide et gratuite, fin bientôt)",
+ "controle": {
+  "sans_voix": [
+   "Double réduction",
+   "Bientôt terminé"
+  ]
+ },
+ "notes": "Étape 0 : sous-titres type 5 (aucun sous-titre d'origine). Badge fixe rouge 'Double Discount' + blanc 'Sale Ends Soon' sur toutes les images 0-569, fond uni : recouvrir (badges), pas de Vmake. Aucun logo, prix ni site visible. Pas de musique : séparation voix/musique inutile (Replicate 402 de toute façon). Vmake : 0.",
+ "bilan": {
+  "duree_source_s": 19.0,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 301,
+  "replicate_appels": 0,
+  "reprises": 0,
+  "problemes": [
+   "Replicate 402 (plus de crédit) : séparation inutile ici (pas de musique), piste complète utilisée comme voix",
+   "Clé ElevenLabs restreinte (voices_write/voices_read/user_read manquants) : l'élève a ajouté les permissions",
+   "Plan ElevenLabs gratuit sans clonage : l'élève est passé en Starter",
+   "badges.py n'a pas détecté le bandeau rouge/blanc fixe : patches à coins arrondis posés à la main"
+  ]
+ }
+}
