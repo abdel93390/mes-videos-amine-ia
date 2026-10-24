@@ -1,0 +1,4 @@
+Contrôle OR9 (controle.py non applicable : pas de voix)
+Livré : h264,720,1280,30/1 aac,0/0 31.200000 
+Textes anglais : couverts sur chaque morceau (vérifié à 1, 5, 14, 16,5, 23 s).
+Marque d'origine : aucune visible.

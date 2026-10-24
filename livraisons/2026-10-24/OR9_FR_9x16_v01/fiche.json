@@ -1,0 +1,39 @@
+{
+  "ref": "OR9",
+  "langue_source": "en",
+  "langue_cible": "fr",
+  "voix": null,
+  "lignes": [],
+  "mix": {
+    "fond": "musique"
+  },
+  "rendu": null,
+  "marque": "LumiP'tit",
+  "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+  "site": "velyzio.com",
+  "offre": "-40 % aujourd'hui, livraison offerte (écran de fin)",
+  "controle": {
+    "sans_voix": []
+  },
+  "notes": {
+    "diagnostic": "Source MontiNest 39,3 s, 720x1280, sans voix. Textes anglais blancs sur boîtes noires (type 4 fixe) : 0-9,97 / 9,97-17,8 / 17,8-21,9 / 21,9-30,7 / 34,67-37,67. Pas de logo visible, pas d'offre.",
+    "demandes_eleve": [
+      "Meilleurs moments dans les 3 premières secondes",
+      "Séquences mélangées",
+      "Nouvelle accroche"
+    ],
+    "montage": "8 morceaux (25-28 / 0,3-4 / 15-17,7 / 4-8,5 / 18-21,8 / 10,1-14,5 / 22-25 / 28-30,6), fin 30,7-39,3 coupée, cartes blanches recréées sur la géométrie de chaque boîte d'origine, zoom 1,03, écran de fin."
+  },
+  "bilan": {
+    "duree_source_s": 39.3,
+    "vmake_s": 0,
+    "caracteres_elevenlabs": 0,
+    "replicate_appels": 0,
+    "reprises": 0,
+    "problemes": [
+      "Boîtes noires couvertes par nos cartes blanches (pas de Vmake)",
+      "Changement 17,8→21,9 non détecté automatiquement (boîtes de même surface), pris sur la grille",
+      "Ordre des plans changé et fin coupée à la demande de l'élève (hors méthode)"
+    ]
+  }
+}
