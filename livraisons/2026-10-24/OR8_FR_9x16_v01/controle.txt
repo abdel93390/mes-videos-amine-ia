@@ -1,0 +1,4 @@
+Contrôle OR8 (controle.py non applicable : pas de voix)
+Livré : h264,720,1280,30/1 aac,0/0 21.200000 
+Texte anglais : couvert en continu par la carte (vérifié sur planche 1 i/s).
+Micro-logo Joyreal sur le jouet : gardé.
