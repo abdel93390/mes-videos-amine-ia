@@ -1,0 +1,4 @@
+Contrôle OR6 (controle.py non applicable : pas de voix)
+Livré : h264,720,1280,30/1 aac,0/0 23.400000 
+Textes d'origine : couverts par les cartes sur chaque morceau (planche toutes les 0,5 s vérifiée).
+Marque Miloubo : fin coupée, aucun logo restant. Micro-logo Joyreal sur le jouet gardé.
