@@ -1,0 +1,54 @@
+{
+  "ref": "OR1",
+  "langue_source": "en",
+  "langue_cible": "fr",
+  "marque": "LumiP'tit",
+  "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+  "site": "velyzio.com",
+  "offre": "-40 % aujourd'hui, livraison offerte (offre du site, demandée par l'élève ; la source n'en montre aucune)",
+  "voix": null,
+  "lignes": [],
+  "notes": {
+    "diagnostic": "Plan unique 68,1 s, 576x1024 30 i/s. Pas de voix (musique/extrait de film). Type 2 : 1 texte fixe blanc sans fond en haut (« The only toy that buys me time to drink HOT coffee. ») sur toute la vidéo. Aucun logo, prix ni écran de fin.",
+    "demandes_eleve": [
+      "Accroche 0-3 s « POV : ton café est encore CHAUD et bébé est calme » (choisie parmi 3)",
+      "Commencer par la séquence de la 40e seconde (40-43 s), puis 0-40 s, puis 43-68,1 s",
+      "Zoom léger 7 % et couleurs +8 % pour se démarquer de l'original",
+      "Écran de fin 3,5 s ajouté : logo, -40 %, livraison offerte, velyzio.com",
+      "Miroir refusé : autocollant POWER sur le jouet"
+    ],
+    "methode": "Vmake (SKM0002) sur toute la vidéo, résultat repris seulement dans [162,115,489,286] avec bord adouci 12 px ; texte FR recréé (DM Sans, blanc, contour noir)."
+  },
+  "textes_affiches": [
+    {
+      "de": 0,
+      "a": 3,
+      "texte": "POV : ton café est encore CHAUD et bébé est calme"
+    },
+    {
+      "de": 3,
+      "a": 68.1,
+      "texte": "Le seul jouet qui me laisse le temps de boire mon café CHAUD."
+    },
+    {
+      "de": 68.1,
+      "a": 71.6,
+      "texte": "LumiP'tit / -40 % aujourd'hui / Livraison offerte / velyzio.com"
+    }
+  ],
+  "bilan": {
+    "duree_source_s": 68.1,
+    "vmake_s": 68.1,
+    "caracteres_elevenlabs": 0,
+    "replicate_appels": 0,
+    "reprises": 0,
+    "problemes": [
+      "Pas de voix dans la source : rien à doubler, seul le texte à l'écran est traduit",
+      "Ordre des plans modifié, accroche, zoom et écran de fin ajoutés à la demande de l'élève (hors méthode : même montage)",
+      "Offre du site ajoutée en fin alors que la source n'en montre aucune (demande de l'élève)",
+      "Durée finale 71,6 s (source 68,1 s + écran de fin 3,5 s)",
+      "Musique d'origine gardée : extrait possiblement protégé, risque de son coupé par Meta",
+      "Premier assemblage du masque Vmake raté (texte fantôme), refait avec un masque alpha correct"
+    ]
+  }
+}

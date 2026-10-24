@@ -1,0 +1,8 @@
+Contrôle OR1 (controle.py non applicable : pas de voix dans la source, pas d'analyse.json)
+Source : h264,576,1024,30/1 aac,0/0 68.100000 
+Livré  : h264,576,1024,30/1 aac,0/0 71.600000 
+Son livré : mean_volume: -18.8 dB max_volume: -0.6 dB 
+Durée : 71,6 s = 68,1 s source + 3,5 s écran de fin (ajout demandé). Hors fin : ratio 1,00.
+Texte anglais : effacé sur toutes les images (vérifié sur planche toutes les 4 s, zone Vmake [162,115,489,286]).
+Textes FR : accroche 0-3 s, phrase 3-68,1 s, écran de fin 68,1-71,6 s ; aucun débordement constaté.
+Marque d'origine : aucune trace (pas de logo dans la source).
