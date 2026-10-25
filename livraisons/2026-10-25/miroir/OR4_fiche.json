@@ -1,0 +1,34 @@
+{
+  "ref": "OR4",
+  "langue_source": "fr",
+  "langue_cible": "fr",
+  "voix": null,
+  "lignes": [],
+  "mix": {
+    "fond": "musique"
+  },
+  "rendu": null,
+  "marque": "LumiP'tit",
+  "produit": "mon-produit",
+  "site": "velyzio.com",
+  "offre": "comme la source",
+  "controle": {
+    "sans_voix": []
+  },
+  "notes": {
+    "demande": "Lot miroir : réécriture (source déjà FR) + miroir",
+    "diagnostic": "Mon Loulou 31,1 s 576x1024, sans voix. Haut 0-7,07 rectangle blanc texte rouge ; milieu 7-25,8 texte blanc sans fond (3 phrases) ; bas 25,8-31 rectangle blanc -40 % texte bleu."
+  },
+  "bilan": {
+    "duree_source_s": 31.1,
+    "vmake_s": 19.4,
+    "caracteres_elevenlabs": 0,
+    "replicate_appels": 0,
+    "reprises": 0,
+    "problemes": [
+      "Vmake sur 6,9-26,3 s seulement",
+      "Rectangles blancs recouverts par cartes PIL (gratuit)",
+      "Émoji ❤️ du bas non repris (police sans émoji)"
+    ]
+  }
+}

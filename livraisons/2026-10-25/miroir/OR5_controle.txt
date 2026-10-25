@@ -1,0 +1,8 @@
+Contrôle OR5 miroir
+OK     :
+  - format 720x1280 identique à la source
+  - phrases plus longues que leur fenêtre : aucune
+ALERTE :
+  - durée vidéo 19.90 s / source 19.00 s = 104.7 %
+  - trous de voix absents de la source : L1→L2 4.6-5.7 s (source parle 0.8 s), L2→L3 9.1-10.4 s (source parle 0.9 s)
+À vérifier à la main (non automatisable) : fidélité de la voix à l'écoute, logo ou texte d'origine sur les micro-plans, qualité des plans remplacés.
