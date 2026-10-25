@@ -1,0 +1,3 @@
+Contrôle OR1 miroir (pas de voix)
+576,1024  68.100000 
+Texte FR lisible à l'endroit, image retournée.

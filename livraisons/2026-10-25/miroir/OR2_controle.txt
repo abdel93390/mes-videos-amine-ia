@@ -1,0 +1,7 @@
+OK     :
+  - format 720x1280 identique à la source
+  - durée vidéo 12.67 s / source 12.67 s = 100.0 %
+  - phrases plus longues que leur fenêtre : aucune
+ALERTE :
+  - trous de voix absents de la source : L2→L3 5.3-6.3 s (source parle 1.0 s)
+À vérifier à la main (non automatisable) : fidélité de la voix à l'écoute, logo ou texte d'origine sur les micro-plans, qualité des plans remplacés.

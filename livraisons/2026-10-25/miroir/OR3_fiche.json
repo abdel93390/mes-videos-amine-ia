@@ -1,0 +1,124 @@
+{
+  "ref": "OR3",
+  "langue_source": "fr",
+  "langue_cible": "fr",
+  "voix": {
+    "id": "cWQWiPABqtAMThS0OjMn",
+    "repli_id": "",
+    "vitesse_max": 1.07
+  },
+  "lignes": [
+    {
+      "id": "L1",
+      "texte": "Mon fils l'adore tellement qu'on a fini par en racheter un deuxième.",
+      "debut": 0.06,
+      "fin_fenetre": 4.1
+    },
+    {
+      "id": "L2",
+      "texte": "Ce tableau a de vrais interrupteurs qui marchent, alors il reste assis longtemps à les allumer et les éteindre.",
+      "debut": 4.1,
+      "fin_fenetre": 9.7
+    },
+    {
+      "id": "L3",
+      "texte": "On a pris le premier il y a à peu près un an, et je ne pensais pas que ça plairait autant,",
+      "debut": 10.25,
+      "fin_fenetre": 14.5
+    },
+    {
+      "id": "L4",
+      "texte": "mais il s'en sert presque tous les jours.",
+      "debut": 15.4,
+      "fin_fenetre": 17.0
+    },
+    {
+      "id": "L5",
+      "texte": "Je le répète, on ne part jamais sans lui.",
+      "debut": 17.37,
+      "fin_fenetre": 19.3
+    },
+    {
+      "id": "L6",
+      "texte": "Il vient avec nous au restaurant, dans les salles d'attente, et même dans son siège auto.",
+      "debut": 19.83,
+      "fin_fenetre": 24.5
+    },
+    {
+      "id": "L7",
+      "texte": "Ça a tout changé.",
+      "debut": 24.67,
+      "fin_fenetre": 26.2
+    },
+    {
+      "id": "L8",
+      "texte": "Franchement, que des avantages.",
+      "debut": 26.2,
+      "fin_fenetre": 27.7
+    },
+    {
+      "id": "L9",
+      "texte": "Il travaille sa motricité fine, sans écran et sans bruit, et ça, pour un parent, c'est une vraie victoire.",
+      "debut": 27.96,
+      "fin_fenetre": 33.8
+    },
+    {
+      "id": "L10",
+      "texte": "En plus, il est assez petit pour aller dans le sac à langer et partir partout avec nous.",
+      "debut": 34.24,
+      "fin_fenetre": 38.1
+    },
+    {
+      "id": "L11",
+      "texte": "Et si votre petit adore toucher à vos interrupteurs, c'est la solution idéale.",
+      "debut": 38.97,
+      "fin_fenetre": 43.0
+    },
+    {
+      "id": "L12",
+      "texte": "Vous le trouvez sur velyzio point com, et il est disponible dès maintenant.",
+      "debut": 43.89,
+      "fin_fenetre": 47.0
+    },
+    {
+      "id": "L13",
+      "texte": "Franchement, vous ne le regretterez pas.",
+      "debut": 47.79,
+      "fin_fenetre": 49.6
+    },
+    {
+      "id": "L14",
+      "texte": "Si vous avez un tout-petit, il vous le faut.",
+      "debut": 49.89,
+      "fin_fenetre": 52.9
+    }
+  ],
+  "mix": {
+    "fond": "musique"
+  },
+  "marque": "LumiP'tit",
+  "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+  "site": "velyzio.com",
+  "offre": "aucune (comme la source)",
+  "controle": {
+    "sans_voix": []
+  },
+  "notes": {
+    "demande": "Lot miroir : réécriture + effet miroir"
+  },
+  "bilan": {
+    "duree_source_s": 53.0,
+    "vmake_s": 11.5,
+    "caracteres_elevenlabs": 1183,
+    "replicate_appels": 2,
+    "reprises": 2,
+    "problemes": [
+      "Source déjà en français : texte réécrit avec d'autres mots (demande élève), voix reclonée",
+      "Rupture de stock / lien ci-dessous remplacés par velyzio.com",
+      "Replicate 429 en parallèle : relancé seul",
+      "Vmake sur les 11,5 premières secondes seulement (texte du haut), traînée claire visible à la place du texte effacé",
+      "L12 marquée MAUVAISE (velyzio entendu velizio) : faux positif",
+      "Retard max 0,9 s (L4) après enchaînement"
+    ]
+  }
+}

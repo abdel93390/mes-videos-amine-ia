@@ -1,0 +1,67 @@
+{
+  "ref": "OR2",
+  "langue_source": "en",
+  "langue_cible": "fr",
+  "voix": {
+    "id": "296SXWXHm36CmlyYXMgN",
+    "repli_id": "",
+    "vitesse_max": 1.07
+  },
+  "lignes": [
+    {
+      "id": "L1",
+      "texte": "Maman d'un petit ? Voilà ta trouvaille.",
+      "debut": 0.06,
+      "fin_fenetre": 2.6
+    },
+    {
+      "id": "L2",
+      "texte": "Ce tableau l'occupe au resto, en voiture, partout.",
+      "debut": 2.6,
+      "fin_fenetre": 6.3
+    },
+    {
+      "id": "L3",
+      "texte": "D'habitude, il se lasse vite,",
+      "debut": 6.3,
+      "fin_fenetre": 8.4
+    },
+    {
+      "id": "L4",
+      "texte": "mais là, il a tenu longtemps.",
+      "debut": 8.4,
+      "fin_fenetre": 10.6
+    },
+    {
+      "id": "L5",
+      "texte": "Moins d'écrans ? Commande le tien.",
+      "debut": 10.6,
+      "fin_fenetre": 12.7
+    }
+  ],
+  "mix": {
+    "fond": "musique"
+  },
+  "marque": "LumiP'tit",
+  "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+  "site": "velyzio.com",
+  "offre": "aucune (comme la source)",
+  "controle": {
+    "sans_voix": []
+  },
+  "notes": {
+    "demande": "Lot miroir : traduction seule + effet miroir"
+  },
+  "bilan": {
+    "duree_source_s": 12.8,
+    "vmake_s": 12.8,
+    "caracteres_elevenlabs": 181,
+    "replicate_appels": 1,
+    "reprises": 0,
+    "problemes": [
+      "Jouet thème ferme + micro-logo Joyreal (retourné par le miroir)",
+      "Trou de voix 1 s L2→L3",
+      "Miroir demandé : sous-titres FR posés après le retournement"
+    ]
+  }
+}
