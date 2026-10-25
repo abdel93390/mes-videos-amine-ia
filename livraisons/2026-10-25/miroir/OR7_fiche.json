@@ -1,0 +1,87 @@
+{
+  "ref": "OR7",
+  "langue_source": "it",
+  "langue_cible": "fr",
+  "voix": {
+    "id": "HdAR38rsnMjPn3CN4l4t",
+    "repli_id": "",
+    "vitesse_max": 1.07
+  },
+  "lignes": [
+    {
+      "id": "L1",
+      "texte": "C'est vraiment super satisfaisant.",
+      "debut": 0.06,
+      "fin_fenetre": 2.7
+    },
+    {
+      "id": "L2",
+      "texte": "Si t'as un petit à la maison et que tu veux l'occuper,",
+      "debut": 2.7,
+      "fin_fenetre": 6.4
+    },
+    {
+      "id": "L3",
+      "texte": "ce tableau sensoriel Montessori va le captiver pendant des heures, sans écran.",
+      "debut": 6.5,
+      "fin_fenetre": 11.3
+    },
+    {
+      "id": "L4",
+      "texte": "Il est conçu pour développer la coordination œil-main,",
+      "debut": 11.4,
+      "fin_fenetre": 15.0
+    },
+    {
+      "id": "L5",
+      "texte": "la reconnaissance des couleurs, et même des gestes du quotidien, comme allumer et éteindre la lumière.",
+      "debut": 15.2,
+      "fin_fenetre": 21.4
+    },
+    {
+      "id": "L6",
+      "texte": "Avec mon éclairage, les lumières ont l'air moins fortes, mais je te promets qu'elles brillent vraiment.",
+      "debut": 21.5,
+      "fin_fenetre": 27.0
+    },
+    {
+      "id": "L7",
+      "texte": "Si tu veux le découvrir, il est disponible sur velyzio point com,",
+      "debut": 27.0,
+      "fin_fenetre": 31.4
+    },
+    {
+      "id": "L8",
+      "texte": "jette un œil, tu vas adorer !",
+      "debut": 31.4,
+      "fin_fenetre": 33.9
+    }
+  ],
+  "mix": {
+    "fond": "musique"
+  },
+  "marque": "LumiP'tit",
+  "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+  "site": "velyzio.com",
+  "offre": "aucune",
+  "controle": {
+    "sans_voix": []
+  },
+  "notes": {
+    "demande": "Lot miroir : traduction + miroir",
+    "diagnostic": "Nido Magico 33,9 s, voix homme italien, texte blanc sans fond 0-2,7 s au milieu, logo Joyreal visible sur la bande POWER (retourné par le miroir)."
+  },
+  "bilan": {
+    "duree_source_s": 33.9,
+    "vmake_s": 3.5,
+    "caracteres_elevenlabs": 649,
+    "replicate_appels": 1,
+    "reprises": 2,
+    "problemes": [
+      "Fin Noël/rupture/panier orange remplacée par velyzio.com",
+      "L7 MAUVAISE (velyzio entendu velizio) : faux positif",
+      "Émoji 😊 du texte d'ouverture non repris",
+      "Logo Joyreal visible (miroir)"
+    ]
+  }
+}
