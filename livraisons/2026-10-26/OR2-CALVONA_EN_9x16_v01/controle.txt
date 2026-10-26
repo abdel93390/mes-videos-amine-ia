@@ -1,0 +1,7 @@
+Contrôle (amélioration de qualité, pas de traduction : controle.py ne s'applique pas)
+OK  format 1080x1920 (source 720x1280), H.264, 30 i/s
+OK  380 images = source (12,67 s de vidéo), son d'origine copié tel quel (12,76 s, moyenne -17,1 dB, crête -1,3 dB = source)
+OK  netteté (variance du laplacien, source agrandie en 1080 contre livrable) : x3,5 à 0,5 s ; x3,3 à 3 s ; x3,0 à 5,5 s ; x2,8 à 8 s ; x3,7 à 11 s
+OK  aucun défaut visible (mains, visage, sous-titres) sur la planche et sur le plan de l'enfant en pleine résolution
+À VÉRIFIER  les 2 zones floutées du jouet (nom « POWER », logo en haut à droite) restent lisses : le contenu caché n'existe plus
+À VÉRIFIER  le nom « POWER » reste lisible sur plusieurs plans

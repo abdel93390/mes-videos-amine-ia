@@ -1,0 +1,24 @@
+{
+ "ref": "OR2-CALVONA",
+ "travail": "amelioration_qualite",
+ "demande": "dezoomer, ameliorer la qualite (720p voire 1080p), retirer les flous",
+ "choix_eleve": "nettete + 1080p, sans dezoom (le dezoom demandait d'inventer les bords par IA)",
+ "langue_source": "en",
+ "langue_cible": "en",
+ "source": {"fichier": "OR2 - Calvona.mp4", "format": "720x1280 H.264 30 i/s", "duree_s": 12.76},
+ "rendu": {"methode": "Topaz video-upscale (Replicate), 1080p 30 i/s, puis H.264 CRF 17 avec le son d'origine", "format": "1080x1920 H.264 30 i/s"},
+ "bilan": {
+  "duree_source_s": 12.76,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 2,
+  "reprises": 1,
+  "problemes": [
+   "Topaz refuse une vidéo envoyée par l'API fichiers de Replicate (« source.container is required », URL sans extension) : envoyée en data URI à la place.",
+   "Un 429 (trop de requêtes) de Replicate juste après l'échec : relancé.",
+   "Les 2 zones floutées sur le jouet (nom « POWER » et logo en haut à droite, masquage de marque d'origine) ne peuvent pas être restaurées : seulement nettoyées.",
+   "Le nom « POWER » reste lisible sur plusieurs plans (non demandé de le retirer).",
+   "controle.py non applicable (pas de traduction, pas d'analyse.json) : contrôle fait à la main, voir controle.txt."
+  ]
+ }
+}
