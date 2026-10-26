@@ -1,0 +1,25 @@
+{
+ "ref": "OR3C",
+ "langue_source": "fr",
+ "langue_cible": "fr",
+ "marque": "LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin)",
+ "lignes": [],
+ "rendu": {},
+ "notes": "Demande élève : même vidéo OR3 (française), garder la vidéo telle quelle mais changer l'ordre des plans, surtout les 2 premières secondes. Voix et son d'origine gardés intacts. Tous les plans d'origine (tableau ferme compris, à la demande de l'élève). Ouverture : plan de nuit lumières + bébé sous l'accroche jaune MON FILS EST ACCRO À CE JOUET (0-3 s) ; plans portant le texte d'origine mélangés entre 3 et 11,2 s ; reste mélangé à 0,93x. Zoom 1,08 + couleurs. Écran de fin LumiP'tit.",
+ "bilan": {
+  "duree_source_s": 52.83,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 3,
+  "reprises": 1,
+  "problemes": [
+   "Topaz 720p en 3 morceaux (6 unités ≈ 0,16 $)",
+   "Phrase d'origine en haut recréée (elle était incrustée dans les anciens plans)",
+   "Logo Joyreal / POWER visibles sur les jouets"
+  ]
+ },
+ "version": "v02",
+ "notes_v02": "Lot « 6 vidéos différentes, sans flou » (26/10) : voix et son d'origine, accroche « MON FILS EST ACCRO À CE JOUET », phrase « un indispensable si vous êtes parent d'un tout-petit » (3-11,2 s, recréée en texte) et écran de fin LumiP'tit gardés ; images refaites : plans nets d'autres pubs de la marque du jouet (enfant au lit en ouverture, mains sur table fleurie, tout-petit sur les genoux) + plans nets du film OR3 (banane, canapé, nuit), en évitant les passages déjà pris par OR3 v03 et OR3B v02 ; teinte chaude."
+}
