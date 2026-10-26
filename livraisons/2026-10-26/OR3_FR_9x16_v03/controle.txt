@@ -1,0 +1,5 @@
+Contrôle OR3 v03 (plans nets uniquement ; controle.py non applicable : voix reprise de la v01)
+OK  1080x1920 H.264 30 i/s, 1585 images (52,83 s), voix v01 copiée telle quelle
+OK  27 plans aux mêmes moments que v01/v02 ; uniquement des plans nets du film d'origine (netteté médiane x2 ; 3 % d'images un peu molles contre ~30 % en v02)
+OK  pas de miroir ; accroche et 55 sous-titres identiques à la v02
+À VÉRIFIER  mélange tableau jaune / tableau ferme (choix de l'élève) ; passages réutilisés avec un cadrage différent
