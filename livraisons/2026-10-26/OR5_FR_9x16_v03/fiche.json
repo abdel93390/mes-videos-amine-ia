@@ -1,0 +1,72 @@
+{
+ "ref": "OR5",
+ "langue_source": "es",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "tNbExhpP2w1GnHDGTiWd",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "Si t'es maman d'un petit, cette trouvaille risque vite de devenir ta préférée.",
+   "debut": 0.06,
+   "fin_fenetre": 5.6
+  },
+  {
+   "id": "L2",
+   "texte": "Ce tableau l'occupe au resto, en voiture, partout.",
+   "debut": 5.7,
+   "fin_fenetre": 10.3
+  },
+  {
+   "id": "L3",
+   "texte": "Mon fils se lasse vite de ses jouets, mais là, il est resté concentré super longtemps.",
+   "debut": 10.36,
+   "fin_fenetre": 15.8
+  },
+  {
+   "id": "L4",
+   "texte": "Moins d'écrans ? C'est sur velyzio point com.",
+   "debut": 15.82,
+   "fin_fenetre": 19.1
+  }
+ ],
+ "mix": {
+  "fond": "musique"
+ },
+ "marque": "LumiP'tit",
+ "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin demandé par l'élève)",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": {
+  "diagnostic": "19,1 s, 720x1280 30 i/s, voix off féminine espagnole, pas de musique (fond -62 dB). Type 3 : sous-titres blancs sans fond, en haut, qui changent par phrase. Mention « TikTok Shop » dans la voix et les sous-titres. Logo « Joyreal » gravé sur le jouet (coin haut droit), jouet différent du LumiP'tit (thème ferme).",
+  "demandes_eleve": [
+   "Retirer TikTok",
+   "Commencer par la séquence de 13 s (13-16 s)",
+   "Accroche « Le jouet qui remplace l'écran » (« Fini le téléphone au restaurant » refusée : pas d'image de restaurant)",
+   "Garder le jouet ferme (remplacement par PILE impossible proprement)",
+   "Garder le micro-logo Joyreal (accord de l'élève)"
+  ],
+  "montage": "Image : 13-16 s, 2,6-13 s (0-2,6 s coupés : logo Joyreal lisible), 16-19,1 s, écran de fin 3,5 s. Son : voix FR continue (mix.wav), sous-titres calés sur la voix."
+ },
+ "bilan": {
+  "duree_source_s": 19.9,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 6,
+  "reprises": 1,
+  "problemes": [
+   "Premier montage refait : 3 plans communs avec OR3 v03 (bébé au sol, granit, nuit) remplacés ; Topaz 720p passé 2 fois (12 unités ≈ 0,32 $)",
+   "Sous-titres recréés à l'identique (textes et coupures relevés image par image sur la v01)",
+   "Logo Joyreal / POWER visibles"
+  ]
+ },
+ "version": "v03",
+ "notes_v02": "Lot « 6 vidéos différentes, sans flou » (26/10) : même voix, accroche « Le jouet qui remplace l'écran », 11 sous-titres du haut (mêmes textes, coupures et moments relevés sur la v01) et écran de fin crème identique (copié) ; images refaites avec des plans nets d'autres pubs de la marque du jouet (fillette, tout-petit sur les genoux, enfant au lit, bébé sur tapis), uniquement des moments jamais utilisés dans OR3/OR3B/OR3C.",
+ "notes_v03": "v03 : retour élève 26/10 — le bandeau jaune « Le jouet qui remplace l'écran » cachait le produit : remonté tout en haut (y 78-214), réduit à 85 %, au-dessus des sous-titres."
+}
