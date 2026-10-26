@@ -1,0 +1,9 @@
+Contrôle OR3C v05 (images refaites, 720p ; pas de sous-titres comme la v01)
+OK  720x1280 H.264 30 i/s, 1585 images (52,83 s), voix et son d'origine copiés tels quels
+OK  28 plans aux mêmes moments que la v01, tous nets, passages différents de OR3 v03 et OR3B v02
+OK  accroche 0-2,9 s, phrase du haut 3-11,2 s, écran de fin LumiP'tit en fondu à 49,9 s
+À VÉRIFIER  plans d'autres pubs de la marque du jouet ; logos Joyreal / POWER visibles
+OK  v03 : aucun plan du grand tableau (glissière en S / table fleurie) — vérifié sur la planche image par seconde
+OK  v03 : phrase du haut réduite (24 px) ; plans 25-27 s et 35-37 s remplacés
+OK  v04 : bandeau d'accroche réduit à 70 % (0-2,9 s), le reste identique à la v03
+OK  v05 : bandeau d'accroche en haut (0-2,9 s), il ne cache plus le tableau ; le reste identique à la v04
