@@ -1,0 +1,148 @@
+{
+ "ref": "OR3B",
+ "langue_source": "fr",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "esEKtaM8zYeYevCQPkuW",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "Si votre tout-petit touche à tous les interrupteurs de la maison, regardez ça.",
+   "debut": 0.06,
+   "fin_fenetre": 3.9
+  },
+  {
+   "id": "L2",
+   "texte": "Ce tableau a de vrais interrupteurs, alors il reste assis à les allumer et les éteindre pendant des heures.",
+   "debut": 4.25,
+   "fin_fenetre": 9.4
+  },
+  {
+   "id": "L3",
+   "texte": "On a acheté le premier il y a un an, je ne pensais pas qu'il aurait autant de succès,",
+   "debut": 10.11,
+   "fin_fenetre": 14.3
+  },
+  {
+   "id": "L4",
+   "texte": "mais il y joue presque tous les jours.",
+   "debut": 14.5,
+   "fin_fenetre": 16.9
+  },
+  {
+   "id": "L5",
+   "texte": "Je le répète : on ne sort jamais sans lui.",
+   "debut": 17.0,
+   "fin_fenetre": 19.2
+  },
+  {
+   "id": "L6",
+   "texte": "Au resto, en salle d'attente, ou juste pour l'installer dans son siège auto.",
+   "debut": 19.38,
+   "fin_fenetre": 24.4
+  },
+  {
+   "id": "L7",
+   "texte": "Ça a tout changé.",
+   "debut": 24.05,
+   "fin_fenetre": 26.1
+  },
+  {
+   "id": "L8",
+   "texte": "Et il a plein d'avantages.",
+   "debut": 26.2,
+   "fin_fenetre": 27.65
+  },
+  {
+   "id": "L9",
+   "texte": "Il fait travailler la motricité fine, sans écran et sans bruit : pour un parent, c'est le rêve.",
+   "debut": 27.83,
+   "fin_fenetre": 33.9
+  },
+  {
+   "id": "L10",
+   "texte": "En plus, il est assez petit pour se glisser dans le sac à langer et partir partout.",
+   "debut": 34.0,
+   "fin_fenetre": 38.4
+  },
+  {
+   "id": "L11",
+   "texte": "Et si votre enfant adore jouer avec vos interrupteurs, c'est la solution parfaite.",
+   "debut": 38.5,
+   "fin_fenetre": 43.4
+  },
+  {
+   "id": "L12",
+   "texte": "En rupture il y a peu, le Lumi P'tit est de retour.",
+   "debut": 43.6,
+   "fin_fenetre": 46.8
+  },
+  {
+   "id": "L13",
+   "texte": "Je vous mets le lien juste en dessous, ne le ratez pas.",
+   "debut": 46.95,
+   "fin_fenetre": 49.9
+  },
+  {
+   "id": "L14",
+   "texte": "Si vous êtes parent d'un tout-petit, il vous le faut.",
+   "debut": 50.1,
+   "fin_fenetre": 52.9
+  }
+ ],
+ "mix": {
+  "fond": "aucun"
+ },
+ "rendu": {
+  "crf": 17,
+  "sous_titres": {
+   "mode": "mots",
+   "max_mots": 4,
+   "max_car": 19,
+   "y": 1010,
+   "taille": 52,
+   "graisse": 800,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    1,
+    2
+   ],
+   "fusion_min": 0.5
+  }
+ },
+ "marque": "LumiP'tit",
+ "produit": "Tableau d'activités lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin) ; voix : retour en stock, lien en dessous",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": "Variante de OR3 demandée par l'élève : autre ordre des plans, début différent de l'original et de OR3 v01. Méthode élève : accroche jaune 3 s (IL NE LÂCHE PLUS CE JOUET), zoom + couleurs vives, écran de fin LumiP'tit -40 % / livraison offerte / velyzio.com. Voix et mix de OR3 réutilisés (0 caractère).",
+ "bilan": {
+  "duree_source_s": 52.83,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 5,
+  "reprises": 2,
+  "problemes": [
+   "Topaz 720p : 2 échecs « Prediction interrupted (PA) » sur la 2e moitié, réussi en 2 morceaux plus courts ; 7 unités ≈ 0,19 $",
+   "Une pub trouvée (enfant en siège auto) écartée : texte anglais incrusté au milieu de toute la vidéo",
+   "Le tableau jaune des mains sur table est une variante plus grande (glissière en S, engrenages) ; logo Joyreal / POWER visibles",
+   "Sous-titres recalés par transcription (écart ≤ 0,4 s avec la v01)"
+  ]
+ },
+ "version": "v02",
+ "notes_v02": "Lot « 6 vidéos différentes, sans flou » (26/10) : même voix, accroche jaune, sous-titres et écran de fin que OR3B v01 ; images entièrement refaites à partir de plans nets d'autres pubs de la marque du jouet (Trendtrack : bébé sur tapis, mains sur table fleurie, enfant au lit, tout-petit sur les genoux, fillette + tableau ferme) et de 2 plans du film OR3 ; aucun zoom, couleurs vives ; ouverture sur le bébé qui fonce vers le tableau."
+}
