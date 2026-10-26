@@ -1,0 +1,6 @@
+Contrôle OR3B v03 (images refaites, 720p ; controle.py non applicable : voix reprise de la v01)
+OK  720x1280 H.264 30 i/s, 1585 images (52,83 s), voix de la v01 copiée telle quelle
+OK  28 plans aux mêmes moments que la v01, tous nets (Topaz 720p), sans zoom, couleurs vives ; 6 scènes différentes alternées
+OK  accroche jaune 0-2,9 s (fondu identique), 56 sous-titres, écran de fin LumiP'tit en fondu à 49,9 s comme la v01
+À VÉRIFIER  images d'autres pubs de la marque du jouet (bébés, enfants) ; variante du tableau jaune sur la table fleurie
+OK  v03 : aucun plan du grand tableau (glissière en S / table fleurie) — vérifié sur la planche image par seconde
