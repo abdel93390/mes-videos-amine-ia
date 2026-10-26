@@ -1,0 +1,112 @@
+{
+ "ref": "OR7",
+ "langue_source": "it",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "Hy28BjVfgieDVMiyQpQe",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "Ce jouet est vraiment trop satisfaisant.",
+   "debut": 0.06,
+   "fin_fenetre": 2.6
+  },
+  {
+   "id": "L2",
+   "texte": "Si vous avez un tout-petit à la maison et que vous voulez l'occuper,",
+   "debut": 2.7,
+   "fin_fenetre": 6.3
+  },
+  {
+   "id": "L3",
+   "texte": "ce tableau Montessori le gardera occupé pendant des heures, sans écran.",
+   "debut": 6.5,
+   "fin_fenetre": 11.2
+  },
+  {
+   "id": "L4",
+   "texte": "Il l'aide à développer sa coordination entre l'œil et la main,",
+   "debut": 11.4,
+   "fin_fenetre": 15.0
+  },
+  {
+   "id": "L5",
+   "texte": "à reconnaître les couleurs, et même les gestes du quotidien, comme allumer et éteindre la lumière.",
+   "debut": 15.2,
+   "fin_fenetre": 21.3
+  },
+  {
+   "id": "L6",
+   "texte": "Avec mon éclairage, les lumières paraissent moins fortes, mais je vous promets qu'elles brillent.",
+   "debut": 21.5,
+   "fin_fenetre": 27.0
+  },
+  {
+   "id": "L7",
+   "texte": "Noël approche, et il risque vite d'être en rupture.",
+   "debut": 27.1,
+   "fin_fenetre": 30.5
+  },
+  {
+   "id": "L8",
+   "texte": "Moins 40 % aujourd'hui, sur velyzio.com.",
+   "debut": 30.6,
+   "fin_fenetre": 33.8
+  }
+ ],
+ "mix": {
+  "fond": "aucun"
+ },
+ "rendu": {
+  "crf": 17,
+  "sous_titres": {
+   "mode": "mots",
+   "max_mots": 3,
+   "max_car": 16,
+   "y": 1010,
+   "taille": 52,
+   "graisse": 800,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    1,
+    2
+   ]
+  }
+ },
+ "marque": "LumiP'tit",
+ "produit": "Tableau d'activités lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui (49,99 € au lieu de 82,99 € sur le site), livraison offerte",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": "Méthode de l'élève (24/10/2026) : accroche 3 s en gros sur fond jaune (choix 1 : SANS ÉCRAN, IL JOUE PENDANT DES HEURES), meilleur moment au début, léger zoom + couleurs vives, texte étranger effacé (ici italien 0-2,8 s, caché par le bandeau jaune : 0 Vmake), écran de fin logo / -40 % aujourd'hui / Livraison offerte / velyzio.com, essai gratuit avant crédits. Source italienne, voix FR de bibliothèque (Chloé UGC). Plans recadrés sous le bandeau Joyreal POWER. Source sans musique séparable (Replicate 402).",
+ "bilan": {
+  "duree_source_s": 33.83,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 3,
+  "reprises": 1,
+  "problemes": [
+   "2 nouvelles pubs de la marque récupérées sur Trendtrack pour avoir assez de plans inédits",
+   "Topaz 720p en 3 morceaux (6 unités ≈ 0,16 $)",
+   "Logos Joyreal / POWER visibles",
+   "Erreur d'Amine : plans d'un autre produit de la marque (grand tableau avec glissière en S) utilisés ; retirés en v03 (Topaz 720p sur les seuls plans changés)"
+  ]
+ },
+ "version": "v03",
+ "notes_v02": "Lot « 6 vidéos différentes, sans flou » (26/10) : même voix, accroche « SANS ÉCRAN, IL JOUE PENDANT DES HEURES », sous-titres (style v01) et écran de fin LumiP'tit ; images refaites sans zoom : gros plans lumineux du tableau ferme (nouvelle pub de la marque), tableau jaune la nuit sur « les lumières… brillent », mains sur la table, tout-petit sur les genoux, enfant au lit, bébé ; couleurs vives ; aucun passage commun avec les 4 vidéos précédentes.",
+ "notes_v03": "v03 : retour élève 26/10 — le grand tableau (glissière en S, table fleurie) n'est pas son produit : le plan 2,7-4,7 s remplacé par le bébé avec le petit tableau jaune."
+}
