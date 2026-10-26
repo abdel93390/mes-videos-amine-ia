@@ -1,0 +1,5 @@
+Contrôle OR8 v02 (images refaites, 720p, sans voix)
+OK  720x1280 H.264 30 i/s, 636 images (21,2 s) = v01, musique copiée telle quelle
+OK  8 plans : chambre sombre d'origine (meilleurs passages) + tableau jaune dans le noir ; aucun plan commun avec OR7
+OK  cartes de texte identiques à la v01 (recopiées image par image), écran de fin crème identique (17,7-21,2 s)
+À VÉRIFIER  la scène d'origine (480p) reste un peu moins fine que les autres plans
