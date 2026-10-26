@@ -1,0 +1,6 @@
+Contrôle OR3 v02 (dézoom + 1080p ; controle.py non applicable : pas d'analyse.json, voix reprise de la v01)
+OK  1080x1920 H.264 30 i/s, 1585 images = v01 (52,83 s), voix de la v01 copiée telle quelle (niveaux identiques)
+OK  27 plans dans le même ordre et aux mêmes moments que la v01 ; aucun saut d'image à l'intérieur d'un plan (seuls sauts = coupes)
+OK  aucun plan en miroir ; marque Joyreal POWER visible (choix de l'élève)
+OK  accroche 0-11,2 s et 55 sous-titres recréés, style v01 agrandi x1,5 ; comparaison v01/v02 à 2, 9, 17, 26, 35, 44, 51 s : mêmes textes (décalage ≤ 0,3 s)
+À VÉRIFIER  plans répétés (même passage du tableau utilisé 2 à 4 fois, comme en v01) : cadrage légèrement différent à chaque fois
