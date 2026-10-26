@@ -1,0 +1,5 @@
+Contrôle OR3B 3:4 v01
+OK  720x960 H.264 30 i/s, même durée et même son que la 9:16
+OK  recadrage par plan sur le jouet, pas de saut de cadrage à l'intérieur d'un plan
+OK  accroche en haut, sous-titres en bas, écran de fin entier (vérifié sur planche)
+À VÉRIFIER  quelques plans perdent un peu du haut ou du bas du tableau (format plus court)
