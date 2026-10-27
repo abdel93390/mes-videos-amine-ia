@@ -1,0 +1,39 @@
+{
+ "ref": "OR8",
+ "langue_source": "en",
+ "langue_cible": "fr",
+ "voix": null,
+ "lignes": [],
+ "mix": {
+  "fond": "musique"
+ },
+ "rendu": null,
+ "marque": "LumiP'tit",
+ "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin)",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": {
+  "diagnostic": "Source Tiny Dreams 19,2 s, 480x848, sans voix. Un seul texte blanc à empattements sans fond en haut (« This is oddly satisfying… ») sur toute la vidéo. Jouet thème ferme avec micro-logo Joyreal.",
+  "demandes_eleve": [
+   "Meilleurs moments au début, séquences mélangées",
+   "Augmenter la résolution"
+  ],
+  "montage": "Source agrandie 720x1280 (lanczos + unsharp). Texte d'origine couvert par une carte blanche fixe (pas de Vmake), 4 messages FR. 7 morceaux (12-14,5 / 0,5-2 / 2-6 / 15-17,5 / 6,5-9 / 9-12 / 17,5-19,2), zoom 1,03, écran de fin."
+ },
+ "bilan": {
+  "duree_source_s": 21.2,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 3,
+  "reprises": 1,
+  "problemes": [
+   "Film d'origine (Tiny Dreams, 480p) introuvable : pas de dézoom possible (zoom de la v01 : 1,03)",
+   "Topaz 720p en 3 morceaux (6 unités ≈ 0,16 $)"
+  ]
+ },
+ "version": "v04",
+ "notes_v04": "Demande élève 27/10 : même montage que la v01, 720p, sans parties floues, sans aucun élément extérieur. v04 : uniquement les images de la v01 (chambre sombre) ; 3 passages mous (3,8-10,5 s) remplacés par d'autres moments nets de la même vidéo (sens de lecture et léger recadrage variés) ; mêmes cartes de texte, même musique, même écran de fin ; netteté IA 720p. Dézoom impossible au-delà : film d'origine introuvable (la v01 n'était zoomée qu'à 1,03)."
+}
