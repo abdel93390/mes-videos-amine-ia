@@ -1,0 +1,5 @@
+Contrôle OR3C v06 (720p, montage de la v01 dézoomé)
+OK  720x1280 H.264 30 i/s, 1585 images (52,83 s), voix d'origine copiée telle quelle
+OK  28 plans aux mêmes moments que la v01, uniquement des images de la vidéo, plein cadre, sans plan flou ni trace de texte
+OK  accroche en haut (70 %), petite phrase 3-11,2 s, écran de fin comme la v05
+À VÉRIFIER  quelques moments du canapé et du tableau jaune réutilisés
