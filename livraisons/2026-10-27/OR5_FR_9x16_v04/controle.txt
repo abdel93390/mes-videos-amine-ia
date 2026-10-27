@@ -1,0 +1,5 @@
+Contrôle OR5 v04 (720p, montage de la v01 dézoomé)
+OK  720x1280 H.264 30 i/s, 597 images (19,9 s), voix copiée telle quelle
+OK  mêmes 8 plans que la v01 (6 en plein cadre, 2 propres à OR5 gardés), plan mou du début remplacé par un moment net du même plan
+OK  accroche en haut, 11 sous-titres au même endroit et même style, écran de fin identique
+À VÉRIFIER  les 2 plans propres à OR5 (3-6 s, 10-13 s) ne sont pas dézoomés
