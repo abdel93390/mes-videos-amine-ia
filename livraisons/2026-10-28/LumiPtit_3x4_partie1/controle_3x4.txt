@@ -1,0 +1,5 @@
+Contrôle des versions 3:4 (28/10) : 9 vidéos, 720x960, 30 i/s, son copié tel quel, même durée que la 9:16
+OK  OR3 v08, OR3B v08, OR3C v08, OR5 v05, OR7 v05 : recadrées plan par plan depuis les images sans texte, puis accroche jaune en haut (pendant 3 s), sous-titres gras en bas (y=780) mot par mot et écran de fin crème plein écran, comme en 9:16
+OK  OR8 v05 : recadrée depuis la 9:16 avec la fenêtre gardant les cartes et l'accroche entières (cartes incrustées) ; écran de fin centré
+OK  OR1 v01 (576x1024 agrandie en 720x960), OR6 v01, OR9 v01 : textes incrustés dans l'image, fenêtre 3:4 choisie plan par plan sans jamais couper le texte ; écran de fin centré
+À VÉRIFIER  OR1 / OR6 / OR9 sont les v01 telles quelles (pas dézoomées ni retravaillées comme les 6 autres)
