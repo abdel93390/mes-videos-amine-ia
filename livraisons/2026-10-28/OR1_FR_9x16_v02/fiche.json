@@ -1,0 +1,53 @@
+{
+ "ref": "OR1",
+ "langue_source": "en",
+ "langue_cible": "fr",
+ "marque": "LumiP'tit",
+ "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (offre du site, demandée par l'élève ; la source n'en montre aucune)",
+ "voix": null,
+ "lignes": [],
+ "notes": {
+  "diagnostic": "Plan unique 68,1 s, 576x1024 30 i/s. Pas de voix (musique/extrait de film). Type 2 : 1 texte fixe blanc sans fond en haut (« The only toy that buys me time to drink HOT coffee. ») sur toute la vidéo. Aucun logo, prix ni écran de fin.",
+  "demandes_eleve": [
+   "Accroche 0-3 s « POV : ton café est encore CHAUD et bébé est calme » (choisie parmi 3)",
+   "Commencer par la séquence de la 40e seconde (40-43 s), puis 0-40 s, puis 43-68,1 s",
+   "Zoom léger 7 % et couleurs +8 % pour se démarquer de l'original",
+   "Écran de fin 3,5 s ajouté : logo, -40 %, livraison offerte, velyzio.com",
+   "Miroir refusé : autocollant POWER sur le jouet"
+  ],
+  "methode": "Vmake (SKM0002) sur toute la vidéo, résultat repris seulement dans [162,115,489,286] avec bord adouci 12 px ; texte FR recréé (DM Sans, blanc, contour noir)."
+ },
+ "textes_affiches": [
+  {
+   "de": 0,
+   "a": 3,
+   "texte": "POV : ton café est encore CHAUD et bébé est calme"
+  },
+  {
+   "de": 3,
+   "a": 68.1,
+   "texte": "Le seul jouet qui me laisse le temps de boire mon café CHAUD."
+  },
+  {
+   "de": 68.1,
+   "a": 71.6,
+   "texte": "LumiP'tit / -40 % aujourd'hui / Livraison offerte / velyzio.com"
+  }
+ ],
+ "bilan": {
+  "duree_source_s": 68.1,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 4,
+  "reprises": 0,
+  "problemes": [
+   "Accroche 3 lignes incrustée dans la v01 : début décalé de 3 s (durée 68,6 s au lieu de 71,6 s)",
+   "Topaz 720p plus cher que prévu sur cette vidéo (agrandissement 576→720) : 16 unités",
+   "Dézoom impossible : vidéo d'origine non conservée"
+  ]
+ },
+ "version": "v02",
+ "notes_v02": "Demande élève 28/10 : même niveau que les 6 autres. v02 : passage en 720p net (Topaz, la v01 était en 576x1024) ; l'accroche jaune 3 lignes étant incrustée dans les 3 premières secondes, la vidéo démarre sur le moment juste après (43-46 s de la source), puis 0-40 s et 46-68,1 s (le passage 40-43 s, inutilisable sans l'ancienne accroche, est retiré) ; nouvelle accroche jaune 2 lignes en haut « POV : TON CAFÉ EST ENCORE CHAUD / ET BÉBÉ EST CALME » pendant 3 s, au-dessus du texte blanc ; écran de fin crème net ; musique continue de la v01. Pas de dézoom possible (source introuvable, zoom v01 7 %). 3:4 : l'accroche couvre le texte blanc pendant 3 s (manque de place pour les deux)."
+}

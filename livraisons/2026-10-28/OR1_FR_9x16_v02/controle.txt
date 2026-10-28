@@ -1,0 +1,6 @@
+Contrôle OR1 v02 (720p net)
+OK  720x1280 H.264 30 i/s, 2058 images (68,6 s), musique de la v01 en continu
+OK  accroche jaune 2 lignes en haut 0-3 s, texte blanc d'origine conservé, écran de fin crème plein écran 3,5 s
+OK  aucune image parasite (contrôle image par image aux coupes)
+À VÉRIFIER  début décalé de 3 s (ancienne accroche incrustée) ; pas de dézoom (source non conservée)
+OK  3:4 (720x960) : même fenêtre sur tout le plan, accroche posée sur le texte blanc pendant 3 s
