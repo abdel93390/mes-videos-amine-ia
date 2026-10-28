@@ -1,0 +1,6 @@
+Contrôle OR8 v04 (720p, montage de la v01)
+OK  720x1280 H.264 30 i/s, 636 images (21,2 s), musique copiée telle quelle
+OK  uniquement les images de la v01, passages mous remplacés par des moments nets de la même vidéo
+OK  cartes de texte et écran de fin identiques à la v01
+À VÉRIFIER  pas de dézoom (film d'origine introuvable, zoom v01 = 1,03) ; scène d'origine en 480p, un peu moins fine
+OK  v05 : 1re carte remplacée par l'accroche jaune sur une ligne (même place que la carte, au-dessus du tableau) ; 3 autres cartes inchangées, sans double bord sur les plans recadrés ; écran de fin crème plein écran sur les 3,5 dernières secondes ; 636 images, 21,2 s, 720x1280, musique copiée
