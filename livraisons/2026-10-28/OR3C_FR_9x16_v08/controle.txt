@@ -1,0 +1,5 @@
+Contrôle OR3C v07 (720p)
+OK  720x1280 H.264 30 i/s, 1500 images = 50,0 s ; son coupé à 50,0 s dans le silence après « …pas rater ça. » (fondu 0,3 s)
+OK  titre jaune en haut 0-2,9 s, au-dessus du jouet ; 58 sous-titres en gras calés sur la voix d'origine
+OK  écran de fin LumiP'tit en fondu à 47,0 s jusqu'à la fin, sous-titres visibles en dessous
+OK  v08 : écran de fin crème plein écran (comme OR5) sur les 3,5 dernières secondes, à la place de la carte blanche

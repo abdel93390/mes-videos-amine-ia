@@ -1,0 +1,27 @@
+{
+ "ref": "OR3C",
+ "langue_source": "fr",
+ "langue_cible": "fr",
+ "marque": "LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin)",
+ "lignes": [],
+ "rendu": {},
+ "notes": "Demande élève : même vidéo OR3 (française), garder la vidéo telle quelle mais changer l'ordre des plans, surtout les 2 premières secondes. Voix et son d'origine gardés intacts. Tous les plans d'origine (tableau ferme compris, à la demande de l'élève). Ouverture : plan de nuit lumières + bébé sous l'accroche jaune MON FILS EST ACCRO À CE JOUET (0-3 s) ; plans portant le texte d'origine mélangés entre 3 et 11,2 s ; reste mélangé à 0,93x. Zoom 1,08 + couleurs. Écran de fin LumiP'tit.",
+ "bilan": {
+  "duree_source_s": 52.83,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 3,
+  "reprises": 1,
+  "problemes": [
+   "Copie pleine image (miroir du 25/10) : texte « Un incontournable… » incrusté à l'envers sur les images 0-345 ; effacement par retouche raté (traces) -> ces images non utilisées",
+   "Topaz 720p en 3 morceaux (6 unités ≈ 0,16 $)",
+   "Coupe à 50 s : dernière phrase « Vous avez besoin de ce jouet… » retirée à la demande de l'élève"
+  ]
+ },
+ "version": "v08",
+ "notes_v06": "Demande élève 27/10 : même montage que la v01, dézoomé, 720p, sans parties floues, sans aucun élément extérieur. v06 : 28 plans de la v01 retrouvés dans le film d'origine et refaits en plein cadre (zoom 1,08 -> 1,00), couleurs vives ; 7 plans flous (gros plan jaune, câble, plans mous) remplacés par d'autres moments nets de la même vidéo ; plans du canapé 3-11 s pris à d'autres moments du même canapé (la copie pleine image a un ancien texte incrusté à l'envers sur ces images) ; accroche réduite en haut et petite phrase (choix élève v05), écran de fin, voix d'origine.",
+ "notes_v07": "Demande élève 28/10 : même traitement que OR3 v07 (titre jaune en haut, gros sous-titres), titre un peu plus petit, vidéo coupée à 50 s. v07 = images de la v06 ; titre « MON FILS EST ACCRO / À CE JOUET » (DM Sans 32, bandeau 375x116 à y 60) ; sous-titres ajoutés sur la voix d'origine (style OR3B/OR7, 58 sous-titres) ; petite phrase blanche du haut retirée (comme sur OR3) ; coupe à 50,0 s avant la dernière phrase (fondu son 0,3 s) ; écran de fin LumiP'tit déplacé à 47-50 s.",
+ "notes_v08": "Demande élève 28/10 : reprendre l'écran de fin d'OR5 (16,4-20 s). v08 = v07 avec l'écran crème plein écran d'OR5 (LumiP'tit, -40 % aujourd'hui, Livraison offerte, velyzio.com) à la place de la carte blanche, sur les 3,5 dernières secondes (à partir de 46.5 s) ; la voix finit dessus, sous-titres visibles."
+}
