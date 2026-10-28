@@ -1,0 +1,149 @@
+{
+ "ref": "OR3B",
+ "langue_source": "fr",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "esEKtaM8zYeYevCQPkuW",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "Si votre tout-petit touche à tous les interrupteurs de la maison, regardez ça.",
+   "debut": 0.06,
+   "fin_fenetre": 3.9
+  },
+  {
+   "id": "L2",
+   "texte": "Ce tableau a de vrais interrupteurs, alors il reste assis à les allumer et les éteindre pendant des heures.",
+   "debut": 4.25,
+   "fin_fenetre": 9.4
+  },
+  {
+   "id": "L3",
+   "texte": "On a acheté le premier il y a un an, je ne pensais pas qu'il aurait autant de succès,",
+   "debut": 10.11,
+   "fin_fenetre": 14.3
+  },
+  {
+   "id": "L4",
+   "texte": "mais il y joue presque tous les jours.",
+   "debut": 14.5,
+   "fin_fenetre": 16.9
+  },
+  {
+   "id": "L5",
+   "texte": "Je le répète : on ne sort jamais sans lui.",
+   "debut": 17.0,
+   "fin_fenetre": 19.2
+  },
+  {
+   "id": "L6",
+   "texte": "Au resto, en salle d'attente, ou juste pour l'installer dans son siège auto.",
+   "debut": 19.38,
+   "fin_fenetre": 24.4
+  },
+  {
+   "id": "L7",
+   "texte": "Ça a tout changé.",
+   "debut": 24.05,
+   "fin_fenetre": 26.1
+  },
+  {
+   "id": "L8",
+   "texte": "Et il a plein d'avantages.",
+   "debut": 26.2,
+   "fin_fenetre": 27.65
+  },
+  {
+   "id": "L9",
+   "texte": "Il fait travailler la motricité fine, sans écran et sans bruit : pour un parent, c'est le rêve.",
+   "debut": 27.83,
+   "fin_fenetre": 33.9
+  },
+  {
+   "id": "L10",
+   "texte": "En plus, il est assez petit pour se glisser dans le sac à langer et partir partout.",
+   "debut": 34.0,
+   "fin_fenetre": 38.4
+  },
+  {
+   "id": "L11",
+   "texte": "Et si votre enfant adore jouer avec vos interrupteurs, c'est la solution parfaite.",
+   "debut": 38.5,
+   "fin_fenetre": 43.4
+  },
+  {
+   "id": "L12",
+   "texte": "En rupture il y a peu, le Lumi P'tit est de retour.",
+   "debut": 43.6,
+   "fin_fenetre": 46.8
+  },
+  {
+   "id": "L13",
+   "texte": "Je vous mets le lien juste en dessous, ne le ratez pas.",
+   "debut": 46.95,
+   "fin_fenetre": 49.9
+  },
+  {
+   "id": "L14",
+   "texte": "Si vous êtes parent d'un tout-petit, il vous le faut.",
+   "debut": 50.1,
+   "fin_fenetre": 52.9
+  }
+ ],
+ "mix": {
+  "fond": "aucun"
+ },
+ "rendu": {
+  "crf": 17,
+  "sous_titres": {
+   "mode": "mots",
+   "max_mots": 4,
+   "max_car": 19,
+   "y": 1010,
+   "taille": 52,
+   "graisse": 800,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    1,
+    2
+   ],
+   "fusion_min": 0.5
+  }
+ },
+ "marque": "LumiP'tit",
+ "produit": "Tableau d'activités lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin) ; voix : retour en stock, lien en dessous",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": "Variante de OR3 demandée par l'élève : autre ordre des plans, début différent de l'original et de OR3 v01. Méthode élève : accroche jaune 3 s (IL NE LÂCHE PLUS CE JOUET), zoom + couleurs vives, écran de fin LumiP'tit -40 % / livraison offerte / velyzio.com. Voix et mix de OR3 réutilisés (0 caractère).",
+ "bilan": {
+  "duree_source_s": 52.83,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 3,
+  "reprises": 0,
+  "problemes": [
+   "Les versions v02/v03 (images d'autres pubs) ne correspondent plus à la demande : refaite à partir de la v01",
+   "Gros plan jaune et plan du câble flous dans le film d'origine : remplacés par les moments nets du même tableau (réutilisés)",
+   "Topaz 720p en 3 morceaux (6 unités ≈ 0,16 $)"
+  ]
+ },
+ "version": "v06",
+ "notes_v04": "Demande élève 27/10 : même montage que la v01, dézoomé, 720p, sans parties floues, sans aucun élément extérieur. v04 : 28 plans de la v01 retrouvés dans le film d'origine (SIFT) et refaits en plein cadre, sans miroir, couleurs vives conservées ; 9 plans du gros plan jaune flou / câble remplacés par d'autres moments nets du tableau jaune déjà présents dans la vidéo (sens de lecture et léger recadrage variés) ; accroche, sous-titres, écran de fin et voix de la v01.",
+ "notes_v05": "Retour élève 28/10 : l'accroche (titre) ne doit pas cacher le produit. v05 = v04 avec le titre « IL NE LÂCHE PLUS CE JOUET » en petit bandeau jaune sur une ligne tout en haut (y 40), 0-2,9 s.",
+ "notes_v06": "Retour élève 28/10 sur la v04 : titre jaune trop gros. v06 = images, sous-titres et écran de fin de la v04 ; titre « IL NE LÂCHE PLUS / CE JOUET » en petit bandeau (DM Sans 32, 315x116) tout en haut, même style que OR3 v07 et OR3C v07."
+}
