@@ -1,0 +1,5 @@
+Contrôle OR6 v02 (720p net)
+OK  720x1280 H.264 30 i/s, 696 images (23,2 s), musique de la v01
+OK  accroche jaune à la place de la 1re carte, cartes 2 à 4 recopiées nettes, écran de fin crème
+OK  images parasites de la v01 (402, 459) retirées
+OK  3:4 (720x960) : cadrage plan par plan sans couper les cartes

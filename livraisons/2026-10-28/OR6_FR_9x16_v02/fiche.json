@@ -1,0 +1,39 @@
+{
+ "ref": "OR6",
+ "langue_source": "fr",
+ "langue_cible": "fr",
+ "voix": null,
+ "lignes": [],
+ "mix": {
+  "fond": "musique"
+ },
+ "rendu": null,
+ "marque": "LumiP'tit",
+ "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin)",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": {
+  "diagnostic": "Source déjà en français (marque Miloubo), 28,7 s, 720x1280, musique sans voix. Type 1 : textes sur rectangles blancs, mots surlignés jaune (4 blocs : 0-3,97 / 3,97-9,97 / 9,97-14,97 / 14,97-21). Fin 21-28,7 s : logo MILOUBO + -60 % + offre cadeau.",
+  "demandes_eleve": [
+   "Changer les termes et l'accroche",
+   "Changer l'ordre des séquences, début différent de l'original"
+  ],
+  "montage": "Fin Miloubo coupée (21 s). 7 morceaux réordonnés (15,5-18,5 / 0,3-3,9 / 6-9,9 / 10,1-13 / 4,1-6 / 18,5-21 / 13-14,9), cartes blanches PIL recréées sur la géométrie du bloc d'origine de chaque morceau, zoom 1,03, écran de fin LumiP'tit 3,5 s."
+ },
+ "bilan": {
+  "duree_source_s": 28.7,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 2,
+  "reprises": 1,
+  "problemes": [
+   "v01 : 2 images isolées montrant l'ancienne carte Miloubo aux coupes, retirées en v02",
+   "Carte incrustée au milieu : l'accroche jaune garde la taille de la carte (701x254)"
+  ]
+ },
+ "version": "v02",
+ "notes_v02": "Demande élève 28/10 : même niveau que les 6 autres. v02 : passage en 720p net (Topaz) ; 1re carte « Ce que je lui donne à la place du téléphone » remplacée par l'accroche jaune (même place, la carte étant incrustée) ; la carte 2 commence dès la coupe (3 s) pour ne pas répéter l'accroche ; cartes recopiées nettes depuis la v01 ; 2 images parasites de la v01 retirées (13,4 s et 15,3 s : ancienne carte de la marque d'origine visible 1 image) ; pas de passage flou ; dézoom inutile (zoom v01 1,03)."
+}
