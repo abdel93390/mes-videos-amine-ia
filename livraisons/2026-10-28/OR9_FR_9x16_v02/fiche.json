@@ -1,0 +1,40 @@
+{
+ "ref": "OR9",
+ "langue_source": "en",
+ "langue_cible": "fr",
+ "voix": null,
+ "lignes": [],
+ "mix": {
+  "fond": "musique"
+ },
+ "rendu": null,
+ "marque": "LumiP'tit",
+ "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin)",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": {
+  "diagnostic": "Source MontiNest 39,3 s, 720x1280, sans voix. Textes anglais blancs sur boîtes noires (type 4 fixe) : 0-9,97 / 9,97-17,8 / 17,8-21,9 / 21,9-30,7 / 34,67-37,67. Pas de logo visible, pas d'offre.",
+  "demandes_eleve": [
+   "Meilleurs moments dans les 3 premières secondes",
+   "Séquences mélangées",
+   "Nouvelle accroche"
+  ],
+  "montage": "8 morceaux (25-28 / 0,3-4 / 15-17,7 / 4-8,5 / 18-21,8 / 10,1-14,5 / 22-25 / 28-30,6), fin 30,7-39,3 coupée, cartes blanches recréées sur la géométrie de chaque boîte d'origine, zoom 1,03, écran de fin."
+ },
+ "bilan": {
+  "duree_source_s": 39.3,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 2,
+  "reprises": 1,
+  "problemes": [
+   "v01 : 4 images isolées avec le texte anglais d'origine aux coupes, retirées en v02",
+   "168 images remplacées par des moments nets réutilisés (sens inversé)"
+  ]
+ },
+ "version": "v02",
+ "notes_v02": "Demande élève 28/10 : même niveau que les 6 autres. v02 : passages mous remplacés par des moments nets de la même vidéo (13-13,9 s, 16,9-17,7 s, 22,1-25,1 s, 26,8-27,7 s : tableau de profil, retourné ou de dos), cartes agrandies là où l'image source porte une carte plus grande ; passage en 720p net (Topaz) ; 1re carte remplacée par l'accroche jaune « IL A TENU 30 MINUTES SANS ÉCRAN » sur une ligne ; cartes recopiées nettes ; 4 images parasites de la v01 retirées (6,7 s, 13,9 s, 22,1 s, 25,1 s : texte anglais d'origine visible 1 image)."
+}
