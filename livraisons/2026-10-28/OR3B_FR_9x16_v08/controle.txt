@@ -1,0 +1,9 @@
+Contrôle OR3B v07 (720p, montage de la v01 dézoomé)
+OK  720x1280 H.264 30 i/s, 1585 images (52,83 s), voix de la v01 copiée telle quelle
+OK  28 plans aux mêmes moments que la v01, uniquement le tableau jaune de la vidéo, plein cadre, sans miroir, sans plan flou
+OK  accroche, 56 sous-titres et écran de fin comme la v01 (comparés à 1, 8, 20, 33, 45, 51,5 s)
+À VÉRIFIER  moments nets du tableau réutilisés plusieurs fois
+OK  v05 : titre en petit bandeau d'une ligne tout en haut, le tableau reste visible
+OK  v06 : petit titre jaune 2 lignes en haut (style OR3/OR3C v07), le tableau reste visible
+OK  v07 : titre élargi sur une ligne (517x76), ne cache pas le tableau
+OK  v08 : écran de fin crème plein écran (comme OR5) sur les 3,5 dernières secondes, à la place de la carte blanche
