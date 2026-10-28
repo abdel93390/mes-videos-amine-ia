@@ -1,0 +1,7 @@
+Contrôle OR3 v06 (720p, montage de la v01 dézoomé)
+OK  720x1280 H.264 30 i/s, 1585 images (52,83 s), voix v01 copiée telle quelle
+OK  27 plans aux mêmes moments que la v01, uniquement le tableau jaune de la vidéo, sans miroir ; aucune image molle (netteté médiane 537)
+OK  accroche et 55 sous-titres comme la v01
+À VÉRIFIER  passages nets réutilisés plusieurs fois (variés par moment, sens de lecture et léger recadrage)
+OK  v05 : accroche jaune en haut 0-3 s, au-dessus du jouet ; 56 sous-titres plus gros (style OR3B/OR7)
+OK  v06 : écran de fin LumiP'tit en fondu à 49,9 s (comme OR3B), sous-titres visibles en dessous

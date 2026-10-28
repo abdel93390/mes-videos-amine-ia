@@ -1,0 +1,175 @@
+{
+ "ref": "OR3",
+ "langue_source": "fr",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "esEKtaM8zYeYevCQPkuW",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "Si votre tout-petit touche à tous les interrupteurs de la maison, regardez ça.",
+   "debut": 0.06,
+   "fin_fenetre": 3.9
+  },
+  {
+   "id": "L2",
+   "texte": "Ce tableau a de vrais interrupteurs, alors il reste assis à les allumer et les éteindre pendant des heures.",
+   "debut": 4.25,
+   "fin_fenetre": 9.4
+  },
+  {
+   "id": "L3",
+   "texte": "On a acheté le premier il y a un an, je ne pensais pas qu'il aurait autant de succès,",
+   "debut": 10.11,
+   "fin_fenetre": 14.3
+  },
+  {
+   "id": "L4",
+   "texte": "mais il y joue presque tous les jours.",
+   "debut": 14.5,
+   "fin_fenetre": 16.9
+  },
+  {
+   "id": "L5",
+   "texte": "Je le répète : on ne sort jamais sans lui.",
+   "debut": 17.0,
+   "fin_fenetre": 19.2
+  },
+  {
+   "id": "L6",
+   "texte": "Au resto, en salle d'attente, ou juste pour l'installer dans son siège auto.",
+   "debut": 19.38,
+   "fin_fenetre": 24.4
+  },
+  {
+   "id": "L7",
+   "texte": "Ça a tout changé.",
+   "debut": 24.05,
+   "fin_fenetre": 26.1
+  },
+  {
+   "id": "L8",
+   "texte": "Et il a plein d'avantages.",
+   "debut": 26.2,
+   "fin_fenetre": 27.65
+  },
+  {
+   "id": "L9",
+   "texte": "Il fait travailler la motricité fine, sans écran et sans bruit : pour un parent, c'est le rêve.",
+   "debut": 27.83,
+   "fin_fenetre": 33.9
+  },
+  {
+   "id": "L10",
+   "texte": "En plus, il est assez petit pour se glisser dans le sac à langer et partir partout.",
+   "debut": 34.0,
+   "fin_fenetre": 38.4
+  },
+  {
+   "id": "L11",
+   "texte": "Et si votre enfant adore jouer avec vos interrupteurs, c'est la solution parfaite.",
+   "debut": 38.5,
+   "fin_fenetre": 43.4
+  },
+  {
+   "id": "L12",
+   "texte": "En rupture il y a peu, le Lumi P'tit est de retour.",
+   "debut": 43.6,
+   "fin_fenetre": 46.8
+  },
+  {
+   "id": "L13",
+   "texte": "Je vous mets le lien juste en dessous, ne le ratez pas.",
+   "debut": 46.95,
+   "fin_fenetre": 49.9
+  },
+  {
+   "id": "L14",
+   "texte": "Si vous êtes parent d'un tout-petit, il vous le faut.",
+   "debut": 50.1,
+   "fin_fenetre": 52.9
+  }
+ ],
+ "mix": {
+  "fond": "aucun"
+ },
+ "rendu": {
+  "crf": 17,
+  "textes": [
+   {
+    "images": [
+     0,
+     336
+    ],
+    "lignes": [
+     "Le jouet n°1 des parents"
+    ],
+    "y": 235,
+    "taille": 40
+   },
+   {
+    "images": [
+     0,
+     336
+    ],
+    "lignes": [
+     "de tout-petits"
+    ],
+    "y": 285,
+    "taille": 40
+   }
+  ],
+  "sous_titres": {
+   "mode": "mots",
+   "y": 960,
+   "taille": 48,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    1,
+    2
+   ],
+   "max_car_ligne": 26,
+   "max_mots": 4,
+   "max_car": 20,
+   "graisse": 700
+  }
+ },
+ "marque": "LumiP'tit",
+ "produit": "Tableau d'activités lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "celle de la source (retour en stock, lien en dessous)",
+ "controle": {
+  "sans_voix": [
+   "Le jouet n°1 des parents de tout-petits"
+  ]
+ },
+ "notes": "Réécriture FR (même langue) avec nouvelle accroche 0-5 s. Source sans musique (pauses à -45 dB). Option 2 de l'élève : remontage avec les seuls plans du tableau jaune (son produit), recadrés sous le bandeau Joyreal/POWER ; plans du tableau ferme retirés. Texte d'origine (0-11,2 s) uniquement sur plans ferme retirés : pas de Vmake. Replicate 402 (sans crédit) mais inutile.",
+ "bilan": {
+  "duree_source_s": 52.83,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 2,
+  "reprises": 1,
+  "problemes": [
+   "Le gros plan jaune (source 577-778) est flou de bout en bout : remplacé par les moments nets du même tableau (seulement ~10 s de matière nette : passages réutilisés, variés par moment, sens et cadrage)",
+   "Une première v04 avec des plans du tableau ferme a été jetée (élève : aucun élément absent de la vidéo)",
+   "Plans nets repris de la v02 (1080p déjà payé, réduit en 720p) ; Topaz 720p seulement sur les 9 plans changés (≈ 0,08 $ la bonne version)"
+  ]
+ },
+ "version": "v06",
+ "notes_v04": "Demande élève 27/10 : refaire les 6 vidéos en gardant le montage d'origine, dézoomées, 720p, sans parties floues, SANS aucun élément extérieur à la vidéo. v04 : montage de la v01 dézoomé (plein cadre, sans miroir), 9 plans flous (gros plan jaune, câble) remplacés par d'autres moments nets du tableau jaune déjà présents dans la vidéo (moments différents, lecture inversée sur certains, recadrage léger 1,06-1,12) ; voix, accroche et sous-titres de la v01 ; 720p.",
+ "notes_v05": "Demande élève 28/10 : accroche et sous-titres plus visibles, l'accroche ne doit jamais cacher le produit. v05 = images de la v04 ; accroche jaune choisie par l'élève (mélange des exemples B et C) « FINI LES INTERRUPTEURS ! / IL JOUE DES HEURES SANS ÉCRAN », petit bandeau tout en haut (525x108, y 70) pendant 3 s ; sous-titres plus gros et gras (52 px, graisse 800, y 1010, style OR3B/OR7) ; ancienne petite phrase blanche retirée.",
+ "notes_v06": "Demande élève 28/10 : ajouter l'écran de fin LumiP'tit (photo envoyée). v06 = v05 + carte LumiP'tit (-40 % aujourd'hui, Livraison offerte, velyzio.com) identique à OR3B, en fondu à 49,9 s jusqu'à la fin, sous-titres en dessous."
+}
