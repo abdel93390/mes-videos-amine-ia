@@ -1,0 +1,72 @@
+{
+ "ref": "OR5",
+ "langue_source": "es",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "tNbExhpP2w1GnHDGTiWd",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "Si t'es maman d'un petit, cette trouvaille risque vite de devenir ta préférée.",
+   "debut": 0.06,
+   "fin_fenetre": 5.6
+  },
+  {
+   "id": "L2",
+   "texte": "Ce tableau l'occupe au resto, en voiture, partout.",
+   "debut": 5.7,
+   "fin_fenetre": 10.3
+  },
+  {
+   "id": "L3",
+   "texte": "Mon fils se lasse vite de ses jouets, mais là, il est resté concentré super longtemps.",
+   "debut": 10.36,
+   "fin_fenetre": 15.8
+  },
+  {
+   "id": "L4",
+   "texte": "Moins d'écrans ? C'est sur velyzio point com.",
+   "debut": 15.82,
+   "fin_fenetre": 19.1
+  }
+ ],
+ "mix": {
+  "fond": "musique"
+ },
+ "marque": "LumiP'tit",
+ "produit": "Le Tableau d'Activités Lumineux LumiP'tit",
+ "site": "velyzio.com",
+ "offre": "-40 % aujourd'hui, livraison offerte (écran de fin demandé par l'élève)",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": {
+  "diagnostic": "19,1 s, 720x1280 30 i/s, voix off féminine espagnole, pas de musique (fond -62 dB). Type 3 : sous-titres blancs sans fond, en haut, qui changent par phrase. Mention « TikTok Shop » dans la voix et les sous-titres. Logo « Joyreal » gravé sur le jouet (coin haut droit), jouet différent du LumiP'tit (thème ferme).",
+  "demandes_eleve": [
+   "Retirer TikTok",
+   "Commencer par la séquence de 13 s (13-16 s)",
+   "Accroche « Le jouet qui remplace l'écran » (« Fini le téléphone au restaurant » refusée : pas d'image de restaurant)",
+   "Garder le jouet ferme (remplacement par PILE impossible proprement)",
+   "Garder le micro-logo Joyreal (accord de l'élève)"
+  ],
+  "montage": "Image : 13-16 s, 2,6-13 s (0-2,6 s coupés : logo Joyreal lisible), 16-19,1 s, écran de fin 3,5 s. Son : voix FR continue (mix.wav), sous-titres calés sur la voix."
+ },
+ "bilan": {
+  "duree_source_s": 19.9,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 0,
+  "replicate_appels": 3,
+  "reprises": 1,
+  "problemes": [
+   "2 plans n'existent que dans la vidéo OR5 (pas de version pleine image) : non dézoomés, sous-titres d'origine conservés",
+   "Topaz 720p en 3 morceaux (6 unités ≈ 0,16 $)",
+   "v05 : 2 plans propres à OR5 avaient les anciens sous-titres incrustés -> remplacés par d'autres moments de la même vidéo (0 €, pas de netteté IA sur ces 2 plans)"
+  ]
+ },
+ "version": "v05",
+ "notes_v04": "Demande élève 27/10 : même montage que la v01, dézoomé, 720p, sans parties floues, sans aucun élément extérieur. v04 : 6 plans sur 8 retrouvés dans le film pleine image (granit, bébé au sol, nuit) et refaits plein cadre ; plan mou du début remplacé par un autre moment net du granit ; les 2 plans propres à OR5 (3-6 s, 10-13 s) gardés tels quels avec leurs sous-titres d'origine ; autres sous-titres refaits dans la même police (DM Sans) ; accroche en haut (choix élève v03) ; écran de fin identique ; 720p.",
+ "notes_v05": "Demande élève 28/10 : sous-titres comme sur les autres vidéos. v05 = v04 avec sous-titres en bas, gras, mot par mot (style OR3/OR3B/OR3C/OR7, 16 sous-titres, fin recalée : « Moins d'écrans ? C'est sur velyzio.com. ») ; anciens sous-titres du haut retirés : les 2 plans propres à OR5 (qui les avaient incrustés) remplacés par d'autres moments de la même vidéo (granit, bébé ; sans IA, accentuation légère) ; écran de fin crème propre (sans les anciens textes du haut) ; accroche jaune en haut gardée."
+}
