@@ -1,0 +1,6 @@
+Contrôle OR7 v04 (720p, montage de la v01 dézoomé)
+OK  720x1280 H.264 30 i/s, 1015 images (33,83 s), voix copiée telle quelle
+OK  9 plans aux mêmes moments que la v01, uniquement le tableau jaune de la vidéo, plein cadre, sans plan flou
+OK  accroche réduite en haut, 36 sous-titres, écran de fin comme la v01
+À VÉRIFIER  accroche réduite et remontée (comme OR3C et OR5) ; moments du tableau réutilisés
+OK  v05 : accroche sur une ligne large (689x70) tout en haut pendant 3 s, le tableau reste visible ; 36 sous-titres gras en bas ; écran de fin crème plein écran (comme OR5) sur les 3,5 dernières secondes ; 1015 images, 33,83 s, 720x1280, son copié
