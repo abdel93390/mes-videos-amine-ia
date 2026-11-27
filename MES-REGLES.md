@@ -30,13 +30,19 @@ L'élève veut directement la meilleure version, sans allers-retours. Livrer en 
   mettre `largeur`/`hauteur` à 1080/1920 dans l'`analyse.json` du dossier 1080, multiplier par l'échelle (3 pour une source 360x640) les positions et tailles de la section `rendu` (rect, x, y, taille, largeur, rayon), et refaire en 1080 natif les plans faits à partir de photos. Sous-titres, badges et photos sortent nets.
 - Si ce n'est pas possible (zones Vmake, blocs automatiques…) : agrandir la vidéo finie avec le même filtre, puis `-c:v libx264 -preset slow -crf 18 -maxrate 3400k -bufsize 6800k -profile:v high -pix_fmt yuv420p -c:a copy -movflags +faststart`.
 - Viser moins de 100 Mo : baisser `-maxrate` pour une vidéo longue (environ 1 400k pour 8 min).
+- Aucun flou : le nettoyage du texte (effaceur, remplissage, Vmake) ne touche que la zone du texte, jamais les dessins, visages ou produits autour. Avant de livrer, regarder des captures zoomées (texte remplacé, produit, plans remplacés) et corriger toute zone floue ou tachée. Si l'effaceur laisse des taches floues sur un plan, utiliser le bandeau blanc sur ce plan.
 
 ## Livraison : la vidéo dans la conversation
 Envoyer la vidéo finie directement dans la conversation (outil d'envoi de fichier) : c'est la livraison principale. L'élève ne veut pas passer par le lien GitHub pour la récupérer.
 
-## Voix : tests avant de tout générer
-- Avant de générer toute la vidéo, faire 2 à 3 phrases de test par voix : le clone d'abord, sinon 2 ou 3 voix de bibliothèque proches. Un fichier par voix, nommé clairement (ex. `voix_A_clone.mp3`), contenant seulement la langue cible (pas d'extrait de la voix d'origine au début). L'élève choisit. Si le clone est bloqué, lui expliquer simplement pourquoi.
-- Une voix clonée parle souvent plus vite qu'un narrateur lent : mesurer le débit sur ces tests et régler la vitesse (0,9 au plus lent) avant de tout générer, sinon il faut refaire des dizaines de phrases.
+## Voix : choisir sur un extrait de la vidéo (« bande-annonce »)
+Avant de générer toute la vidéo, l'élève choisit la voix en écoutant un extrait de SA vidéo, pas des phrases sans rapport :
+1. D'abord, cloner la voix d'origine pour qu'elle parle français.
+2. Si le clone est refusé ou sonne mal : choisir 2 ou 3 voix de la bibliothèque ElevenLabs qui ressemblent le plus à la voix d'origine (genre, âge, timbre, énergie, débit). Si le clone est bloqué, expliquer simplement pourquoi (seule la vraie personne peut valider sa voix).
+3. Pour chaque voix (clone compris), faire un extrait des 15 à 30 premières secondes de la vidéo : générer les phrases françaises de ce passage avec cette voix, les poser à leur place sur les images de la vidéo (mixage comme pour la version finale, sous-titres pas nécessaires), et envoyer chaque extrait dans la conversation, nommé clairement (ex. `extrait_voix_A_clone.mp4`, `extrait_voix_B_Leo.mp4`). Seulement la voix française, sans la voix d'origine.
+4. L'élève choisit, puis on génère toute la vidéo avec cette voix.
+- Coût à annoncer avec le reste : environ 400 caractères ElevenLabs par voix testée (30 s de texte).
+- Une voix clonée parle souvent plus vite qu'un narrateur lent : mesurer le débit sur l'extrait et régler la vitesse (0,9 au plus lent) avant de tout générer, sinon il faut refaire des dizaines de phrases.
 
 ## Vidéo longue : test gratuit d'abord
 Pour une vidéo de plus de 90 s, proposer d'abord un test gratuit : voix d'origine, sous-titres français dans le bandeau, 0 crédit. Il valide la traduction et le rendu avant de dépenser des crédits ElevenLabs.
