@@ -1,0 +1,10 @@
+OK     :
+  - format 360x640 identique à la source
+  - durée vidéo 502.77 s / source 502.87 s = 100.0 %
+  - sous-titres de moins de 0,4 s : aucun
+  - phrases plus longues que leur fenêtre : aucune
+ALERTE :
+  - mots affichés contre voix : 2 écart(s) notable(s) [('s il s', 'si c'), ('mille cent milligrammes', '1100 mg')]
+  - trous de voix absents de la source : L013→L014 65.3-69.8 s (source parle 0.7 s), L014→L015 73.6-74.8 s (source parle 1.1 s), L034→L035 144.0-145.2 s (source parle 1.2 s), L038→L039 155.5-157.0 s (source parle 1.9 s), L048→L049 192.2-193.8 s (source parle 1.2 s), L051→L052 204.1-206.7 s (source parle 0.7 s), L052→L053 209.1-210.1 s (source parle 1.0 s), L064→L065 261.5-262.5 s (source parle 1.0 s), L068→L069 283.7-284.8 s (source parle 1.1 s), L083→L084 346.9-348.3 s (source parle 0.8 s), L115→L116 477.5-478.8 s (source parle 1.3 s)
+À vérifier à la main (non automatisable) : fidélité de la voix à l'écoute, logo ou texte d'origine sur les micro-plans, qualité des plans remplacés.
+planche : travail/MYBEET/controle_planche.jpg
