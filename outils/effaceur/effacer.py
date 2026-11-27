@@ -1,12 +1,14 @@
 """Effaceur gratuit de sous-titres incrustés (à la place de Vmake).
 
-Repère les sous-titres blancs à contour sombre dans leur bande, puis les efface avec LaMa
-(modèle d'inpainting, licence Apache 2.0), seulement autour du texte. Tourne sur la machine, sans service payant.
+Repère le texte blanc à contour sombre partout dans l'image (sous-titres, titres, bulles de dialogue),
+puis l'efface avec LaMa (modèle d'inpainting, licence Apache 2.0), seulement autour du texte.
+Ne touche pas au texte blanc posé sur un grand fond sombre (écran de montre, carton noir) : la méthode le traite autrement.
+Tourne sur la machine, sans service payant.
 
 Usage :
   python effacer.py <entree.mp4> <sortie.mp4> --modele big-lama.pt [--bande Y0 Y1] [--duree S]
                     [--apercu avant_apres.jpg] [--masque masque.mp4] [--largeur-max 480]
-  --bande : bande des sous-titres en pixels (sinon trouvée toute seule)
+  --bande : ne chercher le texte qu'entre ces deux hauteurs, en pixels (sinon dans toute l'image)
   --duree : ne traiter que les S premières secondes (pour un essai rapide)
   --apercu : image avant/après de quelques moments, à regarder avant de continuer
   --masque : enregistre le masque du texte trouvé (pour vérifier le repérage)
@@ -20,7 +22,7 @@ import cv2
 import torch
 from scipy import ndimage
 
-VERSION = 'v1 (27/11/2026)'
+VERSION = 'v2 (27/11/2026)'
 
 
 def probe(f):
@@ -56,10 +58,11 @@ class Detecteur:
     def __init__(self, W, H):
         s = W / 360
         self.s = s
-        self.k_sombre = np.ones((max(3, round(5 * s)),) * 2)
-        self.k_ferm = np.ones((max(3, round(7 * s)), max(5, round(15 * s))))
+        self.k_sombre = np.ones((max(3, round(5 * s)),) * 2, np.uint8)
+        self.k_ferm = np.ones((max(3, round(7 * s)), max(5, round(15 * s))), np.uint8)
         self.hmin, self.hmax, self.wmin = 8 * s, 80 * s, 12 * s
         self.my, self.mx = round(5 * s), round(6 * s)
+        self.lettre = max(3, round(3 * s * s))
 
     def boites(self, img, y0=0, y1=None):
         a = img[y0:y1].astype(np.int16)
@@ -67,17 +70,32 @@ class Detecteur:
         if not blanc.any():
             return []
         sombre = a.max(2) < 90
-        t = blanc & ndimage.binary_dilation(sombre, self.k_sombre)
+        t = blanc & (cv2.dilate(sombre.astype(np.uint8), self.k_sombre) > 0)
         if not t.any():
             return []
-        t = ndimage.binary_closing(t, self.k_ferm)
+        t = cv2.morphologyEx(t.astype(np.uint8), cv2.MORPH_CLOSE, self.k_ferm) > 0
         lab, _ = ndimage.label(t)
         out = []
         for sl in ndimage.find_objects(lab):
             h = sl[0].stop - sl[0].start
             w = sl[1].stop - sl[1].start
-            if self.hmin < h < self.hmax and w > self.wmin:
-                out.append((sl[0].start + y0, sl[0].stop + y0, sl[1].start, sl[1].stop))
+            if not (self.hmin < h < self.hmax and w > self.wmin):
+                continue
+            # au moins 3 lettres blanches séparées (écarte les reflets et petits objets blancs)
+            lb, nl = ndimage.label(blanc[sl])
+            if nl < 3 or (np.bincount(lb.ravel())[1:] >= self.lettre).sum() < 3:
+                continue
+            # texte posé sur du noir pur (écran de montre, carton noir) : pas un sous-titre à contour.
+            # On regarde un anneau autour du texte, au-delà du contour.
+            r1, r2 = round(4 * self.s), round(12 * self.s)
+            A, B = max(0, sl[0].start - r2), min(t.shape[0], sl[0].stop + r2)
+            C, D = max(0, sl[1].start - r2), min(t.shape[1], sl[1].stop + r2)
+            anneau = np.ones((B - A, D - C), bool)
+            anneau[max(0, sl[0].start - r1) - A:min(B, sl[0].stop + r1) - A,
+                   max(0, sl[1].start - r1) - C:min(D, sl[1].stop + r1) - C] = False
+            if anneau.any() and (a[A:B, C:D].max(2)[anneau] < 35).mean() > 0.6:
+                continue
+            out.append((sl[0].start + y0, sl[0].stop + y0, sl[1].start, sl[1].stop))
         return out
 
     def masque(self, img, y0, y1):
@@ -88,36 +106,17 @@ class Detecteur:
         return m
 
 
-def trouver_bande(f, W, H, fps, det, duree):
-    """Cherche la bande où les sous-titres apparaissent le plus souvent (2 images par seconde)."""
-    hist = np.zeros(H)
-    nb = 0
-    for img in lire(f, W, H, duree, vf=f'fps=2'):
+def reperer(f, W, H, det, duree, y0, y1):
+    """Contrôle rapide (2 images par seconde) : où le texte apparaît-il ?"""
+    nb = avec = 0
+    hauteurs = []
+    for img in lire(f, W, H, duree, vf='fps=2'):
         nb += 1
-        for a, b, c, d in det.boites(img):
-            if (d - c) > 1.5 * (b - a):
-                hist[a:b] += d - c
-    if hist.max() == 0:
-        return None
-    lignes = hist >= 0.25 * hist.max()
-    lab, _ = ndimage.label(lignes)
-    pic = lab[int(hist.argmax())]
-    ys = np.where(lab == pic)[0]
-    # réunir les lignes voisines (sous-titres sur 2 ou 3 lignes)
-    marge = round(40 * det.s)
-    y0, y1 = ys.min(), ys.max() + 1
-    while True:
-        voisins = np.where(lignes[max(0, y0 - marge):y0])[0]
-        if len(voisins) == 0:
-            break
-        y0 = max(0, y0 - marge) + voisins.min()
-    while True:
-        voisins = np.where(lignes[y1:y1 + marge])[0]
-        if len(voisins) == 0:
-            break
-        y1 = y1 + voisins.max() + 1
-    e = round(24 * det.s)
-    return max(0, y0 - e), min(H, y1 + e)
+        bx = det.boites(img, y0, y1)
+        if bx:
+            avec += 1
+            hauteurs += [(a + b) // 2 for a, b, c, d in bx]
+    return nb, avec, hauteurs
 
 
 def main():
@@ -141,19 +140,19 @@ def main():
     det = Detecteur(W, H)
     print(f'effaceur {VERSION} : {W}x{H}, {N} images, {N / fps:.0f} s', flush=True)
 
-    if o.bande:
-        y0, y1 = o.bande
-    else:
-        b = trouver_bande(o.entree, W, H, fps, det, o.duree)
-        if b is None:
-            print('AUCUN sous-titre blanc à contour trouvé : cet effaceur ne sait pas traiter ce style de texte.')
-            sys.exit(3)
-        y0, y1 = b
-    print(f'bande des sous-titres : y {y0}-{y1} (sur {H})', flush=True)
+    y0, y1 = o.bande if o.bande else (0, H)
+    nb, avec, hauteurs = reperer(o.entree, W, H, det, o.duree, y0, y1)
+    if not avec:
+        print('AUCUN sous-titre blanc à contour trouvé : cet effaceur ne sait pas traiter ce style de texte.')
+        sys.exit(3)
+    tiers = np.histogram(hauteurs, bins=3, range=(0, H))[0]
+    print(f'texte repéré sur {avec} des {nb} images contrôlées (haut / milieu / bas de l\'image : '
+          f'{tiers[0]} / {tiers[1]} / {tiers[2]} lignes)', flush=True)
 
     model = torch.jit.load(o.modele, map_location='cpu').eval()
     ctx = round(40 * det.s)
-    k_dil = np.ones((max(3, round(5 * det.s)),) * 2)
+    k_dil = np.ones((max(3, round(5 * det.s)),) * 2, np.uint8)
+    k_groupe = np.ones((2 * ctx + 1, 2 * ctx + 1), np.uint8)
 
     cmd = ['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', FPS, '-i', '-']
     cmd += (['-t', str(o.duree)] if o.duree else []) + ['-i', o.entree, '-map', '0:v', '-map', '1:a?', '-c:v', 'libx264',
@@ -169,8 +168,7 @@ def main():
     stats = {'images': 0, 'avec_texte': 0}
     t_dernier = t0
 
-    def effacer(img, m):
-        mb = ndimage.binary_dilation(m, k_dil)
+    def effacer_zone(img, new, mb):
         ys, xs = np.where(mb)
         a, b = max(0, ys.min() - ctx), min(H, ys.max() + 1 + ctx)
         c, d = max(0, xs.min() - ctx), min(W, xs.max() + 1 + ctx)
@@ -196,8 +194,15 @@ def main():
         if f < 1:
             y = cv2.resize(y, (d - c, b - a), interpolation=cv2.INTER_CUBIC)
         bord = cv2.GaussianBlur(mm.astype(np.float32), (5, 5), 0)[..., None]
+        new[a:b, c:d] = (y * bord + new[a:b, c:d] * (1 - bord)).astype(np.uint8)
+
+    def effacer(img, m):
+        mb = cv2.dilate(m.astype(np.uint8), k_dil) > 0
+        # chaque groupe de texte (titre en haut, bulle, sous-titre…) est effacé à part
+        groupes, ng = ndimage.label(cv2.dilate(mb.astype(np.uint8), k_groupe) > 0)
         new = img.copy()
-        new[a:b, c:d] = (y * bord + crop * (1 - bord)).astype(np.uint8)
+        for g in range(1, ng + 1):
+            effacer_zone(img, new, mb & (groupes == g))
         return new
 
     def sortir(i, img, m):
@@ -208,7 +213,7 @@ def main():
             res = effacer(img, m)
             if cibles and i >= cibles[0]:
                 cibles.pop(0)
-                apercus.append((img[y0:y1], res[y0:y1]))
+                apercus.append((img, res))
         enc.stdin.write(res.tobytes())
         if menc:
             menc.stdin.write((m * 255).astype(np.uint8).tobytes())
@@ -250,15 +255,20 @@ def main():
         menc.stdin.close()
         menc.wait()
     if o.apercu and apercus:
-        lignes = []
+        # paires avant | après, 3 paires par rangée
+        paires = []
         for avant, apres in apercus:
-            sep = np.full((avant.shape[0], 6, 3), 255, np.uint8)
-            lignes.append(np.hstack([avant, sep, apres]))
-            lignes.append(np.full((4, lignes[-1].shape[1], 3), 255, np.uint8))
-        planche = np.vstack(lignes[:-1])
-        if planche.shape[1] > 1000:
-            f = 1000 / planche.shape[1]
-            planche = cv2.resize(planche, (1000, round(planche.shape[0] * f)), interpolation=cv2.INTER_AREA)
+            sep = np.full((H, max(4, W // 60), 3), 255, np.uint8)
+            paires.append(np.hstack([avant, sep, apres]))
+        while len(paires) % 3:
+            paires.append(np.full_like(paires[0], 255))
+        blanc_v = np.full((paires[0].shape[0], max(12, W // 20), 3), 255, np.uint8)
+        rangees = [np.hstack([paires[i], blanc_v, paires[i + 1], blanc_v, paires[i + 2]]) for i in range(0, len(paires), 3)]
+        blanc_h = np.full((max(12, H // 40), rangees[0].shape[1], 3), 255, np.uint8)
+        planche = np.vstack([x for r in rangees for x in (r, blanc_h)][:-1])
+        if planche.shape[1] > 1600:
+            f = 1600 / planche.shape[1]
+            planche = cv2.resize(planche, (1600, round(planche.shape[0] * f)), interpolation=cv2.INTER_AREA)
         cv2.imwrite(o.apercu, cv2.cvtColor(planche, cv2.COLOR_RGB2BGR))
     duree = time.time() - t0
     print(f'fini : {stats["images"]} images, texte effacé sur {stats["avec_texte"]}, en {duree / 60:.1f} min '
