@@ -1,0 +1,463 @@
+{
+ "ref": "FB1464",
+ "langue_source": "pl",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "aQROLel5sQbj1vuIVi6B",
+  "repli_id": "AfbuxQ9DVtS4azaxN1W7",
+  "vitesse_max": 1.07,
+  "nom": "Nicolas_narrateur (bibliothèque, choisie par l élève parmi 3 essais)"
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "texte": "C'est une crise cardiaque qui attend son heure.",
+   "debut": 0.06,
+   "fin_fenetre": 2.67
+  },
+  {
+   "id": "L2",
+   "texte": "C'est une crise cardiaque qui attend son heure.",
+   "debut": 2.72,
+   "fin_fenetre": 5.31
+  },
+  {
+   "id": "L3",
+   "texte": "C'est une crise cardiaque qui attend son heure.",
+   "debut": 5.36,
+   "fin_fenetre": 8.05
+  },
+  {
+   "id": "L4",
+   "texte": "Et le meilleur pour ton cœur, ce n'est pas l'ail, ni arrêter le sel.",
+   "debut": 8.1,
+   "fin_fenetre": 12.37
+  },
+  {
+   "id": "L5",
+   "texte": "Et surtout pas les cachets des labos qui vivent de ta maladie.",
+   "debut": 12.42,
+   "fin_fenetre": 16.09
+  },
+  {
+   "id": "L6",
+   "texte": "Je vais te montrer ce qui marche vraiment.",
+   "debut": 16.14,
+   "fin_fenetre": 18.35
+  },
+  {
+   "id": "L7",
+   "texte": "Une petite portion de ça chaque matin fait plus que tout le reste réuni.",
+   "debut": 18.4,
+   "fin_fenetre": 22.51
+  },
+  {
+   "id": "L8",
+   "texte": "Et personne n'en parle.",
+   "debut": 22.56,
+   "fin_fenetre": 23.97
+  },
+  {
+   "id": "L9",
+   "texte": "Et je ne parle pas que des chiffres sur ton tensiomètre.",
+   "debut": 24.02,
+   "fin_fenetre": 27.23
+  },
+  {
+   "id": "L10",
+   "texte": "Quand tes pieds sont gonflés en fin de journée.",
+   "debut": 27.37,
+   "fin_fenetre": 30.69
+  },
+  {
+   "id": "L11",
+   "texte": "Quand ton ventre ne descend pas, quoi que tu fasses.",
+   "debut": 30.74,
+   "fin_fenetre": 34.35
+  },
+  {
+   "id": "L12",
+   "texte": "Quand à sept heures du soir, tu es déjà sur le canapé et tu n'as plus envie de te lever.",
+   "debut": 34.4,
+   "fin_fenetre": 39.25
+  },
+  {
+   "id": "L13",
+   "texte": "Ça veut dire que tes artères s'encrassent depuis des années.",
+   "debut": 39.3,
+   "fin_fenetre": 42.41
+  },
+  {
+   "id": "L14",
+   "texte": "Ce dépôt ralentit ton sang et te vole ton énergie.",
+   "debut": 42.52,
+   "fin_fenetre": 45.95
+  },
+  {
+   "id": "L15",
+   "texte": "Tu as l'impression d'avoir pris vingt ans d'un coup, en une seule nuit.",
+   "debut": 46.0,
+   "fin_fenetre": 49.91
+  },
+  {
+   "id": "L16",
+   "texte": "Le matin, tu te lèves tout raide, tes jambes sont lourdes, et tu n'as plus aucune force, sans même savoir pourquoi.",
+   "debut": 49.96,
+   "fin_fenetre": 56.19
+  },
+  {
+   "id": "L17",
+   "texte": "Ce n'est pas l'âge.",
+   "debut": 56.24,
+   "fin_fenetre": 57.51
+  },
+  {
+   "id": "L18",
+   "texte": "Non, ce sont tes artères. Elles sont crispées depuis des années, et rien ne vient jamais les détendre.",
+   "debut": 57.58,
+   "fin_fenetre": 63.67,
+   "vitesse": 0.93
+  },
+  {
+   "id": "L19",
+   "texte": "Si tu laisses les choses comme ça, c'est ce qui emporte les hommes beaucoup trop tôt, et le corps lâche au moment où tu t'y attends le moins.",
+   "debut": 63.72,
+   "fin_fenetre": 71.39,
+   "vitesse": 0.93
+  },
+  {
+   "id": "L20",
+   "texte": "Ça fait vingt ans que je suis derrière le comptoir d'une herboristerie, et j'ai vu une chose qui remet les gens sur pied plus vite que n'importe quoi d'autre.",
+   "debut": 71.44,
+   "fin_fenetre": 79.07,
+   "vitesse": 0.95
+  },
+  {
+   "id": "L21",
+   "texte": "C'est la betterave pressée à froid.",
+   "debut": 79.12,
+   "fin_fenetre": 82.21
+  },
+  {
+   "id": "L22",
+   "texte": "Quand on presse la betterave à froid, et qu'on ne la chauffe jamais, elle garde tous ses nitrates.",
+   "debut": 82.26,
+   "fin_fenetre": 87.51,
+   "vitesse": 0.95
+  },
+  {
+   "id": "L23",
+   "texte": "Ton corps transforme ces nitrates en oxyde nitrique, et cet oxyde nitrique détend les parois des artères, qui sont crispées depuis des années.",
+   "debut": 87.56,
+   "fin_fenetre": 95.93,
+   "vitesse": 0.93
+  },
+  {
+   "id": "L24",
+   "texte": "Alors le sang circule à nouveau, et la force revient.",
+   "debut": 95.98,
+   "fin_fenetre": 100.17
+  },
+  {
+   "id": "L25",
+   "texte": "Ce poids dans la poitrine se relâche.",
+   "debut": 100.22,
+   "fin_fenetre": 104.09
+  },
+  {
+   "id": "L26",
+   "texte": "Je l'ai conseillé à des gens épuisés, qui étaient prêts à abandonner.",
+   "debut": 104.14,
+   "fin_fenetre": 108.52
+  },
+  {
+   "id": "L27",
+   "texte": "Ils revenaient après quelques semaines : le gonflement avait disparu, la force était revenue.",
+   "debut": 108.57,
+   "fin_fenetre": 114.34
+  },
+  {
+   "id": "L28",
+   "texte": "Et quand ils prenaient leur tension, pour la première fois depuis des années, ils pouvaient regarder le résultat sereinement.",
+   "debut": 114.39,
+   "fin_fenetre": 120.94,
+   "vitesse": 0.95
+  },
+  {
+   "id": "L29",
+   "texte": "Ils n'ont changé qu'une seule chose.",
+   "debut": 120.99,
+   "fin_fenetre": 123.4
+  },
+  {
+   "id": "L30",
+   "texte": "Deux gélules chaque matin.",
+   "debut": 123.45,
+   "fin_fenetre": 125.44
+  },
+  {
+   "id": "L31",
+   "texte": "Mais n'achète pas la camelote pas chère d'internet.",
+   "debut": 125.49,
+   "fin_fenetre": 128.3
+  },
+  {
+   "id": "L32",
+   "texte": "De la poudre marron en pot.",
+   "debut": 128.35,
+   "fin_fenetre": 130.12
+  },
+  {
+   "id": "L33",
+   "texte": "C'est de la betterave séchée à chaud, pas pressée à froid.",
+   "debut": 130.17,
+   "fin_fenetre": 133.14
+  },
+  {
+   "id": "L34",
+   "texte": "Séchée au four en quelques heures seulement, et surtout pas pressée à froid.",
+   "debut": 133.19,
+   "fin_fenetre": 137.38
+  },
+  {
+   "id": "L35",
+   "texte": "Tout ce que tu en tires, c'est de la poussière rouge, et rien de plus.",
+   "debut": 137.43,
+   "fin_fenetre": 141.84,
+   "vitesse": 0.93
+  },
+  {
+   "id": "L36",
+   "texte": "Et ne compte pas la cuisiner toi-même à la maison.",
+   "debut": 141.89,
+   "fin_fenetre": 146.04
+  },
+  {
+   "id": "L37",
+   "texte": "Ou boire un jus du supermarché.",
+   "debut": 146.09,
+   "fin_fenetre": 148.08
+  },
+  {
+   "id": "L38",
+   "texte": "La cuisson, comme la pasteurisation, détruit les nitrates, alors que c'est justement la seule chose qui compte dans la betterave.",
+   "debut": 148.14,
+   "fin_fenetre": 154.22
+  },
+  {
+   "id": "L39",
+   "texte": "Il ne reste que la couleur dans l'assiette.",
+   "debut": 154.54,
+   "fin_fenetre": 156.6
+  },
+  {
+   "id": "L40",
+   "texte": "Pour presser une portion à froid, il faut un kilo de betteraves et une presse.",
+   "debut": 156.65,
+   "fin_fenetre": 160.78
+  },
+  {
+   "id": "L41",
+   "texte": "Tu n'as pas ça chez toi.",
+   "debut": 160.83,
+   "fin_fenetre": 162.34
+  },
+  {
+   "id": "L42",
+   "texte": "La seule à qui je fais confiance, c'est Betalia.",
+   "debut": 162.39,
+   "fin_fenetre": 165.48
+  },
+  {
+   "id": "L43",
+   "texte": "Betterave pure pressée à froid, mille cent milligrammes par jour, avec fer et vitamine C.",
+   "debut": 165.53,
+   "fin_fenetre": 170.28
+  },
+  {
+   "id": "L44",
+   "texte": "À l'intérieur, des gélules bordeaux foncé.",
+   "debut": 170.5,
+   "fin_fenetre": 173.66
+  },
+  {
+   "id": "L45",
+   "texte": "C'est la couleur d'une betterave que personne n'a chauffée.",
+   "debut": 173.71,
+   "fin_fenetre": 176.74
+  },
+  {
+   "id": "L46",
+   "texte": "Elle est pressée en petites séries, d'une seule récolte.",
+   "debut": 176.79,
+   "fin_fenetre": 180.56
+  },
+  {
+   "id": "L47",
+   "texte": "Je te laisse le lien juste en dessous.",
+   "debut": 180.61,
+   "fin_fenetre": 182.9
+  },
+  {
+   "id": "L48",
+   "texte": "S'il est encore là, c'est qu'il en reste en stock.",
+   "debut": 182.95,
+   "fin_fenetre": 187.26
+  },
+  {
+   "id": "L49",
+   "texte": "Ne traîne pas.",
+   "debut": 187.31,
+   "fin_fenetre": 188.5
+  },
+  {
+   "id": "L50",
+   "texte": "Quand tu cliqueras, tu verras qu'en ce moment, c'est deux boîtes achetées, et la troisième offerte.",
+   "debut": 188.55,
+   "fin_fenetre": 193.86,
+   "vitesse": 0.95
+  },
+  {
+   "id": "L51",
+   "texte": "Les betteraves se pressent après la récolte, et ça ne se précipite pas.",
+   "debut": 193.91,
+   "fin_fenetre": 198.3
+  },
+  {
+   "id": "L52",
+   "texte": "Quand ce lot sera fini, il faudra attendre un an pour le suivant.",
+   "debut": 198.35,
+   "fin_fenetre": 201.88
+  },
+  {
+   "id": "L53",
+   "texte": "Tiens bon, et prends soin de ce cœur.",
+   "debut": 201.93,
+   "fin_fenetre": 205.12
+  },
+  {
+   "id": "L54",
+   "texte": "Pas seulement pour toi, mais pour les tiens.",
+   "debut": 205.17,
+   "fin_fenetre": 207.9
+  }
+ ],
+ "mix": {
+  "fond": "musique"
+ },
+ "rendu": {
+  "encodeur": "x264",
+  "crf": 17,
+  "zones_vmake": [
+   {
+    "images": [
+     0,
+     4987
+    ],
+    "rect": [
+     0,
+     850,
+     720,
+     976
+    ],
+    "adoucir": 4
+   }
+  ],
+  "sous_titres": {
+   "mode": "mots",
+   "y": 905,
+   "taille": 30,
+   "graisse": 700,
+   "police": "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    2,
+    3
+   ],
+   "flou": 1.5,
+   "trait": 0,
+   "max_mots": 6,
+   "max_car": 26,
+   "max_car_ligne": 26,
+   "fusion_min": 0.45,
+   "images": [
+    0,
+    4987
+   ]
+  }
+ },
+ "marque": "Betalia",
+ "produit": "Betalia - Extrait de betterave, fer et vitamine C (60 gélules, 1100 mg/jour)",
+ "site": "",
+ "offre": "celle de la source : 2 achetées + 1 offerte (identique à la page produit)",
+ "controle": {
+  "sans_voix": [
+   "+20 ANS",
+   "19:00",
+   "À FROID",
+   "NITRATES",
+   "OXYDE",
+   "NITRIQUE",
+   "QUELQUES",
+   "HEURES",
+   "QUELQUES HEURES",
+   "1 KG = 1 PORTION",
+   "AJOUTE AU",
+   "PANIER",
+   "AJOUTE AU PANIER",
+   "UNE RÉCOLTE",
+   "PAR AN",
+   "Betalia",
+   "EXTRAIT DE BETTERAVE",
+   "FER | VITAMINE C"
+  ],
+  "duree_min_sous_titre": 0.4
+ },
+ "notes": [
+  "Type 2 : sous-titres blancs sans fond (1-2 lignes, y~905) -> Vmake (416 crédits).",
+  "Vmake a perdu 20 images en route (dérive progressive, 1 image toutes les ~250) : sortie réalignée image par image (realigner_vmake.py) avant vmake.py --existant.",
+  "Textes à la craie polonais (+20 lat, NA ZIMNO, AZOTANY, TLENEK AZOTU, KILKA GODZIN, 1 KG = 1 PORCJA, DODAJ DO KOSZYKA, JEDEN ZBIÓR W ROKU) remplacés en français par craie_flacon.py (effacement des lettres + texte à la craie écrit progressivement, main respectée).",
+  "Flacon MyBeet (3917-4987) : étiquette remplacée par celle de Betalia (photo de la fiche produit), image par image, main respectée.",
+  "Voix : Nicolas_narrateur (bibliothèque FR), choisie par l'élève parmi 3 essais. Pas de clone.",
+  "v02 : zones Vmake limitées à la bande des sous-titres (y 850-975) : en auto, des zones hors bande reprenaient Vmake sur des dessins (pieds 715-822, haut de l'image 2755-2890, flacon 3947-3973...) qui disparaissaient ou devenaient flous.",
+  "v03 : bande des sous-titres refaite par fond_temporel.py (vrai fond pris dans les images voisines du même plan, raccord d'éclairage, sous-titres repérés à leur ombre ; Vmake seulement en dernier recours) ; zones_vmake = toute la bande y 850-976."
+ ],
+ "bilan": {
+  "duree_source_s": 207.96,
+  "vmake_s": 208,
+  "caracteres_elevenlabs": 6517,
+  "replicate_appels": 2,
+  "reprises": {
+   "phrases_regenerees_a_la_main": 21,
+   "reprises_auto_voix_py": "L12, L13, L27, L43 (2 chacune)",
+   "essais_de_voix_avant_choix": "3 voix x 155 car = 465 car (inclus dans le total)"
+  },
+  "problemes": [
+   "Demande de l'élève : 3 essais de voix françaises (bibliothèque) avant de lancer ; voix choisie : Nicolas_narrateur. Pas de clone.",
+   "Replicate : analyse.py envoie ses requêtes sans User-Agent -> Cloudflare répond 403 (error code 1010). Contourné en ajoutant un User-Agent (comme pour Groq). À corriger dans analyse.py (separer_replicate).",
+   "Replicate : 1re prédiction demucs bloquée en 'processing' plus de 15 min (séparation faite en 0,6 s, sortie wav de 36 Mo jamais rendue) -> annulée, relancée avec format mp3 : résultat en quelques secondes, converti en wav.",
+   "Vmake : sortie avec 20 images de moins, perdues au fil de la vidéo (dérive d'1 image toutes les ~250, pas seulement à la fin) -> zones auto rejetées (71 zones > 50 %). Réalignement image par image sur la source puis vmake.py --existant. vmake.py devrait détecter cette dérive.",
+   "Vmake n'efface pas les mots écrits à la craie (animation tableau noir) : 9 textes polonais (+20 lat, NA ZIMNO, AZOTANY, TLENEK AZOTU, KILKA GODZIN, 1 KG = 1 PORCJA, DODAJ DO KOSZYKA, JEDEN ZBIÓR W ROKU) remplacés par un script dédié (effacement des lettres + texte français à la craie qui s'écrit, main respectée), 21 placements sur 13 plans.",
+   "Flacon MyBeet (157-208 s, 8 plans dont l'entrée en glissant) : étiquette remplacée par celle de Betalia (photo de la page produit), main et gélules respectées.",
+   "Voix Nicolas rapide (~20 car/s) : 16 phrases rallongées ou ralenties (0,93-0,95) pour supprimer les trous de voix > 1 s.",
+   "Restes : mots barrés 'QUELQUES HEURES' (139-154 s) avec petits restes de lettres polonaises sous la croix ; sous-titre 'Non,' de 0,33 s ; alertes 'mots affichés contre voix' vérifiées à l'écoute (faux positifs, 1100 mg dit et écrit en lettres).",
+   "v02 (demande de l'élève : meilleure qualité, retirer les flous) : zones Vmake auto limitées à la bande des sous-titres (y 850-975). En auto, des zones hors bande reprenaient l'image Vmake sur des dessins (pieds 30-34 s, haut de l'image 115-120 s, flacon 164-165 s…), qui disparaissaient ou devenaient flous.",
+   "v02 : étiquette Betalia élargie à toute la largeur de l'étiquette MyBeet (restes 'T' et 'A' MyBeet sur le bord droit) ; détection de la peau corrigée (les reflets rose clair de l'étiquette étaient pris pour la main).",
+   "v02 : mots à la craie '+20 ANS' et '1 KG = 1 PORTION' restaient affichés après l'effacement du tableau (1356-1359, 3893-3916) : plans raccourcis.",
+   "v02 : sortie en 1080x1920 (demande de l'élève) : débruitage léger, agrandissement lanczos, netteté (unsharp), x264 crf 18 plafonné à 3,4 Mb/s (93 Mo, sous la limite GitHub).",
+   "v03 (élève : « encore des flous dus au changement de sous-titres ») : Vmake lissait le fond derrière le texte (traits de craie étalés, taches), et laissait passer des sous-titres sur des images mal recalées (« więcej » à 2:20). Bande refaite par fond_temporel.py : vrai fond pris dans les images voisines du même plan (le tableau est fixe), raccord d'éclairage par basses fréquences, sous-titres repérés à leur ombre décalée de 3 px (la craie n'en a pas), Vmake seulement en dernier recours. 83 % du texte remplacé par du vrai fond.",
+   "v03 : flacon qui glisse (3905-3955) : sous-titre polonais « małej polskiej firmy MyBeet » sur le flacon, mal effacé par le fond voisin (objet en mouvement) -> image Vmake gardée sur ces 2 s.",
+   "v03 : restent de petits points sombres isolés près de la main sur 1 à 3 images par endroits (ombre de sous-titre sur la main)."
+  ],
+  "format_livre": "1080x1920 (agrandi à la demande de l élève)"
+ }
+}
