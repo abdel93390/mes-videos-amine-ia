@@ -1,0 +1,10 @@
+OK     :
+  - format 360x640 identique à la source
+  - durée vidéo 337.00 s / source 337.00 s = 100.0 %
+  - sous-titres de moins de 0,4 s : aucun
+  - phrases plus longues que leur fenêtre : aucune
+ALERTE :
+  - mots affichés contre voix : 4 écart(s) notable(s) [('mille cent milligrammes', '1100 mg'), ('douze huit vérifié', '12 8 vérifiez'), ('betterave mille cent milligrammes', 'bétrave 1100 mg'), ('2 achetées 1 offerte', 'deux achetés un offert')]
+  - trous de voix absents de la source : L18→L19 50.0-52.3 s (source parle 2.3 s), L46→L47 125.4-126.5 s (source parle 1.0 s), L68→L69 177.2-180.7 s (source parle 0.7 s), L74→L75 190.3-191.4 s (source parle 0.9 s), L104→L105 269.6-270.7 s (source parle 0.7 s)
+À vérifier à la main (non automatisable) : fidélité de la voix à l'écoute, logo ou texte d'origine sur les micro-plans, qualité des plans remplacés.
+planche : travail/MYBEET/controle_planche.jpg

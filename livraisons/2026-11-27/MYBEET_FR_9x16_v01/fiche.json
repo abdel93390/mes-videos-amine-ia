@@ -1,0 +1,8132 @@
+{
+ "ref": "MYBEET",
+ "langue_source": "pl",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "fEtpdogpDkBrq53KdupV",
+  "repli_id": "",
+  "vitesse_max": 1.07,
+  "par_perso": {
+   "RICHARD": "fEtpdogpDkBrq53KdupV",
+   "FEMME": "1T2MOlQA0Xp3hNv1dBxp",
+   "DOCTEUR": "UBXZKOKbt62aLQHhc1Jm",
+   "MICHEL": "59dhv4BKONM60oDSKECM",
+   "FILS": "vyFU7GYKEZmH5siOIgUN",
+   "PETITFILS": "de4Z0blYZeXjWVVv6eTn"
+  },
+  "noms": {
+   "RICHARD": "David - Professional Narrator (bibliothèque)",
+   "FEMME": "Loulou - Social Media Narrator (bibliothèque)",
+   "DOCTEUR": "François Louis - Deep, Warm and Poised (bibliothèque)",
+   "MICHEL": "HenryD (bibliothèque)",
+   "FILS": "clone MYBEET Betalia FILS clone",
+   "PETITFILS": "clone MYBEET Betalia PETITFILS clone"
+  }
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "perso": "FILS",
+   "texte": "Papa ?",
+   "debut": 4.25,
+   "fin_fenetre": 7.93,
+   "debut_src": 4.25
+  },
+  {
+   "id": "L2",
+   "perso": "FILS",
+   "texte": "Papa ! Qu'est-ce qui se passe ?",
+   "debut": 7.98,
+   "fin_fenetre": 9.87,
+   "debut_src": 7.98
+  },
+  {
+   "id": "L3",
+   "perso": "RICHARD",
+   "texte": "Rien. On étouffe, là-dessous.",
+   "debut": 10.08,
+   "fin_fenetre": 12.73,
+   "debut_src": 9.92
+  },
+  {
+   "id": "L4",
+   "perso": "FILS",
+   "texte": "Papa, regarde-moi.",
+   "debut": 12.78,
+   "fin_fenetre": 14.67,
+   "debut_src": 12.78
+  },
+  {
+   "id": "L5",
+   "perso": "RICHARD",
+   "texte": "J'ai dit que ça allait.",
+   "debut": 14.72,
+   "fin_fenetre": 17.35,
+   "debut_src": 14.72
+  },
+  {
+   "id": "L6",
+   "perso": "FEMME",
+   "texte": "Assieds-toi.",
+   "debut": 17.4,
+   "fin_fenetre": 19.45,
+   "debut_src": 17.4
+  },
+  {
+   "id": "L7",
+   "perso": "RICHARD",
+   "texte": "Je sais ce que tu vas dire.",
+   "debut": 19.5,
+   "fin_fenetre": 21.17,
+   "debut_src": 19.5
+  },
+  {
+   "id": "L8",
+   "perso": "FEMME",
+   "texte": "Assieds-toi.",
+   "debut": 21.22,
+   "fin_fenetre": 26.09,
+   "debut_src": 21.22
+  },
+  {
+   "id": "L9",
+   "perso": "FEMME",
+   "texte": "Il m'a appelée, devant la maison.",
+   "debut": 26.14,
+   "fin_fenetre": 27.95,
+   "debut_src": 26.14
+  },
+  {
+   "id": "L10",
+   "perso": "RICHARD",
+   "texte": "Il n'aurait pas dû.",
+   "debut": 28.0,
+   "fin_fenetre": 29.43,
+   "debut_src": 28.0
+  },
+  {
+   "id": "L11",
+   "perso": "FEMME",
+   "texte": "Il pleurait.",
+   "debut": 29.48,
+   "fin_fenetre": 30.37,
+   "debut_src": 29.48
+  },
+  {
+   "id": "L12",
+   "perso": "RICHARD",
+   "texte": "Quoi ?",
+   "debut": 30.45,
+   "fin_fenetre": 31.61,
+   "debut_src": 30.42
+  },
+  {
+   "id": "L13",
+   "perso": "FEMME",
+   "texte": "Notre fils de 32 ans a pleuré dans sa voiture. Il a peur de te perdre.",
+   "debut": 31.66,
+   "fin_fenetre": 36.11,
+   "debut_src": 31.66
+  },
+  {
+   "id": "L14",
+   "perso": "RICHARD",
+   "texte": "Je ne vais nulle part.",
+   "debut": 36.16,
+   "fin_fenetre": 37.91,
+   "debut_src": 36.16
+  },
+  {
+   "id": "L15",
+   "perso": "FEMME",
+   "texte": "Ton père disait pareil.",
+   "debut": 37.96,
+   "fin_fenetre": 40.03,
+   "debut_src": 37.96
+  },
+  {
+   "id": "L16",
+   "perso": "RICHARD",
+   "texte": "Non.",
+   "debut": 40.08,
+   "fin_fenetre": 41.05,
+   "debut_src": 40.08
+  },
+  {
+   "id": "L17",
+   "perso": "FEMME",
+   "texte": "Il disait pareil, Richard. Et il est parti à 61 ans.",
+   "debut": 41.1,
+   "fin_fenetre": 47.05,
+   "debut_src": 41.1
+  },
+  {
+   "id": "L18",
+   "perso": "FEMME",
+   "texte": "Ton fils a un petit garçon qui ne se souviendra pas de toi.",
+   "debut": 47.1,
+   "fin_fenetre": 52.29,
+   "debut_src": 47.1
+  },
+  {
+   "id": "L19",
+   "perso": "FEMME",
+   "texte": "Tu dois régler ça.",
+   "debut": 52.34,
+   "fin_fenetre": 55.45,
+   "debut_src": 52.34
+  },
+  {
+   "id": "L20",
+   "perso": "DOCTEUR",
+   "texte": "Dix-sept, dix.",
+   "debut": 55.5,
+   "fin_fenetre": 57.57,
+   "debut_src": 55.5
+  },
+  {
+   "id": "L21",
+   "perso": "DOCTEUR",
+   "texte": "Richard, je ne vais pas tourner autour du pot.",
+   "debut": 57.73,
+   "fin_fenetre": 60.29,
+   "debut_src": 57.62
+  },
+  {
+   "id": "L22",
+   "perso": "DOCTEUR",
+   "texte": "Vos artères sont rétrécies.",
+   "debut": 60.66,
+   "fin_fenetre": 62.43,
+   "debut_src": 60.34,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L23",
+   "perso": "RICHARD",
+   "texte": "À quel point ?",
+   "debut": 63.12,
+   "fin_fenetre": 63.71,
+   "debut_src": 62.48
+  },
+  {
+   "id": "L24",
+   "perso": "DOCTEUR",
+   "texte": "Assez pour traiter dès aujourd'hui.",
+   "debut": 64.2,
+   "fin_fenetre": 66.25,
+   "debut_src": 63.76,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L25",
+   "perso": "RICHARD",
+   "texte": "D'accord.",
+   "debut": 66.48,
+   "fin_fenetre": 67.33,
+   "debut_src": 66.3,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L26",
+   "perso": "DOCTEUR",
+   "texte": "Bien.",
+   "debut": 67.41,
+   "fin_fenetre": 68.61,
+   "debut_src": 67.38,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L27",
+   "perso": "RICHARD",
+   "texte": "Mon père a laissé traîner pendant vingt ans.",
+   "debut": 68.66,
+   "fin_fenetre": 71.63,
+   "debut_src": 68.66,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L28",
+   "perso": "RICHARD",
+   "texte": "Toujours fatigué.",
+   "debut": 71.68,
+   "fin_fenetre": 73.53,
+   "debut_src": 71.68
+  },
+  {
+   "id": "L29",
+   "perso": "RICHARD",
+   "texte": "Dans le brouillard.",
+   "debut": 73.58,
+   "fin_fenetre": 75.33,
+   "debut_src": 73.58
+  },
+  {
+   "id": "L30",
+   "perso": "RICHARD",
+   "texte": "Il a raté mon mariage, coincé dans son fauteuil.",
+   "debut": 75.38,
+   "fin_fenetre": 78.41,
+   "debut_src": 75.38,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L31",
+   "perso": "RICHARD",
+   "texte": "Je ne ferai pas ça à mon fils.",
+   "debut": 78.55,
+   "fin_fenetre": 80.77,
+   "debut_src": 78.46,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L32",
+   "perso": "RICHARD",
+   "texte": "Ni à mon petit-fils.",
+   "debut": 80.82,
+   "fin_fenetre": 82.59,
+   "debut_src": 80.82
+  },
+  {
+   "id": "L33",
+   "perso": "DOCTEUR",
+   "texte": "Alors on commence.",
+   "debut": 82.81,
+   "fin_fenetre": 84.92,
+   "debut_src": 82.64,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L34",
+   "perso": "DOCTEUR",
+   "texte": "Et on change tout.",
+   "debut": 84.97,
+   "fin_fenetre": 86.2,
+   "debut_src": 84.97,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L35",
+   "perso": "DOCTEUR",
+   "texte": "Vous n'avez pas des mois, Richard.",
+   "debut": 86.52,
+   "fin_fenetre": 94.25,
+   "debut_src": 86.25,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L36",
+   "perso": "MICHEL",
+   "texte": "T'as une sale mine.",
+   "debut": 105.99,
+   "fin_fenetre": 107.64,
+   "debut_src": 105.99,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L37",
+   "perso": "RICHARD",
+   "texte": "On m'a donné des semaines.",
+   "debut": 107.69,
+   "fin_fenetre": 109.12,
+   "debut_src": 107.69,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L38",
+   "perso": "MICHEL",
+   "texte": "Des semaines ?",
+   "debut": 109.42,
+   "fin_fenetre": 110.28,
+   "debut_src": 109.17,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L39",
+   "perso": "RICHARD",
+   "texte": "Des semaines.",
+   "debut": 110.63,
+   "fin_fenetre": 111.25,
+   "debut_src": 110.33,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L40",
+   "perso": "MICHEL",
+   "texte": "Tu fais quoi ?",
+   "debut": 111.47,
+   "fin_fenetre": 112.65,
+   "debut_src": 111.3,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L41",
+   "perso": "RICHARD",
+   "texte": "Je lis.",
+   "debut": 112.7,
+   "fin_fenetre": 113.85,
+   "debut_src": 112.7
+  },
+  {
+   "id": "L42",
+   "perso": "MICHEL",
+   "texte": "Tu lis quoi ?",
+   "debut": 113.9,
+   "fin_fenetre": 115.15,
+   "debut_src": 113.9
+  },
+  {
+   "id": "L43",
+   "perso": "RICHARD",
+   "texte": "Tout ce qui peut m'aider.",
+   "debut": 115.2,
+   "fin_fenetre": 116.95,
+   "debut_src": 115.2
+  },
+  {
+   "id": "L44",
+   "perso": "MICHEL",
+   "texte": "Richard…",
+   "debut": 117.0,
+   "fin_fenetre": 118.15,
+   "debut_src": 117.0
+  },
+  {
+   "id": "L45",
+   "perso": "RICHARD",
+   "texte": "Laisse tomber, Michel.",
+   "debut": 118.2,
+   "fin_fenetre": 122.55,
+   "debut_src": 118.2
+  },
+  {
+   "id": "L46",
+   "perso": "MICHEL",
+   "texte": "Et si je te disais que je suis passé par là ?",
+   "debut": 122.6,
+   "fin_fenetre": 126.45,
+   "debut_src": 122.6
+  },
+  {
+   "id": "L47",
+   "perso": "RICHARD",
+   "texte": "Toi ?",
+   "debut": 126.5,
+   "fin_fenetre": 127.95,
+   "debut_src": 126.5
+  },
+  {
+   "id": "L48",
+   "perso": "MICHEL",
+   "texte": "Il y a trois ans.",
+   "debut": 128.0,
+   "fin_fenetre": 129.65,
+   "debut_src": 128.0
+  },
+  {
+   "id": "L49",
+   "perso": "MICHEL",
+   "texte": "Dix-huit, onze.",
+   "debut": 129.7,
+   "fin_fenetre": 131.95,
+   "debut_src": 129.7
+  },
+  {
+   "id": "L50",
+   "perso": "RICHARD",
+   "texte": "Tu ne m'as jamais rien dit.",
+   "debut": 132.0,
+   "fin_fenetre": 133.65,
+   "debut_src": 132.0
+  },
+  {
+   "id": "L51",
+   "perso": "MICHEL",
+   "texte": "Personne ne devait savoir.",
+   "debut": 133.7,
+   "fin_fenetre": 135.85,
+   "debut_src": 133.7
+  },
+  {
+   "id": "L52",
+   "perso": "RICHARD",
+   "texte": "Et là, ça va ?",
+   "debut": 135.9,
+   "fin_fenetre": 137.45,
+   "debut_src": 135.9,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L53",
+   "perso": "MICHEL",
+   "texte": "Là, ça va.",
+   "debut": 137.5,
+   "fin_fenetre": 138.65,
+   "debut_src": 137.5,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L54",
+   "perso": "RICHARD",
+   "texte": "Comment ?",
+   "debut": 138.7,
+   "fin_fenetre": 139.85,
+   "debut_src": 138.7,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L55",
+   "perso": "MICHEL",
+   "texte": "Les nitrates.",
+   "debut": 139.9,
+   "fin_fenetre": 141.05,
+   "debut_src": 139.9
+  },
+  {
+   "id": "L56",
+   "perso": "RICHARD",
+   "texte": "Les quoi ?",
+   "debut": 141.1,
+   "fin_fenetre": 142.15,
+   "debut_src": 141.1
+  },
+  {
+   "id": "L57",
+   "perso": "MICHEL",
+   "texte": "Des molécules naturelles.",
+   "debut": 142.2,
+   "fin_fenetre": 143.75,
+   "debut_src": 142.2
+  },
+  {
+   "id": "L58",
+   "perso": "MICHEL",
+   "texte": "La betterave en a.",
+   "debut": 143.8,
+   "fin_fenetre": 145.15,
+   "debut_src": 143.8
+  },
+  {
+   "id": "L59",
+   "perso": "MICHEL",
+   "texte": "Mais seulement si elle est travaillée à basse température.",
+   "debut": 145.43,
+   "fin_fenetre": 148.95,
+   "debut_src": 145.2
+  },
+  {
+   "id": "L60",
+   "perso": "MICHEL",
+   "texte": "Jamais chauffée.",
+   "debut": 149.2,
+   "fin_fenetre": 150.75,
+   "debut_src": 149.0
+  },
+  {
+   "id": "L61",
+   "perso": "RICHARD",
+   "texte": "La betterave ?",
+   "debut": 150.82,
+   "fin_fenetre": 151.85,
+   "debut_src": 150.8
+  },
+  {
+   "id": "L62",
+   "perso": "MICHEL",
+   "texte": "La betterave.",
+   "debut": 151.9,
+   "fin_fenetre": 153.05,
+   "debut_src": 151.9
+  },
+  {
+   "id": "L63",
+   "perso": "RICHARD",
+   "texte": "Et ça fait quoi ?",
+   "debut": 153.1,
+   "fin_fenetre": 154.35,
+   "debut_src": 153.1
+  },
+  {
+   "id": "L64",
+   "perso": "MICHEL",
+   "texte": "Avec l'âge, surtout après quarante ans, le corps produit moins d'oxyde nitrique.",
+   "debut": 154.49,
+   "fin_fenetre": 159.88,
+   "debut_src": 154.4
+  },
+  {
+   "id": "L65",
+   "perso": "MICHEL",
+   "texte": "C'est le signal qui dit aux vaisseaux : ouvrez-vous.",
+   "debut": 160.12,
+   "fin_fenetre": 163.78,
+   "debut_src": 159.93
+  },
+  {
+   "id": "L66",
+   "perso": "MICHEL",
+   "texte": "Sans lui, les vaisseaux restent serrés, et la tension monte.",
+   "debut": 163.83,
+   "fin_fenetre": 170.37,
+   "debut_src": 163.83
+  },
+  {
+   "id": "L67",
+   "perso": "MICHEL",
+   "texte": "Le corps les change en oxyde nitrique.",
+   "debut": 170.42,
+   "fin_fenetre": 174.31,
+   "debut_src": 170.42,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L68",
+   "perso": "MICHEL",
+   "texte": "Les vaisseaux se détendent à nouveau.",
+   "debut": 174.36,
+   "fin_fenetre": 180.61,
+   "debut_src": 174.36
+  },
+  {
+   "id": "L69",
+   "perso": "MICHEL",
+   "texte": "Le sang circule mieux.",
+   "debut": 180.66,
+   "fin_fenetre": 182.83,
+   "debut_src": 180.66
+  },
+  {
+   "id": "L70",
+   "perso": "RICHARD",
+   "texte": "Je vais en commander.",
+   "debut": 182.88,
+   "fin_fenetre": 184.75,
+   "debut_src": 182.88,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L71",
+   "perso": "MICHEL",
+   "texte": "Non.",
+   "debut": 184.8,
+   "fin_fenetre": 185.77,
+   "debut_src": 184.8
+  },
+  {
+   "id": "L72",
+   "perso": "RICHARD",
+   "texte": "Pourquoi ?",
+   "debut": 185.82,
+   "fin_fenetre": 186.77,
+   "debut_src": 185.82
+  },
+  {
+   "id": "L73",
+   "perso": "MICHEL",
+   "texte": "Tu vas jeter ton argent.",
+   "debut": 186.82,
+   "fin_fenetre": 188.77,
+   "debut_src": 186.82,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L74",
+   "perso": "MICHEL",
+   "texte": "Moi, j'en ai essayé cinq.",
+   "debut": 188.82,
+   "fin_fenetre": 191.37,
+   "debut_src": 188.82,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L75",
+   "perso": "MICHEL",
+   "texte": "Un goût de terre.",
+   "debut": 191.42,
+   "fin_fenetre": 193.19,
+   "debut_src": 191.42,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L76",
+   "perso": "MICHEL",
+   "texte": "Et aucun effet.",
+   "debut": 193.24,
+   "fin_fenetre": 195.03,
+   "debut_src": 193.24
+  },
+  {
+   "id": "L77",
+   "perso": "RICHARD",
+   "texte": "Je croyais que c'était pareil.",
+   "debut": 195.08,
+   "fin_fenetre": 196.91,
+   "debut_src": 195.08,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L78",
+   "perso": "MICHEL",
+   "texte": "La bonne n'est jamais chauffée.",
+   "debut": 196.96,
+   "fin_fenetre": 199.55,
+   "debut_src": 196.96
+  },
+  {
+   "id": "L79",
+   "perso": "MICHEL",
+   "texte": "La poudre bon marché est séchée à chaud.",
+   "debut": 199.6,
+   "fin_fenetre": 202.75,
+   "debut_src": 199.6,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L80",
+   "perso": "MICHEL",
+   "texte": "Et la chaleur détruit les nitrates.",
+   "debut": 203.08,
+   "fin_fenetre": 205.07,
+   "debut_src": 202.8,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L81",
+   "perso": "MICHEL",
+   "texte": "Il n'en reste presque rien.",
+   "debut": 205.47,
+   "fin_fenetre": 207.07,
+   "debut_src": 205.12,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L82",
+   "perso": "MICHEL",
+   "texte": "Juste de la poussière rouge.",
+   "debut": 207.12,
+   "fin_fenetre": 211.83,
+   "debut_src": 207.12
+  },
+  {
+   "id": "L83",
+   "perso": "MICHEL",
+   "texte": "La plupart des marques ne s'embêtent pas.",
+   "debut": 211.88,
+   "fin_fenetre": 214.67,
+   "debut_src": 211.88
+  },
+  {
+   "id": "L84",
+   "perso": "MICHEL",
+   "texte": "La basse température, c'est lent et cher.",
+   "debut": 214.72,
+   "fin_fenetre": 217.19,
+   "debut_src": 214.72,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L85",
+   "perso": "MICHEL",
+   "texte": "Alors elles chauffent et collent une étiquette.",
+   "debut": 217.84,
+   "fin_fenetre": 220.83,
+   "debut_src": 217.24,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L86",
+   "perso": "RICHARD",
+   "texte": "Lequel est le bon ?",
+   "debut": 221.24,
+   "fin_fenetre": 222.45,
+   "debut_src": 220.88,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L87",
+   "perso": "MICHEL",
+   "texte": "Betalia.",
+   "debut": 222.68,
+   "fin_fenetre": 224.01,
+   "debut_src": 222.5
+  },
+  {
+   "id": "L88",
+   "perso": "MICHEL",
+   "texte": "Le seul que je prends.",
+   "debut": 224.06,
+   "fin_fenetre": 225.69,
+   "debut_src": 224.06,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L89",
+   "perso": "MICHEL",
+   "texte": "Fait à basse température.",
+   "debut": 225.74,
+   "fin_fenetre": 228.09,
+   "debut_src": 225.74,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L90",
+   "perso": "MICHEL",
+   "texte": "Mille cent milligrammes par jour.",
+   "debut": 228.14,
+   "fin_fenetre": 230.29,
+   "debut_src": 228.14,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L91",
+   "perso": "MICHEL",
+   "texte": "Avec fer et vitamine C.",
+   "debut": 230.34,
+   "fin_fenetre": 232.19,
+   "debut_src": 230.34,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L92",
+   "perso": "MICHEL",
+   "texte": "Deux gélules par jour.",
+   "debut": 232.24,
+   "fin_fenetre": 233.61,
+   "debut_src": 232.24,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L93",
+   "perso": "MICHEL",
+   "texte": "C'est tout.",
+   "debut": 233.74,
+   "fin_fenetre": 234.77,
+   "debut_src": 233.66
+  },
+  {
+   "id": "L94",
+   "perso": "RICHARD",
+   "texte": "C'est tout ?",
+   "debut": 234.82,
+   "fin_fenetre": 235.83,
+   "debut_src": 234.82
+  },
+  {
+   "id": "L95",
+   "perso": "MICHEL",
+   "texte": "C'est tout.",
+   "debut": 235.88,
+   "fin_fenetre": 239.59,
+   "debut_src": 235.88
+  },
+  {
+   "id": "L96",
+   "perso": "FEMME",
+   "texte": "Combien de temps ?",
+   "debut": 239.64,
+   "fin_fenetre": 241.09,
+   "debut_src": 239.64,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L97",
+   "perso": "RICHARD",
+   "texte": "Jusqu'au prochain rendez-vous.",
+   "debut": 241.14,
+   "fin_fenetre": 242.65,
+   "debut_src": 241.14,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L98",
+   "perso": "FEMME",
+   "texte": "Et si ça ne marche pas ?",
+   "debut": 242.87,
+   "fin_fenetre": 246.99,
+   "debut_src": 242.7
+  },
+  {
+   "id": "L99",
+   "perso": "RICHARD",
+   "texte": "On verra avec le médecin.",
+   "debut": 247.04,
+   "fin_fenetre": 252.17,
+   "debut_src": 247.04
+  },
+  {
+   "id": "L100",
+   "perso": "FEMME",
+   "texte": "Tu ne t'es pas réveillé une seule fois ?",
+   "debut": 252.22,
+   "fin_fenetre": 254.75,
+   "debut_src": 252.22
+  },
+  {
+   "id": "L101",
+   "perso": "RICHARD",
+   "texte": "Pas une fois.",
+   "debut": 254.8,
+   "fin_fenetre": 260.48,
+   "debut_src": 254.8
+  },
+  {
+   "id": "L102",
+   "perso": "FILS",
+   "texte": "Ça fait des heures, papa.",
+   "debut": 260.53,
+   "fin_fenetre": 261.95,
+   "debut_src": 260.53,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L103",
+   "perso": "RICHARD",
+   "texte": "Même pas fatigué.",
+   "debut": 262.0,
+   "fin_fenetre": 267.35,
+   "debut_src": 262.0
+  },
+  {
+   "id": "L104",
+   "perso": "PETITFILS",
+   "texte": "Papi, je peux me mettre au volant ?",
+   "debut": 267.4,
+   "fin_fenetre": 270.62,
+   "debut_src": 267.4
+  },
+  {
+   "id": "L105",
+   "perso": "RICHARD",
+   "texte": "Monte, bonhomme.",
+   "debut": 270.67,
+   "fin_fenetre": 275.85,
+   "debut_src": 270.67
+  },
+  {
+   "id": "L106",
+   "perso": "DOCTEUR",
+   "texte": "Douze, huit.",
+   "debut": 275.9,
+   "fin_fenetre": 278.25,
+   "debut_src": 275.9
+  },
+  {
+   "id": "L107",
+   "perso": "RICHARD",
+   "texte": "Vous pouvez répéter ?",
+   "debut": 278.3,
+   "fin_fenetre": 279.75,
+   "debut_src": 278.3
+  },
+  {
+   "id": "L108",
+   "perso": "DOCTEUR",
+   "texte": "Douze-huit.",
+   "debut": 279.93,
+   "fin_fenetre": 281.25,
+   "debut_src": 279.8,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L109",
+   "perso": "DOCTEUR",
+   "texte": "Vérifié deux fois.",
+   "debut": 281.48,
+   "fin_fenetre": 283.05,
+   "debut_src": 281.3,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L110",
+   "perso": "DOCTEUR",
+   "texte": "Tout ce que vous faites en ce moment, surtout, continuez.",
+   "debut": 283.39,
+   "fin_fenetre": 291.1,
+   "debut_src": 283.1
+  },
+  {
+   "id": "L111",
+   "perso": "FEMME",
+   "texte": "Tu as réussi ?",
+   "debut": 291.5,
+   "fin_fenetre": 292.95,
+   "debut_src": 291.5
+  },
+  {
+   "id": "L112",
+   "perso": "RICHARD",
+   "texte": "On a réussi.",
+   "debut": 293.0,
+   "fin_fenetre": 294.35,
+   "debut_src": 293.0
+  },
+  {
+   "id": "L113",
+   "perso": "FEMME",
+   "texte": "J'aurais dû te faire confiance.",
+   "debut": 294.4,
+   "fin_fenetre": 296.55,
+   "debut_src": 294.4
+  },
+  {
+   "id": "L114",
+   "perso": "RICHARD",
+   "texte": "Tu voulais que je reste.",
+   "debut": 296.6,
+   "fin_fenetre": 297.65,
+   "debut_src": 296.6,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L115",
+   "perso": "RICHARD",
+   "texte": "On ne peut pas demander mieux.",
+   "debut": 298.15,
+   "fin_fenetre": 303.45,
+   "debut_src": 297.7
+  },
+  {
+   "id": "L116",
+   "perso": "PETITFILS",
+   "texte": "Papi, tu m'apprendras à conduire ?",
+   "debut": 303.5,
+   "fin_fenetre": 306.36,
+   "debut_src": 303.5
+  },
+  {
+   "id": "L117",
+   "perso": "RICHARD",
+   "texte": "Oui, bonhomme.",
+   "debut": 306.41,
+   "fin_fenetre": 308.36,
+   "debut_src": 306.41
+  },
+  {
+   "id": "L118",
+   "perso": "RICHARD",
+   "texte": "Je vais t'apprendre.",
+   "debut": 308.41,
+   "fin_fenetre": 310.45,
+   "debut_src": 308.41
+  },
+  {
+   "id": "L119",
+   "perso": "RICHARD",
+   "texte": "J'ai failli trop attendre.",
+   "debut": 310.5,
+   "fin_fenetre": 312.3,
+   "debut_src": 310.5,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L120",
+   "perso": "RICHARD",
+   "texte": "Ne faites pas cette erreur.",
+   "debut": 312.35,
+   "fin_fenetre": 314.06,
+   "debut_src": 312.35,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L121",
+   "perso": "RICHARD",
+   "texte": "Betalia, l'extrait de betterave.",
+   "debut": 314.11,
+   "fin_fenetre": 317.14,
+   "debut_src": 314.11,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L123",
+   "perso": "RICHARD",
+   "texte": "Mille cent milligrammes par jour.",
+   "debut": 317.19,
+   "fin_fenetre": 318.96,
+   "debut_src": 317.19,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L124",
+   "perso": "RICHARD",
+   "texte": "Avec fer et vitamine C.",
+   "debut": 319.01,
+   "fin_fenetre": 320.88,
+   "debut_src": 319.01,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L125",
+   "perso": "RICHARD",
+   "texte": "Deux gélules par jour.",
+   "debut": 320.98,
+   "fin_fenetre": 322.56,
+   "debut_src": 320.93,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L126",
+   "perso": "RICHARD",
+   "texte": "En ce moment : 2 achetées, 1 offerte.",
+   "debut": 322.61,
+   "fin_fenetre": 325.12,
+   "debut_src": 322.61,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L127",
+   "perso": "RICHARD",
+   "texte": "Satisfait ou remboursé pendant 90 jours.",
+   "debut": 325.73,
+   "fin_fenetre": 329.05,
+   "debut_src": 325.17,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L128",
+   "perso": "RICHARD",
+   "texte": "Lien en dessous.",
+   "debut": 329.1,
+   "fin_fenetre": 330.18,
+   "debut_src": 329.1,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L129",
+   "perso": "RICHARD",
+   "texte": "Prenez soin de votre cœur.",
+   "debut": 330.41,
+   "fin_fenetre": 331.66,
+   "debut_src": 330.23,
+   "vitesse": 1.07
+  },
+  {
+   "id": "L130",
+   "perso": "RICHARD",
+   "texte": "Pas seulement pour vous. Pour ceux à qui vous manqueriez, si vous n'étiez plus là.",
+   "debut": 332.22,
+   "fin_fenetre": 336.85,
+   "debut_src": 331.71,
+   "vitesse": 1.07
+  }
+ ],
+ "mix": {
+  "fond": "musique"
+ },
+ "rendu": {
+  "encodeur": "x264",
+  "crf": 17,
+  "sous_titres": {
+   "mode": "phrase",
+   "y": 455,
+   "taille": 16,
+   "graisse": 600,
+   "couleur": [
+    0,
+    0,
+    0
+   ],
+   "couleur_ombre": [
+    255,
+    255,
+    255
+   ],
+   "decalage": [
+    0,
+    0
+   ],
+   "flou": 0,
+   "trait": 0,
+   "max_car_ligne": 14,
+   "interligne": 1.26,
+   "largeur": 330,
+   "police": "DMSans.ttf",
+   "scinder": {
+    "L2": [
+     "Papa !",
+     "Qu'est-ce qui se passe ?"
+    ],
+    "L3": [
+     "Rien.",
+     "On étouffe, là-dessous."
+    ],
+    "L9": [
+     "Il m'a appelée,",
+     "devant la maison."
+    ],
+    "L13": [
+     "Notre fils de 32 ans a",
+     "pleuré dans sa voiture.",
+     "Il a peur de te perdre."
+    ],
+    "L17": [
+     "Il disait pareil, Richard.",
+     "Et il est parti à 61 ans."
+    ],
+    "L18": [
+     "Ton fils a un petit",
+     "garçon qui ne se",
+     "souviendra pas de toi."
+    ],
+    "L21": [
+     "Richard, je ne vais",
+     "pas tourner autour du pot."
+    ],
+    "L24": [
+     "Assez pour traiter",
+     "dès aujourd'hui."
+    ],
+    "L27": [
+     "Mon père a laissé traîner",
+     "pendant vingt ans."
+    ],
+    "L30": [
+     "Il a raté mon mariage,",
+     "coincé dans son fauteuil."
+    ],
+    "L31": [
+     "Je ne ferai pas ça",
+     "à mon fils."
+    ],
+    "L35": [
+     "Vous n'avez pas des mois,",
+     "Richard."
+    ],
+    "L46": [
+     "Et si je te disais",
+     "que je suis passé par là ?"
+    ],
+    "L59": [
+     "Mais seulement si",
+     "elle est travaillée",
+     "à basse température."
+    ],
+    "L64": [
+     "Avec l'âge, surtout",
+     "après quarante ans,",
+     "le corps produit moins",
+     "d'oxyde nitrique."
+    ],
+    "L65": [
+     "C'est le signal",
+     "qui dit aux vaisseaux :",
+     "ouvrez-vous."
+    ],
+    "L66": [
+     "Sans lui, les vaisseaux",
+     "restent serrés,",
+     "et la tension monte."
+    ],
+    "L67": [
+     "Le corps les change",
+     "en oxyde nitrique."
+    ],
+    "L68": [
+     "Les vaisseaux se",
+     "détendent à nouveau."
+    ],
+    "L77": [
+     "Je croyais",
+     "que c'était pareil."
+    ],
+    "L78": [
+     "La bonne n'est",
+     "jamais chauffée."
+    ],
+    "L79": [
+     "La poudre bon marché",
+     "est séchée à chaud."
+    ],
+    "L80": [
+     "Et la chaleur",
+     "détruit les nitrates."
+    ],
+    "L82": [
+     "Juste de la poussière",
+     "rouge."
+    ],
+    "L83": [
+     "La plupart des marques",
+     "ne s'embêtent pas."
+    ],
+    "L84": [
+     "La basse température,",
+     "c'est lent et cher."
+    ],
+    "L85": [
+     "Alors elles chauffent",
+     "et collent une étiquette."
+    ],
+    "L90": [
+     "Mille cent",
+     "milligrammes par jour."
+    ],
+    "L97": [
+     "Jusqu'au prochain",
+     "rendez-vous."
+    ],
+    "L100": [
+     "Tu ne t'es pas réveillé",
+     "une seule fois ?"
+    ],
+    "L104": [
+     "Papi, je peux me",
+     "mettre au volant ?"
+    ],
+    "L110": [
+     "Tout ce que vous",
+     "faites en ce moment,",
+     "surtout, continuez."
+    ],
+    "L113": [
+     "J'aurais dû te",
+     "faire confiance."
+    ],
+    "L115": [
+     "On ne peut pas",
+     "demander mieux."
+    ],
+    "L116": [
+     "Papi, tu m'apprendras",
+     "à conduire ?"
+    ],
+    "L121": [
+     "Betalia, l'extrait",
+     "de betterave."
+    ],
+    "L123": [
+     "Mille cent",
+     "milligrammes par jour."
+    ],
+    "L126": [
+     "En ce moment :",
+     "2 achetées, 1 offerte."
+    ],
+    "L127": [
+     "Satisfait ou remboursé",
+     "pendant 90 jours."
+    ],
+    "L130": [
+     "Pas seulement pour vous.",
+     "Pour ceux à qui vous manqueriez,",
+     "si vous n'étiez plus là."
+    ]
+   }
+  },
+  "patches": [
+   {
+    "images": [
+     128,
+     150
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     239,
+     486
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     522,
+     557
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     585,
+     684
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     784,
+     1184
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     1202,
+     1367
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     1413,
+     1504
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     1570,
+     1617
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     1653,
+     2126
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     2150,
+     2191
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     2207,
+     2409
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     2425,
+     2527
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     2549,
+     2661
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     3180,
+     3596
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     3678,
+     3873
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     3891,
+     5050
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5113,
+     5213
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5230,
+     5348
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5420,
+     5461
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5486,
+     5559
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5575,
+     5648
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5664,
+     5835
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5852,
+     6270
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     6356,
+     6701
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     6720,
+     7115
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     7189,
+     7336
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     7411,
+     7454
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     7567,
+     7622
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     7644,
+     7680
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     7816,
+     7904
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     8021,
+     8166
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     8277,
+     8651
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     8745,
+     9000
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     9105,
+     9224
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     9252,
+     9294
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     9315,
+     10103
+    ],
+    "rect": [
+     80,
+     430,
+     280,
+     481
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     259,
+     259
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Papa !",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     320,
+     322
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Rien.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     380,
+     382
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "On étouffe,",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "là-dessous.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     437,
+     441
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Papa,",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "regarde-moi.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     633,
+     636
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Je sais ce que",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "tu vas dire.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     809,
+     809
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Il m'a",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "appelée,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     839,
+     839
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "devant la",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "maison.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     877,
+     883
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Il n'aurait",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pas dû.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     913,
+     913
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Il pleurait.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     937,
+     949
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Quoi ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     992,
+     992
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Notre fils",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "de 32 ans a",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1028,
+     1030
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "pleuré dans",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "sa voiture.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1077,
+     1084
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Il a peur de",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "te perdre.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1129,
+     1138
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Je ne vais",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "nulle part.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1180,
+     1184
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Ton père",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "disait pareil.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1227,
+     1232
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Non.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1280,
+     1287
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Il disait",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pareil, Richard.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1440,
+     1440
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Ton fils",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "a un petit",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1462,
+     1462
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "garçon",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "qui ne se",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1504,
+     1504
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "souviendra",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pas de toi.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1653,
+     1664
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tu dois",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "régler ça.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1731,
+     1731
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Dix-sept, dix.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1772,
+     1772
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Richard,",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "je ne vais",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1819,
+     1819
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "pas tourner",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "autour du pot.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1893,
+     1893
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Vos artères",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "sont rétrécies.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1925,
+     1925
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "À quel point ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     1958,
+     1958
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Assez pour",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "traiter",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2021,
+     2021
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "D'accord.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2059,
+     2059
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Bien.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2092,
+     2092
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Mon père a",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "laissé traîner",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2247,
+     2260
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Dans le",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "brouillard.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2304,
+     2304
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Il a raté",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "mon mariage,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2382,
+     2382
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Je ne ferai",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pas ça",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2483,
+     2483
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Ni à mon",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "petit-fils.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2595,
+     2595
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Et on",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "change tout.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     2626,
+     2626
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Vous n'avez",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pas des mois,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3221,
+     3230
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "T'as une",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "sale mine.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3282,
+     3282
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "On m'a donné",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "des semaines.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3318,
+     3318
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Des semaines ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3343,
+     3343
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Des semaines.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3371,
+     3380
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tu fais quoi ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3406,
+     3416
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Je lis.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3447,
+     3455
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tu lis quoi ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3508,
+     3509
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tout ce qui",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "peut m'aider.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3533,
+     3545
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Richard…",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3711,
+     3711
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Et si je",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "te disais",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3767,
+     3794
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "que je suis",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "passé par là ?",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3828,
+     3839
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Toi ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     3928,
+     3959
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Dix-huit,",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "onze.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4007,
+     4010
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tu ne m'as",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "jamais rien dit.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4066,
+     4076
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Personne ne",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "devait savoir.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4118,
+     4124
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Et là, ça va ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4150,
+     4160
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Là, ça va.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4181,
+     4196
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Comment ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4223,
+     4232
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Les nitrates.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4260,
+     4265
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Les quoi ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4313,
+     4313
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Des molécules",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "naturelles.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4362,
+     4362
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "La betterave",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "en a.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4386,
+     4386
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Mais",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "seulement si",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4421,
+     4425
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "elle est",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "travaillée",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4475,
+     4475
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "à basse",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "température.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4524,
+     4524
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "jamais",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "chauffée.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4556,
+     4556
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "La betterave ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4586,
+     4592
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "La betterave.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4634,
+     4634
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Et ça fait",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "quoi ?",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4717,
+     4717
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "après",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "quarante ans,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4754,
+     4754
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "le corps",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "produit moins",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4803,
+     4803
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "en oxyde",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "nitrique.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4833,
+     4833
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "C'est le",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "signal",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4871,
+     4872
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "qui dit aux",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "vaisseaux :",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4903,
+     4914
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "ouvrez-vous.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4960,
+     4960
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Sans lui,",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "les vaisseaux",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     4994,
+     4994
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "restent",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "serrés,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5143,
+     5143
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Le corps",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "les change",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5191,
+     5213
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "en oxyde",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "nitrique.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5230,
+     5230
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "en oxyde",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "nitrique.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5255,
+     5255
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Les",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "vaisseaux se",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5321,
+     5348
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "détendent",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "à nouveau.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5529,
+     5543
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Je vais en",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "commander.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5604,
+     5604
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Pourquoi ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5664,
+     5664
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tu vas jeter",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "ton argent.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5713,
+     5742
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Moi, j'en ai",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "essayé cinq.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5777,
+     5796
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Un goût",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "de terre.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5831,
+     5835
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Et aucun",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "effet.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5905,
+     5908
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "que c'était",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pareil.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5934,
+     5934
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "La bonne n'est",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     5971,
+     5987
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "jamais",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "chauffée.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6033,
+     6033
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "La poudre",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "bon marché",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6114,
+     6114
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Et la chaleur",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6163,
+     6163
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "détruit les",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "nitrates.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6213,
+     6213
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Il n'en reste",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "presque rien.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6246,
+     6246
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Juste de la",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "poussière",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6269,
+     6270
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "rouge.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6387,
+     6387
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "La plupart",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "des marques",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6428,
+     6441
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "ne s'embêtent",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pas.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6484,
+     6484
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "La basse",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "température,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6534,
+     6534
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "c'est lent",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "et cher.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6570,
+     6573
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Alors elles",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "chauffent",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6636,
+     6636
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "et collent",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "une étiquette.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6701,
+     6701
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Betalia.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6720,
+     6721
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Betalia.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6760,
+     6771
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Le seul que",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "je prends.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6830,
+     6843
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Fait à basse",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "température.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6859,
+     6859
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Mille cent",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6897,
+     6909
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "milligrammes",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "par jour.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     6966,
+     6966
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Avec fer et",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "vitamine C.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     7011,
+     7011
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Deux gélules",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "par jour.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     7038,
+     7044
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "C'est tout.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     7222,
+     7233
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Combien",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "de temps ?",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     7256,
+     7256
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Jusqu'au",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "prochain",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     7285,
+     7285
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "rendez-vous.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     7857,
+     7859
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Ça fait des",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "heures, papa.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     7903,
+     7904
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Même pas",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "fatigué.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8021,
+     8021
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Même pas",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "fatigué.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8054,
+     8054
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Papi, je",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "peux me",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8091,
+     8119
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "mettre au",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "volant ?",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8331,
+     8348
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Douze, huit.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8397,
+     8397
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Vous pouvez",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "répéter ?",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8501,
+     8501
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Vérifié",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "deux fois.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8524,
+     8524
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tout ce",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "que vous",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8565,
+     8570
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "faites en",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "ce moment,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8779,
+     8789
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Tu as réussi ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8824,
+     8831
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "On a réussi.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8849,
+     8849
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "J'aurais dû te",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8884,
+     8897
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "faire",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "confiance.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     8962,
+     8962
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "On ne peut pas",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9145,
+     9145
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Papi, tu",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "m'apprendras",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9173,
+     9191
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "à conduire ?",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9362,
+     9369
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "J'ai failli",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "trop attendre.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9420,
+     9422
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Ne faites pas",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "cette erreur.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9456,
+     9456
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Betalia,",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "l'extrait",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9491,
+     9515
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "de betterave.",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9528,
+     9528
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Mille cent",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9569,
+     9569
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "milligrammes",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "par jour.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9676,
+     9677
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Deux gélules",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "par jour.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9707,
+     9713
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "En ce moment :",
+      "x": 180,
+      "y": 455.0,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9771,
+     9771
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "2 achetées,",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "1 offerte.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9815,
+     9815
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Satisfait",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "ou remboursé",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9863,
+     9872
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "pendant",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "90 jours.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9911,
+     9911
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Lien en",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "dessous.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     9966,
+     9966
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Prenez soin",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "de votre cœur.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     10002,
+     10009
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Pas seulement",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "pour vous.",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   },
+   {
+    "images": [
+     10060,
+     10061
+    ],
+    "rect": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "remplir": [
+     255,
+     255,
+     255
+    ],
+    "lignes": [
+     {
+      "texte": "Pour ceux à qui",
+      "x": 180,
+      "y": 444.9,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     },
+     {
+      "texte": "vous manqueriez,",
+      "x": 180,
+      "y": 465.1,
+      "taille": 16,
+      "graisse": 600,
+      "couleur": [
+       0,
+       0,
+       0
+      ],
+      "ancre": "mm",
+      "police": "DMSans.ttf"
+     }
+    ]
+   }
+  ]
+ },
+ "marque": "Betalia",
+ "produit": "Betalia Extrait de betterave, fer et vitamine C (60 gélules)",
+ "site": "velyzio.com",
+ "offre": "2 achetées + 1 offerte ; satisfait ou remboursé 90 jours (sans se justifier)",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": [
+  "Source PL 337 s, 360x640 30 fps, mini-film IA (mention 'Wygenerowane przez AI' au début).",
+  "Sous-titres type 2 : fixes, blanc sans fond, centrés bas-milieu -> Vmake puis nos sous-titres.",
+  "Textes à l'écran : mention IA (début), cartes de recherche Google ~88-105 s, écran téléphone fiche produit MyBeet ~225-229 s, flacon sur le plan de travail ~238 s, titres DZIEŃ 14/30/60 (~250-272 s), carte de fin 2+1 GRATIS / 90 DNI GWARANCJI / Link poniżej + flacon MyBeet (~330-337 s).",
+  "6 personnages : RICHARD, FEMME, FILS, DOCTEUR, MICHEL (Mirek), PETITFILS. Voix de la pub finale supposée = RICHARD (à confirmer par l'élève).",
+  "Adaptation : Richard accepte le traitement du médecin et ajoute Betalia (pas de refus de médicament) ; pas d'allégation 'la tension baisse' pour le produit ; 'pressé à froid' -> 'obtenu à basse température' (fiche produit Betalia).",
+  "Vmake annoncé : 2 crédits/s x 337 s = 674 crédits."
+ ],
+ "bilan": {
+  "duree_source_s": 337,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 7260,
+  "replicate_appels": 6,
+  "reprises": 21,
+  "problemes": [
+   "Vidéo de 337 s (5 min 37) : un mini-film à 6 personnages au lieu d'une voix unique.",
+   "Pub source : l'homme refuse son traitement contre l'hypertension et le remplace par le complément. Adaptée : il accepte le traitement et ajoute Betalia ; plus de « la tension baisse » pour le produit ; cartes de recherche sans « sans médicaments ».",
+   "« Pressé à froid » remplacé par « obtenu à basse température » (la fiche produit Betalia ne dit pas pressé à froid). « Même pour les boîtes vides » retiré (pas sur la page de l'élève).",
+   "Clonage ElevenLabs bloqué (403 detected_captcha_voice) pour Richard, la femme, le médecin et Michel : voix de bibliothèque choisies par l'élève (David, Loulou, François Louis, HenryD). Fils et petit-fils clonés puis clones supprimés.",
+   "Voix de bibliothèque plus lentes que l'original : 40 répliques raccourcies, vitesse 1,07 ; retard max 0,64 s (L23).",
+   "Replicate : analyse.py en urllib sans User-Agent -> 403 ; demucs sur 337 s bloqué plus de 15 min ; refait en 4 morceaux (429 = 1 prédiction à la fois). Groq aussi transcrit avec en-tête User-Agent.",
+   "Sans Vmake (élève sans crédits) : bandeau blanc fixe 200 px (blocs_fixes.py), sous_titres découpés avec scinder (2 lignes).",
+   "Textes incrustés refaits dans un nouveau src.mp4 (montage_src.py) : mention IA, 7 cartes de recherche, 2 barres avec frappe, 2 écrans de téléphone (flou / texte FR suivi), page produit Betalia collée sur le téléphone (suivi du zoom), JOUR 14/30/60, offre de fin, étiquette du flacon remplacée par la photo Betalia (cuisine et fin).",
+   "Sons non verbaux (soupirs, sanglots) perdus avec la piste voix : controle.py signale 5 petits trous de voix."
+  ]
+ }
+}
