@@ -1,0 +1,10 @@
+OK     :
+  - durée vidéo 207.83 s / source 207.83 s = 100.0 %
+  - phrases plus longues que leur fenêtre : aucune
+  - trous de voix absents de la source : aucun
+ALERTE :
+  - dimensions 1080x1920 ≠ source 720x1280
+  - mots affichés contre voix : 3 écart(s) notable(s) [('ai conseillé à', 'conseill'), ('étaient prêts à', 'pr'), ('mille cent milligrammes', '1100 mg')]
+  - sous-titres de moins de 0,4 s : [('Non,', 0.33)]
+À vérifier à la main (non automatisable) : fidélité de la voix à l'écoute, logo ou texte d'origine sur les micro-plans, qualité des plans remplacés.
+planche : travail/FB1464/controle_planche.jpg
