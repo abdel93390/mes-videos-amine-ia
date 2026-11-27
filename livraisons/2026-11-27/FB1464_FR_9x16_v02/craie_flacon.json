@@ -1,0 +1,541 @@
+{
+ "police": "/tmp/claude-0/-home-user/858404f7-4c3f-5c32-b16a-7b35666394ff/scratchpad/outils/architects-daughter.woff",
+ "mots": [
+  {
+   "plan": [
+    1011,
+    1194
+   ],
+   "rect": [
+    470,
+    498,
+    670,
+    574
+   ],
+   "texte": "+20 ANS"
+  },
+  {
+   "plan": [
+    1195,
+    1355
+   ],
+   "rect": [
+    508,
+    412,
+    652,
+    468
+   ],
+   "texte": "+20 ANS",
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    1944,
+    2104
+   ],
+   "poly": [
+    [
+     490,
+     365
+    ],
+    [
+     675,
+     322
+    ],
+    [
+     680,
+     388
+    ],
+    [
+     495,
+     428
+    ]
+   ],
+   "texte": "À FROID"
+  },
+  {
+   "plan": [
+    1944,
+    2104
+   ],
+   "rect": [
+    262,
+    726,
+    474,
+    790
+   ],
+   "texte": "NITRATES"
+  },
+  {
+   "plan": [
+    2105,
+    2296
+   ],
+   "texte": "À FROID",
+   "poly": [
+    [
+     448,
+     284
+    ],
+    [
+     626,
+     268
+    ],
+    [
+     630,
+     328
+    ],
+    [
+     450,
+     346
+    ]
+   ],
+   "tout": true,
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    2105,
+    2296
+   ],
+   "rect": [
+    512,
+    502,
+    668,
+    553
+   ],
+   "texte": "OXYDE"
+  },
+  {
+   "plan": [
+    2105,
+    2296
+   ],
+   "rect": [
+    525,
+    554,
+    668,
+    607
+   ],
+   "texte": "NITRIQUE"
+  },
+  {
+   "plan": [
+    2105,
+    2296
+   ],
+   "rect": [
+    230,
+    662,
+    426,
+    730
+   ],
+   "texte": "NITRATES",
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    3201,
+    3290
+   ],
+   "rect": [
+    90,
+    565,
+    420,
+    655
+   ],
+   "texte": "QUELQUES",
+   "proteger_lignes": true,
+   "tout": true
+  },
+  {
+   "plan": [
+    3201,
+    3290
+   ],
+   "rect": [
+    90,
+    662,
+    425,
+    760
+   ],
+   "texte": "HEURES",
+   "proteger_lignes": true,
+   "tout": true
+  },
+  {
+   "plan": [
+    3201,
+    3290
+   ],
+   "rect": [
+    85,
+    780,
+    445,
+    890
+   ],
+   "texte": "À FROID",
+   "proteger_lignes": true,
+   "tout": true
+  },
+  {
+   "plan": [
+    3389,
+    3550
+   ],
+   "rect": [
+    35,
+    605,
+    395,
+    682
+   ],
+   "texte": "QUELQUES HEURES",
+   "proteger_lignes": true,
+   "tout": true,
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    3389,
+    3550
+   ],
+   "rect": [
+    45,
+    698,
+    395,
+    775
+   ],
+   "texte": "À FROID",
+   "proteger_lignes": true,
+   "tout": true,
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    3551,
+    3700
+   ],
+   "rect": [
+    48,
+    375,
+    305,
+    435
+   ],
+   "texte": "QUELQUES HEURES",
+   "proteger_lignes": true,
+   "tout": true,
+   "seuil_ligne": 70,
+   "long_ligne": 80,
+   "seuil_craie": 100,
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    3551,
+    3700
+   ],
+   "rect": [
+    55,
+    448,
+    285,
+    508
+   ],
+   "texte": "À FROID",
+   "tout": true,
+   "proteger_lignes": true,
+   "seuil_craie": 100,
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    3551,
+    3700
+   ],
+   "rect": [
+    445,
+    602,
+    670,
+    664
+   ],
+   "texte": "NITRATES",
+   "proteger_lignes": true
+  },
+  {
+   "plan": [
+    3773,
+    3892
+   ],
+   "rect": [
+    318,
+    395,
+    712,
+    500
+   ],
+   "texte": "1 KG = 1 PORTION",
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    4516,
+    4841
+   ],
+   "poly": [
+    [
+     30,
+     788
+    ],
+    [
+     300,
+     726
+    ],
+    [
+     316,
+     868
+    ],
+    [
+     82,
+     915
+    ]
+   ],
+   "texte": "AJOUTE AU\nPANIER",
+   "align": "droite",
+   "angle": -12,
+   "deja_ecrit": true,
+   "echelle": 1.2
+  },
+  {
+   "plan": [
+    4516,
+    4841
+   ],
+   "rect": [
+    345,
+    238,
+    672,
+    306
+   ],
+   "texte": "UNE RÉCOLTE"
+  },
+  {
+   "plan": [
+    4516,
+    4841
+   ],
+   "rect": [
+    448,
+    316,
+    652,
+    382
+   ],
+   "texte": "PAR AN"
+  },
+  {
+   "plan": [
+    4842,
+    4987
+   ],
+   "poly": [
+    [
+     36,
+     780
+    ],
+    [
+     300,
+     722
+    ],
+    [
+     316,
+     850
+    ],
+    [
+     95,
+     898
+    ]
+   ],
+   "texte": "AJOUTE AU\nPANIER",
+   "align": "droite",
+   "angle": -12,
+   "deja_ecrit": true,
+   "echelle": 1.2
+  },
+  {
+   "plan": [
+    3291,
+    3383
+   ],
+   "rect": [
+    90,
+    565,
+    420,
+    655
+   ],
+   "texte": "QUELQUES",
+   "proteger_lignes": true,
+   "tout": true,
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    3291,
+    3383
+   ],
+   "rect": [
+    90,
+    662,
+    425,
+    760
+   ],
+   "texte": "HEURES",
+   "proteger_lignes": true,
+   "tout": true,
+   "deja_ecrit": true
+  },
+  {
+   "plan": [
+    3291,
+    3383
+   ],
+   "rect": [
+    85,
+    780,
+    445,
+    890
+   ],
+   "texte": "À FROID",
+   "proteger_lignes": true,
+   "tout": true
+  }
+ ],
+ "etiquette": {
+  "image": "/tmp/claude-0/-home-user/858404f7-4c3f-5c32-b16a-7b35666394ff/scratchpad/produit/betalia_photo1_corrigee.png",
+  "crop": [
+   225,
+   392,
+   672,
+   887
+  ],
+  "plans": [
+   {
+    "images": [
+     3917,
+     3940
+    ],
+    "x": [
+     303,
+     437
+    ],
+    "hauteur": 162,
+    "hauts": [
+     1220,
+     1192,
+     1164,
+     1134,
+     1104,
+     1074,
+     1042,
+     1010,
+     978,
+     946,
+     914,
+     884,
+     854,
+     826,
+     798,
+     774,
+     748,
+     728,
+     706,
+     688,
+     670,
+     656,
+     646,
+     640
+    ]
+   },
+   {
+    "images": [
+     3941,
+     4016
+    ],
+    "rect": [
+     303,
+     636,
+     437,
+     800
+    ]
+   },
+   {
+    "images": [
+     4017,
+     4084
+    ],
+    "rect": [
+     297,
+     827,
+     414,
+     971
+    ]
+   },
+   {
+    "images": [
+     4085,
+     4242
+    ],
+    "rect": [
+     291,
+     484,
+     423,
+     643
+    ]
+   },
+   {
+    "images": [
+     4240,
+     4329
+    ],
+    "rect": [
+     293,
+     270,
+     420,
+     420
+    ]
+   },
+   {
+    "images": [
+     4330,
+     4515
+    ],
+    "rect": [
+     293,
+     475,
+     422,
+     628
+    ]
+   },
+   {
+    "images": [
+     4516,
+     4841
+    ],
+    "rect": [
+     293,
+     421,
+     425,
+     574
+    ]
+   },
+   {
+    "images": [
+     4842,
+     4987
+    ],
+    "rect": [
+     293,
+     425,
+     425,
+     578
+    ]
+   }
+  ]
+ }
+}
