@@ -12,7 +12,7 @@ Vmake est trop cher pour l'élève (2 crédits par seconde, soit environ 1 000 c
    - Si c'est bon, toute la vidéo, à la place de Vmake :
      `bash /home/user/mes-videos-amine-ia/outils/effaceur/effacer.sh travail/<REF>/src.mp4 travail/<REF>/clean_vmake.mp4 --apercu travail/<REF>/effaceur_avant_apres.jpg`
      puis `python3 amine/scripts/vmake.py travail/<REF> --existant` : il calcule les zones de texte sans appeler Vmake. La suite de la méthode ne change pas.
-   - Durée : environ 7 à 14 fois la durée de la vidéo (8 min → 1 à 2 h). L'annoncer à l'élève. Le premier appel de la session installe les outils (quelques minutes).
+   - Durée : environ 5 à 11 fois la durée de la vidéo (8 min → 40 min à 1 h 30). L'annoncer à l'élève. Le premier appel de la session installe les outils (quelques minutes).
    - S'il répond « AUCUN sous-titre blanc à contour trouvé », ou si l'aperçu montre des restes : ce style de texte n'est pas encore pris en charge. Passer à l'étape 2 ou 3, et noter le cas dans `outils/effaceur/JOURNAL.md`.
    - Dans le `bilan` de la fiche : `"vmake_s": 0` et `"effaceur": "v<numéro>"`.
 2. **Bandeau blanc** (0 crédit) si l'élève est pressé ou si l'effaceur ne convient pas : cacher les sous-titres d'origine sous un bandeau blanc et écrire la traduction en noir dedans.

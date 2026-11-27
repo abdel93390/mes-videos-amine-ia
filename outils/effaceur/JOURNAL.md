@@ -10,6 +10,7 @@ Une entrée par version : ce qui a changé, sur quelle vidéo c'est testé, ce q
 - Bulles « To co? » et « Znowu późny trening? » : le tapis et les chaussons sont plus nets qu'en v2.
 - Reste : quand le texte cache une partie d'un visage (le haut de la banane), LaMa invente des traits, parfois bizarres.
 - Vitesse : 10,9 fois la durée de la vidéo.
+- Vidéo entière (3 min 12 s) : 5752 images sur 5752, texte effacé sur 3509, en 16,9 min (5,3 fois la durée). Ensuite, `vmake.py --existant` accepte le résultat (même nombre d'images, 47 périodes de texte). Barbe, chemise et cœur bien refaits sur l'aperçu.
 
 ## v2 (27/11/2026)
 **Changements :**

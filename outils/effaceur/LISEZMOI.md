@@ -16,7 +16,7 @@ Le premier appel de la session installe les outils dans `~/.cache/effaceur` (que
 
 ## Limites (version 3)
 - Seulement les sous-titres **blancs à contour sombre** : pas encore le texte en couleur, sur rectangle ou en karaoké.
-- Lent : environ 7 à 14 fois la durée de la vidéo, selon la quantité de texte.
+- Lent : environ 5 à 11 fois la durée de la vidéo, selon la quantité de texte.
 - Léger scintillement là où était le texte quand l'image bouge (les nouveaux sous-titres le cachent en grande partie).
 - Quand le texte cache une partie d'un visage, l'effaceur invente les traits cachés : à vérifier sur l'aperçu.
 
