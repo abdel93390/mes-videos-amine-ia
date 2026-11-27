@@ -22,3 +22,32 @@ Ne jamais utiliser ProPainter ni MiniMax-Remover, même via Replicate : leurs li
 
 ## Améliorer l'effaceur
 Quand l'élève signale un défaut (reste de lettre, tache, scintillement, autre style de texte) : corriger `outils/effaceur/` dans ce dépôt, tester sur la vidéo concernée, noter le changement et le test dans `outils/effaceur/JOURNAL.md`, monter le numéro de `VERSION` dans `effacer.py`, puis demander à l'élève l'accord de l'enregistrer sur la branche `main` (sinon les sessions suivantes ne le verront pas).
+
+## Qualité : toujours livrer en 1080x1920, la meilleure version dès la 1re livraison
+L'élève veut directement la meilleure version, sans allers-retours. Livrer en 1080x1920 (vidéo verticale ; pour un autre ratio, côté court à 1080), même si la source est plus petite.
+- Le mieux : rendre directement en 1080. Agrandir la base avant `rendu.py` :
+  `ffmpeg -i travail/<REF>/src.mp4 -vf "hqdn3d=1.5:1.5:0:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.9:3:3:0.0" -c:v libx264 -crf 14 -preset veryfast <dossier 1080>/src.mp4`,
+  mettre `largeur`/`hauteur` à 1080/1920 dans l'`analyse.json` du dossier 1080, multiplier par l'échelle (3 pour une source 360x640) les positions et tailles de la section `rendu` (rect, x, y, taille, largeur, rayon), et refaire en 1080 natif les plans faits à partir de photos. Sous-titres, badges et photos sortent nets.
+- Si ce n'est pas possible (zones Vmake, blocs automatiques…) : agrandir la vidéo finie avec le même filtre, puis `-c:v libx264 -preset slow -crf 18 -maxrate 3400k -bufsize 6800k -profile:v high -pix_fmt yuv420p -c:a copy -movflags +faststart`.
+- Viser moins de 100 Mo : baisser `-maxrate` pour une vidéo longue (environ 1 400k pour 8 min).
+
+## Livraison : la vidéo dans la conversation
+Envoyer la vidéo finie directement dans la conversation (outil d'envoi de fichier) : c'est la livraison principale. L'élève ne veut pas passer par le lien GitHub pour la récupérer.
+
+## Voix : tests avant de tout générer
+- Avant de générer toute la vidéo, faire 2 à 3 phrases de test par voix : le clone d'abord, sinon 2 ou 3 voix de bibliothèque proches. Un fichier par voix, nommé clairement (ex. `voix_A_clone.mp3`), contenant seulement la langue cible (pas d'extrait de la voix d'origine au début). L'élève choisit. Si le clone est bloqué, lui expliquer simplement pourquoi.
+- Une voix clonée parle souvent plus vite qu'un narrateur lent : mesurer le débit sur ces tests et régler la vitesse (0,9 au plus lent) avant de tout générer, sinon il faut refaire des dizaines de phrases.
+
+## Vidéo longue : test gratuit d'abord
+Pour une vidéo de plus de 90 s, proposer d'abord un test gratuit : voix d'origine, sous-titres français dans le bandeau, 0 crédit. Il valide la traduction et le rendu avant de dépenser des crédits ElevenLabs.
+
+## Produit de l'élève : sa fiche et ses photos
+- Lire sa fiche produit (pour une boutique Shopify, `<lien du produit>.json` donne les textes et les photos) et regarder ses photos.
+- Plans qui montrent le produit concurrent : les remplacer par ses photos (recadrage vertical avec zoom lent), en 1080 natif.
+- Ne garder que les arguments vrais pour son produit (composition, dosage, procédé, offre, garantie) : adapter ceux de la source d'après sa fiche, et lui signaler chaque écart.
+
+## Musique de fond : retirée par défaut
+Choix de l'élève : livrer la voix française seule, sans la musique d'origine (`"mix": {"fond": "aucun"}` dans la fiche). Le rappeler en une ligne à l'annonce des coûts (il peut demander de la garder). Les bruitages partent avec la musique. La séparation voix / musique reste utile pour cloner la voix.
+
+## Séparation voix / musique sur une vidéo longue (Replicate)
+`analyse.py` peut recevoir un refus 403 de Replicate à l'envoi, et une séparation demandée en sortie wav peut rester bloquée (12 min sur un fichier de 88 Mo, annulée). Envoyer `full.wav` avec `curl` sur `https://api.replicate.com/v1/files`, créer la prédiction demucs avec `"format": "mp3", "mp3_bitrate": 320` (environ 25 s pour 8 min), puis convertir les deux pistes en wav dans `dm/htdemucs/full/` (`vocals.wav`, `no_vocals.wav`). Vérifier le statut toutes les 10 s et annuler après 2 min en « processing ».
