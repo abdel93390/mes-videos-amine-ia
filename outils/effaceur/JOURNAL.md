@@ -7,7 +7,7 @@ Une entrée par version : ce qui a changé, sur quelle vidéo c'est testé, ce q
 
 **Test :** pub MyBeet en polonais, 85 s, 360x640, sous-titres blancs à contour, animation 3D.
 - Essai sur 10 s : texte effacé sur 279 images sur 300, en 1,2 min (7,3 fois la durée). Décor bien refait (os, sol, escalier).
-- Vidéo entière : voir plus bas.
+- Vidéo entière : 2562 images sur 2562, texte effacé sur 2435, en 10,2 min (7,2 fois la durée). Ensuite, `vmake.py --existant` de la méthode accepte le résultat : même nombre d'images, 13 périodes de texte toutes dans la bande des sous-titres (y 500-556). Petit flou par endroits sur les fonds détaillés.
 
 **Comparé ce jour-là, et non retenu :**
 - Replicate `hjunior29/video-text-remover` (environ 0,015 $) : taches floues visibles.
