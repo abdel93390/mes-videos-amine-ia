@@ -23,7 +23,7 @@ import cv2
 import torch
 from scipy import ndimage
 
-VERSION = 'v3 (27/11/2026)'
+VERSION = 'v4 (27/11/2026)'
 
 
 def probe(f):
@@ -83,7 +83,7 @@ class Detecteur:
         for sl in ndimage.find_objects(lab):
             h = sl[0].stop - sl[0].start
             w = sl[1].stop - sl[1].start
-            if not (self.hmin < h < self.hmax and w > self.wmin):
+            if not (self.hmin < h < self.hmax and w > self.wmin) or w < 1.8 * h:  # une ligne de texte est plus large que haute (écarte les bouts de dessin)
                 continue
             # au moins 3 lettres blanches séparées (écarte les reflets et petits objets blancs)
             lb, nl = ndimage.label(blanc[sl])
@@ -97,7 +97,7 @@ class Detecteur:
             anneau = np.ones((B - A, D - C), bool)
             anneau[max(0, sl[0].start - r1) - A:min(B, sl[0].stop + r1) - A,
                    max(0, sl[1].start - r1) - C:min(D, sl[1].stop + r1) - C] = False
-            if anneau.any() and (a[A:B, C:D].max(2)[anneau] < 35).mean() > 0.6:
+            if anneau.any() and (a[A:B, C:D].max(2)[anneau] < 20).mean() > 0.6:  # < 20 : noir pur (un tableau noir à la craie fait 30-60)
                 continue
             out.append((sl[0].start + y0, sl[0].stop + y0, sl[1].start, sl[1].stop))
         return out

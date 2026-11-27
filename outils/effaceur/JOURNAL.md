@@ -2,6 +2,14 @@
 
 Une entrée par version : ce qui a changé, sur quelle vidéo c'est testé, ce qui reste à faire.
 
+## v4 (27/11/2026)
+**Cas :** pub MyBeet 1, animation à la craie sur un tableau noir (3 min 11 s, 360x640). Les dessins à la craie sont blancs sur fond sombre, comme le texte.
+**Changements :**
+- Le filtre « texte sur du noir pur » regarde maintenant le vrai noir (< 20) au lieu de < 35. Sur le tableau (30 à 60), le contour sombre des sous-titres faisait écarter de vrais sous-titres (« Z wiekiem », « się niszczy »). Le carton noir de MyBeet 2 reste écarté.
+- Une ligne de texte doit être au moins 1,8 fois plus large que haute : ça écarte des bouts de dessin.
+- **Sur une vidéo dessinée (craie, tableau, croquis), toujours utiliser `--bande`** autour des sous-titres. Sans ça, des morceaux de dessin sont pris pour du texte. Ici : `--bande 425 495`.
+**Test :** essai de 10 s, texte effacé sur 300 images sur 300, en 1,3 min (8 fois la durée). Les dessins à la craie restent intacts.
+
 ## v3 (27/11/2026)
 **Changement :** masque **serré**. Au lieu d'effacer tout le rectangle autour du texte, l'effaceur n'efface plus que les lettres, leur contour et leur ombre (5 px autour du blanc). Le vrai décor entre les lettres et autour reste intact, et LaMa a beaucoup moins à inventer : **nettement moins de flou**. L'ancien mode reste disponible avec `--rectangles`.
 
