@@ -2,6 +2,15 @@
 
 Une entrée par version : ce qui a changé, sur quelle vidéo c'est testé, ce qui reste à faire.
 
+## v3 (27/11/2026)
+**Changement :** masque **serré**. Au lieu d'effacer tout le rectangle autour du texte, l'effaceur n'efface plus que les lettres, leur contour et leur ombre (5 px autour du blanc). Le vrai décor entre les lettres et autour reste intact, et LaMa a beaucoup moins à inventer : **nettement moins de flou**. L'ancien mode reste disponible avec `--rectangles`.
+
+**Test :** MyBeet 2, 10 premières secondes, comparé à la v2 en gros plan (zoom x2).
+- Titre d'accroche sur la banane et la fenêtre : la texture (pluie sur la vitre, peau de la banane) est gardée, alors que la v2 lissait tout. Avec 4 px autour des lettres, il restait des petits points sombres (contour des lettres) ; à 5 px, il n'en reste presque plus.
+- Bulles « To co? » et « Znowu późny trening? » : le tapis et les chaussons sont plus nets qu'en v2.
+- Reste : quand le texte cache une partie d'un visage (le haut de la banane), LaMa invente des traits, parfois bizarres.
+- Vitesse : 10,9 fois la durée de la vidéo.
+
 ## v2 (27/11/2026)
 **Changements :**
 - Le texte est cherché **dans toute l'image**, plus seulement dans une bande : ça couvre les titres en haut et les bulles de dialogue placées près des personnages. `--bande` permet encore de limiter la recherche.

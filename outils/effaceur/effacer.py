@@ -13,6 +13,7 @@ Usage :
   --apercu : image avant/après de quelques moments, à regarder avant de continuer
   --masque : enregistre le masque du texte trouvé (pour vérifier le repérage)
   --largeur-max : la zone envoyée à LaMa est réduite à cette largeur au plus (vitesse) ; 0 = taille réelle
+  --rectangles : efface tout le rectangle autour du texte (ancien mode, plus flou) au lieu des seules lettres
 La sortie a exactement les mêmes images, la même cadence et le même son que l'entrée :
 avec la méthode, l'écrire en travail/<REF>/clean_vmake.mp4 puis lancer vmake.py <dossier> --existant.
 """
@@ -22,7 +23,7 @@ import cv2
 import torch
 from scipy import ndimage
 
-VERSION = 'v2 (27/11/2026)'
+VERSION = 'v3 (27/11/2026)'
 
 
 def probe(f):
@@ -63,6 +64,9 @@ class Detecteur:
         self.hmin, self.hmax, self.wmin = 8 * s, 80 * s, 12 * s
         self.my, self.mx = round(5 * s), round(6 * s)
         self.lettre = max(3, round(3 * s * s))
+        r = max(2, round(5 * s))  # couvre le contour et l'ombre des lettres
+        self.k_serre = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * r + 1, 2 * r + 1))
+        self.rectangles = False
 
     def boites(self, img, y0=0, y1=None):
         a = img[y0:y1].astype(np.int16)
@@ -99,11 +103,20 @@ class Detecteur:
         return out
 
     def masque(self, img, y0, y1):
+        """Masque serré : seulement les lettres, leur contour et leur ombre (le décor entre les lettres reste vrai).
+        Avec rectangles=True : tout le rectangle autour du texte (v1/v2, plus flou)."""
         H, W = img.shape[:2]
-        m = np.zeros((H, W), bool)
+        m = np.zeros((H, W), np.uint8)
         for a, b, c, d in self.boites(img, y0, y1):
-            m[max(0, a - self.my):b + self.my, max(0, c - self.mx):d + self.mx] = True
-        return m
+            A, B = max(0, a - self.my), min(H, b + self.my)
+            C, D = max(0, c - self.mx), min(W, d + self.mx)
+            if self.rectangles:
+                m[A:B, C:D] = 1
+                continue
+            r = img[A:B, C:D].astype(np.int16)
+            lettres = (r.min(2) > 170) & ((r.max(2) - r.min(2)) < 40)  # blanc et bords adoucis des lettres
+            m[A:B, C:D] |= cv2.dilate(lettres.astype(np.uint8), self.k_serre)
+        return m > 0
 
 
 def reperer(f, W, H, det, duree, y0, y1):
@@ -130,6 +143,7 @@ def main():
     ap.add_argument('--masque')
     ap.add_argument('--largeur-max', type=int, default=480)
     ap.add_argument('--fils', type=int, default=0, help='threads CPU (0 = tous)')
+    ap.add_argument('--rectangles', action='store_true', help='effacer tout le rectangle autour du texte (ancien mode, plus flou)')
     o = ap.parse_args()
     t0 = time.time()
     if o.fils:
@@ -138,6 +152,7 @@ def main():
     if o.duree:
         N = min(N, int(round(o.duree * fps)))
     det = Detecteur(W, H)
+    det.rectangles = o.rectangles
     print(f'effaceur {VERSION} : {W}x{H}, {N} images, {N / fps:.0f} s', flush=True)
 
     y0, y1 = o.bande if o.bande else (0, H)
@@ -151,7 +166,7 @@ def main():
 
     model = torch.jit.load(o.modele, map_location='cpu').eval()
     ctx = round(40 * det.s)
-    k_dil = np.ones((max(3, round(5 * det.s)),) * 2, np.uint8)
+    k_dil = np.ones((max(3, round(3 * det.s)),) * 2, np.uint8)
     k_groupe = np.ones((2 * ctx + 1, 2 * ctx + 1), np.uint8)
 
     cmd = ['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', FPS, '-i', '-']
