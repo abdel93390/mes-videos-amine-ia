@@ -1,0 +1,11 @@
+OK     :
+  - format 1080x1920 identique à la source
+  - durée vidéo 191.73 s / source 191.73 s = 100.0 %
+  - mots affichés contre voix : 0 écart(s) notable(s)
+  -   (6 petit(s) écart(s) de graphie ou de transcription)
+  - sous-titres de moins de 0,4 s : aucun
+  - phrases plus longues que leur fenêtre : aucune
+ALERTE :
+  - trous de voix absents de la source : S19→S21 55.8-63.0 s (source parle 1.1 s), S24→S26 76.5-78.3 s (source parle 1.7 s), S27→S28 84.5-86.5 s (source parle 1.2 s), S29→S30 94.9-95.9 s (source parle 1.0 s), S30→S31 98.0-99.0 s (source parle 1.0 s), S50→S52 178.8-180.0 s (source parle 1.1 s)
+À vérifier à la main (non automatisable) : fidélité de la voix à l'écoute, logo ou texte d'origine sur les micro-plans, qualité des plans remplacés.
+planche : travail/MB2/controle_planche.jpg

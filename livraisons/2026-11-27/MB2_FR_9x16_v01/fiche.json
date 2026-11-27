@@ -1,0 +1,698 @@
+{
+ "ref": "MB2",
+ "langue_source": "pl",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "X9bakM4gCk6SmEIM2Nw9",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "S1",
+   "texte": "Alors, demain même heure ?",
+   "debut": 0.06,
+   "fin_fenetre": 3.75,
+   "perso": "coach"
+  },
+  {
+   "id": "S2",
+   "texte": "On verra.",
+   "debut": 3.8,
+   "fin_fenetre": 8.61,
+   "perso": "femme"
+  },
+  {
+   "id": "S3",
+   "texte": "Encore un entraînement tard ?",
+   "debut": 8.66,
+   "fin_fenetre": 10.57,
+   "perso": "mari"
+  },
+  {
+   "id": "S4",
+   "texte": "Le coach dit que je progresse.",
+   "debut": 10.62,
+   "fin_fenetre": 12.63,
+   "perso": "femme"
+  },
+  {
+   "id": "S5",
+   "texte": "Ce n'est pas ma question.",
+   "debut": 12.68,
+   "fin_fenetre": 14.43,
+   "perso": "mari"
+  },
+  {
+   "id": "S6",
+   "texte": "Je suis fatiguée.",
+   "debut": 14.48,
+   "fin_fenetre": 20.39,
+   "perso": "femme"
+  },
+  {
+   "id": "S7",
+   "texte": "Tu viens te coucher ?",
+   "debut": 20.44,
+   "fin_fenetre": 22.27,
+   "perso": "femme"
+  },
+  {
+   "id": "S8",
+   "texte": "Laisse-moi reprendre mon souffle.",
+   "debut": 22.32,
+   "fin_fenetre": 27.05,
+   "perso": "mari"
+  },
+  {
+   "id": "S9",
+   "texte": "Désolé.",
+   "debut": 27.1,
+   "fin_fenetre": 28.2,
+   "perso": "mari"
+  },
+  {
+   "id": "S10",
+   "texte": "C'est rien.",
+   "debut": 27.84,
+   "fin_fenetre": 29.13,
+   "perso": "femme"
+  },
+  {
+   "id": "S11",
+   "texte": "Ne fais pas semblant.",
+   "debut": 29.18,
+   "fin_fenetre": 38.53,
+   "perso": "mari"
+  },
+  {
+   "id": "S12",
+   "texte": "Encore le cœur ?",
+   "debut": 38.58,
+   "fin_fenetre": 40.31,
+   "perso": "ami"
+  },
+  {
+   "id": "S13",
+   "texte": "Un seul étage d'escalier.",
+   "debut": 40.36,
+   "fin_fenetre": 42.33,
+   "perso": "mari"
+  },
+  {
+   "id": "S14",
+   "texte": "J'ai eu la même chose.",
+   "debut": 42.38,
+   "fin_fenetre": 43.95,
+   "perso": "ami"
+  },
+  {
+   "id": "S15",
+   "texte": "Alors tu sais ce que ça fait au lit ?",
+   "debut": 44.0,
+   "fin_fenetre": 46.11,
+   "perso": "mari"
+  },
+  {
+   "id": "S16",
+   "texte": "Deux ans, rien.",
+   "debut": 46.16,
+   "fin_fenetre": 50.65,
+   "perso": "ami"
+  },
+  {
+   "id": "S17",
+   "texte": "C'est quoi ?",
+   "debut": 50.7,
+   "fin_fenetre": 51.89,
+   "perso": "mari"
+  },
+  {
+   "id": "S18",
+   "texte": "MyBeet.",
+   "debut": 51.94,
+   "fin_fenetre": 53.19,
+   "perso": "ami"
+  },
+  {
+   "id": "S19",
+   "texte": "De la betterave pressée à froid. Jamais chauffée.",
+   "debut": 53.24,
+   "fin_fenetre": 62.93,
+   "perso": "ami"
+  },
+  {
+   "id": "S21",
+   "texte": "Les vaisseaux, là en bas, sont les plus petits de tout le corps.",
+   "debut": 62.98,
+   "fin_fenetre": 66.97,
+   "perso": "ami"
+  },
+  {
+   "id": "S22",
+   "texte": "Ce sont les premiers à ne plus s'ouvrir.",
+   "debut": 67.02,
+   "fin_fenetre": 69.79,
+   "perso": "ami"
+  },
+  {
+   "id": "S23",
+   "texte": "Avec l'âge, le corps fabrique trop peu d'oxyde nitrique.",
+   "debut": 69.84,
+   "fin_fenetre": 74.13,
+   "perso": "ami"
+  },
+  {
+   "id": "S24",
+   "texte": "C'est le signal pour les vaisseaux : ouvrez-vous.",
+   "debut": 74.18,
+   "fin_fenetre": 78.23,
+   "perso": "ami"
+  },
+  {
+   "id": "S26",
+   "texte": "Chaque année, il y en a moins.",
+   "debut": 78.28,
+   "fin_fenetre": 80.73,
+   "perso": "ami"
+  },
+  {
+   "id": "S27",
+   "texte": "Les mêmes vaisseaux où ton cœur doit pousser le sang dans l'escalier.",
+   "debut": 80.78,
+   "fin_fenetre": 86.45,
+   "perso": "ami"
+  },
+  {
+   "id": "S28",
+   "texte": "Les nitrates de betterave, le corps les transforme en oxyde nitrique.",
+   "debut": 86.5,
+   "fin_fenetre": 91.01,
+   "perso": "ami"
+  },
+  {
+   "id": "S29",
+   "texte": "Les vaisseaux se rouvrent, et le sang circule à nouveau.",
+   "debut": 91.6,
+   "fin_fenetre": 95.85,
+   "perso": "ami"
+  },
+  {
+   "id": "S30",
+   "texte": "1100 milligrammes par dose.",
+   "debut": 95.9,
+   "fin_fenetre": 98.99,
+   "perso": "ami"
+  },
+  {
+   "id": "S31",
+   "texte": "Avec du fer et de la vitamine C.",
+   "debut": 99.04,
+   "fin_fenetre": 101.87,
+   "perso": "ami"
+  },
+  {
+   "id": "S32",
+   "texte": "Deux gélules chaque matin.",
+   "debut": 101.92,
+   "fin_fenetre": 105.01,
+   "perso": "ami"
+  },
+  {
+   "id": "S33",
+   "texte": "Et la première semaine ?",
+   "debut": 105.06,
+   "fin_fenetre": 107.11,
+   "perso": "mari"
+  },
+  {
+   "id": "S34",
+   "texte": "Plus de pause au milieu de l'escalier.",
+   "debut": 107.16,
+   "fin_fenetre": 109.57,
+   "perso": "ami"
+  },
+  {
+   "id": "S35",
+   "texte": "Au bout de deux mois, je suivais à nouveau ma femme.",
+   "debut": 109.62,
+   "fin_fenetre": 113.13,
+   "perso": "ami"
+  },
+  {
+   "id": "S36",
+   "texte": "J'en prends encore aujourd'hui.",
+   "debut": 113.18,
+   "fin_fenetre": 114.77,
+   "perso": "ami"
+  },
+  {
+   "id": "S37",
+   "texte": "Sérieux ?",
+   "debut": 114.94,
+   "fin_fenetre": 115.4,
+   "perso": "mari"
+  },
+  {
+   "id": "S38",
+   "texte": "Demande à ma femme.",
+   "debut": 115.78,
+   "fin_fenetre": 145.05,
+   "perso": "ami"
+  },
+  {
+   "id": "S39",
+   "texte": "Qu'est-ce que tu fais ?",
+   "debut": 145.1,
+   "fin_fenetre": 146.53,
+   "perso": "femme"
+  },
+  {
+   "id": "S40",
+   "texte": "Je pars.",
+   "debut": 146.58,
+   "fin_fenetre": 147.67,
+   "perso": "mari"
+  },
+  {
+   "id": "S41",
+   "texte": "Pour une seule mauvaise année ?",
+   "debut": 147.72,
+   "fin_fenetre": 149.43,
+   "perso": "femme"
+  },
+  {
+   "id": "S42",
+   "texte": "Je sais ce qu'étaient tes entraînements.",
+   "debut": 149.48,
+   "fin_fenetre": 151.73,
+   "perso": "mari"
+  },
+  {
+   "id": "S43",
+   "texte": "Je suis resté, je croyais que c'était moi le problème.",
+   "debut": 151.78,
+   "fin_fenetre": 157.01,
+   "perso": "mari"
+  },
+  {
+   "id": "S44",
+   "texte": "Je ne le crois plus.",
+   "debut": 157.06,
+   "fin_fenetre": 162.09,
+   "perso": "mari"
+  },
+  {
+   "id": "S45",
+   "texte": "C'est pris ?",
+   "debut": 162.14,
+   "fin_fenetre": 163.31,
+   "perso": "bar"
+  },
+  {
+   "id": "S46",
+   "texte": "Plus maintenant.",
+   "debut": 163.36,
+   "fin_fenetre": 167.45,
+   "perso": "mari"
+  },
+  {
+   "id": "S47",
+   "texte": "Ne laisse pas des vaisseaux rétrécis décider de ce qui se passe dans ta chambre.",
+   "debut": 167.5,
+   "fin_fenetre": 172.11,
+   "perso": "voix_fin"
+  },
+  {
+   "id": "S48",
+   "texte": "MyBeet. Extrait de betterave pressée à froid.",
+   "debut": 172.16,
+   "fin_fenetre": 175.73,
+   "perso": "voix_fin"
+  },
+  {
+   "id": "S50",
+   "texte": "1100 milligrammes par dose, fer et vitamine C.",
+   "debut": 175.78,
+   "fin_fenetre": 179.97,
+   "perso": "voix_fin"
+  },
+  {
+   "id": "S52",
+   "texte": "Deux gélules chaque matin.",
+   "debut": 180.02,
+   "fin_fenetre": 182.11,
+   "perso": "voix_fin"
+  },
+  {
+   "id": "S53",
+   "texte": "En ce moment : 2 achetés, le 3e offert.",
+   "debut": 182.16,
+   "fin_fenetre": 185.25,
+   "perso": "voix_fin"
+  },
+  {
+   "id": "S54",
+   "texte": "90 jours satisfait ou remboursé, même pour les boîtes vides.",
+   "debut": 185.3,
+   "fin_fenetre": 189.59,
+   "perso": "voix_fin"
+  },
+  {
+   "id": "S55",
+   "texte": "Le lien est juste en dessous.",
+   "debut": 189.64,
+   "fin_fenetre": 191.74,
+   "perso": "voix_fin"
+  }
+ ],
+ "mix": {
+  "fond": "musique"
+ },
+ "rendu": {
+  "encodeur": "x264",
+  "crf": 20,
+  "zones_vmake": {
+   "mode": "auto",
+   "marge": 30
+  },
+  "patches": [
+   {
+    "images": [
+     3976,
+     4028
+    ],
+    "rect": [
+     120,
+     870,
+     960,
+     1050
+    ],
+    "remplir": [
+     0,
+     0,
+     0
+    ],
+    "lignes": []
+   },
+   {
+    "images": [
+     5626,
+     5751
+    ],
+    "rect": [
+     150,
+     190,
+     930,
+     440
+    ],
+    "remplir": "interp",
+    "lignes": []
+   },
+   {
+    "images": [
+     5650,
+     5751
+    ],
+    "rect": [
+     300,
+     1560,
+     780,
+     1680
+    ],
+    "remplir": "interp",
+    "lignes": []
+   }
+  ],
+  "textes": [
+   {
+    "images": [
+     5,
+     220
+    ],
+    "lignes": [
+     "LE PIRE CAUCHEMAR",
+     "DE TOUT HOMME",
+     "QUI N'Y ARRIVE PLUS",
+     "AU LIT"
+    ],
+    "y": 384,
+    "taille": 58,
+    "graisse": 600,
+    "couleur": [
+     255,
+     255,
+     255
+    ],
+    "couleur_ombre": [
+     0,
+     0,
+     0
+    ],
+    "decalage": [
+     0,
+     2
+    ],
+    "flou": 1.5,
+    "trait": 4,
+    "interligne": 1.2,
+    "largeur": 760
+   },
+   {
+    "images": [
+     3980,
+     4024
+    ],
+    "lignes": [
+     "UN MOIS PLUS TARD"
+    ],
+    "y": 958,
+    "taille": 64,
+    "graisse": 500,
+    "couleur": [
+     255,
+     255,
+     255
+    ],
+    "couleur_ombre": [
+     0,
+     0,
+     0
+    ],
+    "decalage": [
+     0,
+     0
+    ],
+    "flou": 0.5,
+    "trait": 0,
+    "largeur": 800
+   },
+   {
+    "images": [
+     5628,
+     5751
+    ],
+    "lignes": [
+     "2+1 OFFERT"
+    ],
+    "y": 262,
+    "taille": 120,
+    "graisse": 800,
+    "couleur": [
+     226,
+     24,
+     66
+    ],
+    "couleur_ombre": [
+     255,
+     255,
+     255
+    ],
+    "decalage": [
+     0,
+     0
+    ],
+    "flou": 0.6,
+    "trait": 6,
+    "largeur": 740
+   },
+   {
+    "images": [
+     5628,
+     5751
+    ],
+    "lignes": [
+     "90 JOURS DE GARANTIE"
+    ],
+    "y": 362,
+    "taille": 56,
+    "graisse": 800,
+    "couleur": [
+     255,
+     255,
+     255
+    ],
+    "couleur_ombre": [
+     40,
+     0,
+     12
+    ],
+    "decalage": [
+     0,
+     2
+    ],
+    "flou": 1.2,
+    "trait": 4,
+    "largeur": 780
+   },
+   {
+    "images": [
+     5652,
+     5751
+    ],
+    "lignes": [
+     "Lien ci-dessous"
+    ],
+    "y": 1617,
+    "taille": 64,
+    "graisse": 800,
+    "couleur": [
+     255,
+     214,
+     0
+    ],
+    "couleur_ombre": [
+     0,
+     0,
+     0
+    ],
+    "decalage": [
+     0,
+     2
+    ],
+    "flou": 1.5,
+    "trait": 3,
+    "largeur": 560
+   }
+  ],
+  "sous_titres": {
+   "mode": "phrase",
+   "y": 1356,
+   "taille": 52,
+   "graisse": 700,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    2,
+    3
+   ],
+   "flou": 1.5,
+   "trait": 4,
+   "max_car_ligne": 26,
+   "interligne": 1.2,
+   "largeur": 900,
+   "scinder": {
+    "S19": [
+     "De la betterave pressée à froid.",
+     "Jamais chauffée."
+    ],
+    "S21": [
+     "Les vaisseaux, là en bas,",
+     "sont les plus petits de tout le corps."
+    ],
+    "S23": [
+     "Avec l'âge, le corps fabrique",
+     "trop peu d'oxyde nitrique."
+    ],
+    "S24": [
+     "C'est le signal pour les vaisseaux :",
+     "ouvrez-vous."
+    ],
+    "S27": [
+     "Les mêmes vaisseaux où ton cœur",
+     "doit pousser le sang dans l'escalier."
+    ],
+    "S28": [
+     "Les nitrates de betterave,",
+     "le corps les transforme en oxyde nitrique."
+    ],
+    "S29": [
+     "Les vaisseaux se rouvrent,",
+     "et le sang circule à nouveau."
+    ],
+    "S35": [
+     "Au bout de deux mois,",
+     "je suivais à nouveau ma femme."
+    ],
+    "S43": [
+     "Je suis resté,",
+     "je croyais que c'était moi le problème."
+    ],
+    "S47": [
+     "Ne laisse pas des vaisseaux rétrécis",
+     "décider de ce qui se passe dans ta chambre."
+    ],
+    "S48": [
+     "MyBeet.",
+     "Extrait de betterave pressée à froid."
+    ],
+    "S50": [
+     "1100 milligrammes par dose,",
+     "fer et vitamine C."
+    ],
+    "S54": [
+     "90 jours satisfait ou remboursé,",
+     "même pour les boîtes vides."
+    ]
+   }
+  }
+ },
+ "marque": "MyBeet",
+ "produit": "Extrait de betterave pressée à froid",
+ "site": "",
+ "offre": "celle de la source : 2 achetés + 1 offert, 90 jours satisfait ou remboursé",
+ "controle": {
+  "sans_voix": [
+   "LE PIRE CAUCHEMAR",
+   "DE TOUT HOMME",
+   "QUI N'Y ARRIVE PLUS",
+   "AU LIT",
+   "UN MOIS PLUS TARD",
+   "2+1 OFFERT",
+   "90 JOURS DE GARANTIE",
+   "Lien ci-dessous"
+  ]
+ },
+ "personnages": {
+  "mari": "X9bakM4gCk6SmEIM2Nw9",
+  "femme": "b4VdU5V2zRR95VFextkO",
+  "ami": "DQqKOyoKkrQg06QLlvzP",
+  "voix_fin": "4UxFTC0SmD3Q783uW92Q",
+  "coach": "1EmYoP3UnnnwhlJKovEy",
+  "bar": "sANWqF1bCMzR6eyZbCGw"
+ },
+ "notes": "Diagnostic : type 3 (sous-titres et bulles de dialogue blancs à contour, placés à des endroits variés, sans fond) + titre d'accroche en haut (images 5-226), carton noir « MIESIĄC PÓŹNIEJ » (3978-4026), carte de fin colorée (2+1 GRATIS rouge, 90 DNI GWARANCJI, Link poniżej jaune, 5628-5751). Effacement : effaceur gratuit de l'élève (outils/effaceur v3) à la place de Vmake, 0 crédit. Base agrandie en 1080x1920 avant le rendu (règle de l'élève). 6 voix : 4 clones (mari, femme, vieil ami, voix de fin, supprimés après génération), coach = Anthony_vendeur, femme du bar = Marie FR.",
+ "bilan": {
+  "duree_source_s": 191.7,
+  "vmake_s": 0,
+  "effaceur": "v3",
+  "caracteres_elevenlabs": 1703,
+  "replicate_appels": 1,
+  "reprises": 4,
+  "problemes": [
+   "Séparation voix/musique : envoi Replicate de analyse.py refusé (HTTP 403), refaite avec curl en sortie mp3",
+   "S45 « C'est pris ? » entendu « ses prix » par la réécoute (homophone) : 2 reprises inutiles",
+   "Base agrandie en 1080x1920 (règle de l'élève) : premier rendu à 117 Mo, au-dessus de la limite GitHub, refait en crf 20 (89 Mo)",
+   "Phrases longues en mode phrase écrites en petit : coupées avec sous_titres.scinder",
+   "Coach et femme du bar : répliques trop courtes pour un clone, voix de bibliothèque (Anthony_vendeur, Marie FR)"
+  ]
+ }
+}
