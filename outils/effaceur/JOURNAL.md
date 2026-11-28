@@ -20,3 +20,6 @@ Une entrée par version : ce qui a changé, sur quelle vidéo c'est testé, ce q
 - Moins de scintillement dans la zone effacée quand l'image bouge.
 - Texte en couleur, texte sur rectangle, karaoké.
 - Plus de vitesse : sauter les images presque identiques.
+
+## Vérification de v1 sur une vidéo longue (28/11/2026, MB1470, 4 min 19, 3D réaliste, 360x640)
+Vidéo entière : texte effacé sur 4 013 images sur 7 782 en 21 min (4,9 fois la durée). `verifier.py` (nouveau) : netteté de la zone effacée / décor = 1,05 en médiane, 0,86 pour les 5 % les plus bas ; pires à 0,6 (pull rouge à flocons, 0:16) invisibles à l'œil en gros plan ; aucun reste de lettre sur 3 765 images. Pas besoin du bandeau blanc sur cette vidéo.
