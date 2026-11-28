@@ -21,5 +21,5 @@ Licence : Real-ESRGAN, BSD-3 (usage commercial autorisé, donc les pubs). Modèl
 - Traiter 2 images à la fois n'accélère pas (essayé : plus lent).
 
 ## Pièges
-- Ne pas recompresser plusieurs fois : sur MYBEET, la compression finale à 98 Mo (1,45 Mbit/s pour 8 min en 1080) faisait perdre 15 % de netteté, plus que l'agrandissement lui-même. Viser environ 200 Mo pour 8 min, envoyés dans la conversation (pas GitHub, limité à 100 Mo).
+- Ne pas recompresser plusieurs fois : sur MYBEET, la compression finale à 98 Mo (1,45 Mbit/s pour 8 min en 1080) faisait perdre 15 % de netteté, plus que l'agrandissement lui-même. Compter environ 300 Mo pour 8 min avec l'IA (crf 20), envoyés dans la conversation (pas GitHub, limité à 100 Mo).
 - Le débruitage `hqdn3d` de la méthode 1080 simple efface un peu de texture : inutile avec l'IA.
