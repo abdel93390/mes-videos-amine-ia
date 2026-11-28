@@ -1,0 +1,1507 @@
+{
+ "ref": "MYBEET",
+ "langue_source": "pl",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "fEtpdogpDkBrq53KdupV",
+  "repli_id": "",
+  "vitesse_max": 1.07,
+  "par_perso": {
+   "RICHARD": "hIssydxXZ1WuDorjx6Ic",
+   "FEMME": "fEfGdiGJK4l3imI70mtC",
+   "DOCTEUR": "Z6MFfMERmI58ceI7QWR9",
+   "MICHEL": "DlGWdEX7Evop6Ak6fseo",
+   "FILS": "zltPeTJnYU8b7T33Ln6r",
+   "PETITFILS": "10NET9U4THYa3GDjZi0w"
+  },
+  "noms": {
+   "RICHARD": "Adam - Serious, Rich, and Smoky (bibliothèque, voix proche de l'original)",
+   "FEMME": "Magdalena - Warm, Low-Pitched and Lively",
+   "DOCTEUR": "Luke - Epic and Smooth",
+   "MICHEL": "Rafał - Narrative, Audiobook, Podcast",
+   "FILS": "Ian - Warm and Dynamic Narrator",
+   "PETITFILS": "clone MYBEET Betalia PETITFILS clone"
+  }
+ },
+ "lignes": [
+  {
+   "id": "L1",
+   "perso": "FILS",
+   "texte": "Papa ?",
+   "debut": 4.17,
+   "fin_fenetre": 7.93,
+   "debut_src": 4.25,
+   "ton": "calling out, worried"
+  },
+  {
+   "id": "L2",
+   "perso": "FILS",
+   "texte": "Papa ! Qu'est-ce qui se passe ?",
+   "debut": 7.676,
+   "fin_fenetre": 9.87,
+   "debut_src": 7.98,
+   "ton": "shouting, panicked"
+  },
+  {
+   "id": "L3",
+   "perso": "RICHARD",
+   "texte": "Rien. On étouffe, là-dessous.",
+   "debut": 9.656,
+   "fin_fenetre": 12.73,
+   "debut_src": 9.92,
+   "ton": "out of breath, groaning"
+  },
+  {
+   "id": "L4",
+   "perso": "FILS",
+   "texte": "Papa, regarde-moi.",
+   "debut": 12.626,
+   "fin_fenetre": 14.67,
+   "debut_src": 12.78,
+   "ton": "worried, insistent"
+  },
+  {
+   "id": "L5",
+   "perso": "RICHARD",
+   "texte": "J'ai dit que ça allait.",
+   "debut": 14.48,
+   "fin_fenetre": 17.35,
+   "debut_src": 14.72,
+   "ton": "annoyed, tired"
+  },
+  {
+   "id": "L6",
+   "perso": "FEMME",
+   "texte": "Assieds-toi.",
+   "debut": 17.32,
+   "fin_fenetre": 19.45,
+   "debut_src": 17.4,
+   "ton": "serious"
+  },
+  {
+   "id": "L7",
+   "perso": "RICHARD",
+   "texte": "Je sais ce que tu vas dire.",
+   "debut": 19.178,
+   "fin_fenetre": 21.17,
+   "debut_src": 19.5,
+   "ton": "sighs"
+  },
+  {
+   "id": "L8",
+   "perso": "FEMME",
+   "texte": "Assieds-toi.",
+   "debut": 21.18,
+   "fin_fenetre": 26.09,
+   "debut_src": 21.22,
+   "ton": "firmly"
+  },
+  {
+   "id": "L9",
+   "perso": "FEMME",
+   "texte": "Il m'a appelée.",
+   "debut": 25.9,
+   "fin_fenetre": 27.95,
+   "debut_src": 26.14,
+   "ton": "upset, trembling voice"
+  },
+  {
+   "id": "L10",
+   "perso": "RICHARD",
+   "texte": "Il n'aurait pas dû.",
+   "debut": 27.84,
+   "fin_fenetre": 29.43,
+   "debut_src": 28.0,
+   "ton": "defensive"
+  },
+  {
+   "id": "L11",
+   "perso": "FEMME",
+   "texte": "Il pleurait.",
+   "debut": 29.266,
+   "fin_fenetre": 30.37,
+   "debut_src": 29.48,
+   "ton": "voice breaking"
+  },
+  {
+   "id": "L12",
+   "perso": "RICHARD",
+   "texte": "Quoi ?",
+   "debut": 30.754,
+   "fin_fenetre": 31.61,
+   "debut_src": 30.42,
+   "ton": "surprised"
+  },
+  {
+   "id": "L13",
+   "perso": "FEMME",
+   "texte": "Notre fils de 32 ans a pleuré. Il a peur de te perdre.",
+   "debut": 31.614,
+   "fin_fenetre": 36.11,
+   "debut_src": 31.66,
+   "ton": "holding back tears"
+  },
+  {
+   "id": "L14",
+   "perso": "RICHARD",
+   "texte": "Je ne vais nulle part.",
+   "debut": 36.184,
+   "fin_fenetre": 37.91,
+   "debut_src": 36.16,
+   "ton": "quietly, defensive"
+  },
+  {
+   "id": "L15",
+   "perso": "FEMME",
+   "texte": "Ton père disait pareil.",
+   "debut": 37.764,
+   "fin_fenetre": 40.03,
+   "debut_src": 37.96,
+   "ton": "sadly"
+  },
+  {
+   "id": "L16",
+   "perso": "RICHARD",
+   "texte": "Non.",
+   "debut": 39.824,
+   "fin_fenetre": 41.05,
+   "debut_src": 40.08,
+   "ton": "quietly"
+  },
+  {
+   "id": "L17",
+   "perso": "FEMME",
+   "texte": "Il disait pareil, Richard. Et il est parti à 61 ans.",
+   "debut": 40.914,
+   "fin_fenetre": 47.05,
+   "debut_src": 41.1,
+   "ton": "crying"
+  },
+  {
+   "id": "L18",
+   "perso": "FEMME",
+   "texte": "Ton fils a un petit garçon qui ne se souviendra pas de toi.",
+   "debut": 46.94,
+   "fin_fenetre": 52.29,
+   "debut_src": 47.1,
+   "ton": "crying, pleading"
+  },
+  {
+   "id": "L19",
+   "perso": "FEMME",
+   "texte": "Tu dois régler ça.",
+   "debut": 52.26,
+   "fin_fenetre": 55.45,
+   "debut_src": 52.34,
+   "ton": "firmly, tearful"
+  },
+  {
+   "id": "L20",
+   "perso": "DOCTEUR",
+   "texte": "Dix-sept, dix.",
+   "debut": 55.34,
+   "fin_fenetre": 57.57,
+   "debut_src": 55.5,
+   "ton": "serious, calm"
+  },
+  {
+   "id": "L21",
+   "perso": "DOCTEUR",
+   "texte": "Richard, je ne vais pas tourner autour du pot.",
+   "debut": 57.47,
+   "fin_fenetre": 60.29,
+   "debut_src": 57.62,
+   "ton": "serious"
+  },
+  {
+   "id": "L22",
+   "perso": "DOCTEUR",
+   "texte": "Vos artères sont rétrécies.",
+   "debut": 60.3,
+   "fin_fenetre": 62.43,
+   "debut_src": 60.34,
+   "vitesse": 1.07,
+   "ton": "concerned"
+  },
+  {
+   "id": "L23",
+   "perso": "RICHARD",
+   "texte": "À quel point ?",
+   "debut": 62.36,
+   "fin_fenetre": 63.71,
+   "debut_src": 62.48,
+   "ton": "worried"
+  },
+  {
+   "id": "L24",
+   "perso": "DOCTEUR",
+   "texte": "Assez pour traiter dès aujourd'hui.",
+   "debut": 63.915,
+   "fin_fenetre": 66.25,
+   "debut_src": 63.76,
+   "vitesse": 1.07,
+   "ton": "firmly"
+  },
+  {
+   "id": "L25",
+   "perso": "RICHARD",
+   "texte": "D'accord.",
+   "debut": 66.295,
+   "fin_fenetre": 67.33,
+   "debut_src": 66.3,
+   "vitesse": 1.07,
+   "ton": "resigned"
+  },
+  {
+   "id": "L26",
+   "perso": "DOCTEUR",
+   "texte": "Bien.",
+   "debut": 67.395,
+   "fin_fenetre": 68.61,
+   "debut_src": 67.38,
+   "vitesse": 1.07,
+   "ton": "reassuring"
+  },
+  {
+   "id": "L27",
+   "perso": "RICHARD",
+   "texte": "Mon père a laissé traîner pendant vingt ans.",
+   "debut": 68.575,
+   "fin_fenetre": 71.63,
+   "debut_src": 68.66,
+   "vitesse": 1.07,
+   "ton": "bitter, emotional"
+  },
+  {
+   "id": "L28",
+   "perso": "RICHARD",
+   "texte": "Toujours fatigué.",
+   "debut": 71.36,
+   "fin_fenetre": 73.53,
+   "debut_src": 71.68,
+   "ton": "sadly"
+  },
+  {
+   "id": "L29",
+   "perso": "RICHARD",
+   "texte": "Dans le brouillard.",
+   "debut": 73.26,
+   "fin_fenetre": 75.33,
+   "debut_src": 73.58,
+   "ton": "sadly"
+  },
+  {
+   "id": "L30",
+   "perso": "RICHARD",
+   "texte": "Il a raté mon mariage, coincé dans son fauteuil.",
+   "debut": 75.302,
+   "fin_fenetre": 78.41,
+   "debut_src": 75.38,
+   "vitesse": 1.07,
+   "ton": "emotional, bitter"
+  },
+  {
+   "id": "L31",
+   "perso": "RICHARD",
+   "texte": "Je ne ferai pas ça à mon fils.",
+   "debut": 78.42,
+   "fin_fenetre": 80.77,
+   "debut_src": 78.46,
+   "vitesse": 1.07,
+   "ton": "determined"
+  },
+  {
+   "id": "L32",
+   "perso": "RICHARD",
+   "texte": "Ni à mon petit-fils.",
+   "debut": 80.56,
+   "fin_fenetre": 82.59,
+   "debut_src": 80.82,
+   "ton": "determined, emotional"
+  },
+  {
+   "id": "L33",
+   "perso": "DOCTEUR",
+   "texte": "Alors on commence.",
+   "debut": 82.52,
+   "fin_fenetre": 84.92,
+   "debut_src": 82.64,
+   "vitesse": 1.07,
+   "ton": "firmly"
+  },
+  {
+   "id": "L34",
+   "perso": "DOCTEUR",
+   "texte": "Et on change tout.",
+   "debut": 84.827,
+   "fin_fenetre": 86.2,
+   "debut_src": 84.97,
+   "vitesse": 1.07,
+   "ton": "serious"
+  },
+  {
+   "id": "L35",
+   "perso": "DOCTEUR",
+   "texte": "Vous n'avez pas des mois, Richard.",
+   "debut": 86.316,
+   "fin_fenetre": 94.25,
+   "debut_src": 86.25,
+   "vitesse": 1.07,
+   "ton": "serious, warning"
+  },
+  {
+   "id": "L36",
+   "perso": "MICHEL",
+   "texte": "T'as une sale mine.",
+   "debut": 105.91,
+   "fin_fenetre": 107.64,
+   "debut_src": 105.99,
+   "vitesse": 1.07,
+   "ton": "concerned"
+  },
+  {
+   "id": "L37",
+   "perso": "RICHARD",
+   "texte": "On m'a donné des semaines.",
+   "debut": 107.65,
+   "fin_fenetre": 109.12,
+   "debut_src": 107.69,
+   "vitesse": 1.07,
+   "ton": "tired, low voice"
+  },
+  {
+   "id": "L38",
+   "perso": "MICHEL",
+   "texte": "Des semaines ?",
+   "debut": 109.353,
+   "fin_fenetre": 110.28,
+   "debut_src": 109.17,
+   "vitesse": 1.07,
+   "ton": "shocked"
+  },
+  {
+   "id": "L39",
+   "perso": "RICHARD",
+   "texte": "Des semaines.",
+   "debut": 110.699,
+   "fin_fenetre": 111.25,
+   "debut_src": 110.33,
+   "vitesse": 1.07,
+   "ton": "quietly"
+  },
+  {
+   "id": "L40",
+   "perso": "MICHEL",
+   "texte": "Tu fais quoi ?",
+   "debut": 111.759,
+   "fin_fenetre": 112.65,
+   "debut_src": 111.3,
+   "vitesse": 1.07,
+   "ton": "curious"
+  },
+  {
+   "id": "L41",
+   "perso": "RICHARD",
+   "texte": "Je cherche.",
+   "debut": 112.819,
+   "fin_fenetre": 113.85,
+   "debut_src": 112.7,
+   "ton": "quietly, reading"
+  },
+  {
+   "id": "L42",
+   "perso": "MICHEL",
+   "texte": "Tu cherches quoi ?",
+   "debut": 114.164,
+   "fin_fenetre": 115.15,
+   "debut_src": 113.9,
+   "ton": "curious"
+  },
+  {
+   "id": "L43",
+   "perso": "RICHARD",
+   "texte": "Tout ce qui peut m'aider.",
+   "debut": 115.264,
+   "fin_fenetre": 116.95,
+   "debut_src": 115.2,
+   "ton": "tired, frustrated"
+  },
+  {
+   "id": "L44",
+   "perso": "MICHEL",
+   "texte": "Richard…",
+   "debut": 117.004,
+   "fin_fenetre": 118.15,
+   "debut_src": 117.0,
+   "ton": "gently"
+  },
+  {
+   "id": "L45",
+   "perso": "RICHARD",
+   "texte": "Laisse tomber, Michel.",
+   "debut": 118.379,
+   "fin_fenetre": 122.55,
+   "debut_src": 118.2,
+   "ton": "annoyed, tired"
+  },
+  {
+   "id": "L46",
+   "perso": "MICHEL",
+   "texte": "Et si je te disais que je suis passé par là ?",
+   "debut": 122.52,
+   "fin_fenetre": 126.45,
+   "debut_src": 122.6,
+   "ton": "calm, confiding"
+  },
+  {
+   "id": "L47",
+   "perso": "RICHARD",
+   "texte": "Toi ?",
+   "debut": 126.22,
+   "fin_fenetre": 127.95,
+   "debut_src": 126.5,
+   "ton": "surprised"
+  },
+  {
+   "id": "L48",
+   "perso": "MICHEL",
+   "texte": "Il y a trois ans.",
+   "debut": 127.84,
+   "fin_fenetre": 129.65,
+   "debut_src": 128.0,
+   "ton": "calm"
+  },
+  {
+   "id": "L49",
+   "perso": "MICHEL",
+   "texte": "Dix-huit, onze.",
+   "debut": 129.46,
+   "fin_fenetre": 131.95,
+   "debut_src": 129.7,
+   "ton": "calm, serious"
+  },
+  {
+   "id": "L50",
+   "perso": "RICHARD",
+   "texte": "Tu ne m'as jamais rien dit.",
+   "debut": 131.92,
+   "fin_fenetre": 133.65,
+   "debut_src": 132.0,
+   "ton": "surprised, hurt"
+  },
+  {
+   "id": "L51",
+   "perso": "MICHEL",
+   "texte": "Personne ne devait savoir.",
+   "debut": 133.66,
+   "fin_fenetre": 135.85,
+   "debut_src": 133.7,
+   "ton": "quietly, ashamed"
+  },
+  {
+   "id": "L52",
+   "perso": "RICHARD",
+   "texte": "Et là, ça va ?",
+   "debut": 135.74,
+   "fin_fenetre": 137.45,
+   "debut_src": 135.9,
+   "vitesse": 1.07,
+   "ton": "hopeful"
+  },
+  {
+   "id": "L53",
+   "perso": "MICHEL",
+   "texte": "Là, ça va.",
+   "debut": 137.4,
+   "fin_fenetre": 138.65,
+   "debut_src": 137.5,
+   "vitesse": 1.07,
+   "ton": "warmly"
+  },
+  {
+   "id": "L54",
+   "perso": "RICHARD",
+   "texte": "Comment ?",
+   "debut": 138.96,
+   "fin_fenetre": 139.85,
+   "debut_src": 138.7,
+   "vitesse": 1.07,
+   "ton": "curious, eager"
+  },
+  {
+   "id": "L55",
+   "perso": "MICHEL",
+   "texte": "Les nitrates.",
+   "debut": 139.88,
+   "fin_fenetre": 141.05,
+   "debut_src": 139.9,
+   "ton": "calm"
+  },
+  {
+   "id": "L56",
+   "perso": "RICHARD",
+   "texte": "Les quoi ?",
+   "debut": 141.297,
+   "fin_fenetre": 142.15,
+   "debut_src": 141.1,
+   "ton": "confused"
+  },
+  {
+   "id": "L57",
+   "perso": "MICHEL",
+   "texte": "Des molécules naturelles.",
+   "debut": 142.306,
+   "fin_fenetre": 143.75,
+   "debut_src": 142.2,
+   "ton": "calm, explaining"
+  },
+  {
+   "id": "L58",
+   "perso": "MICHEL",
+   "texte": "La betterave en a.",
+   "debut": 144.009,
+   "fin_fenetre": 145.15,
+   "debut_src": 143.8,
+   "ton": "calm, explaining"
+  },
+  {
+   "id": "L59",
+   "perso": "MICHEL",
+   "texte": "Mais seulement à basse température.",
+   "debut": 145.64,
+   "fin_fenetre": 148.95,
+   "debut_src": 145.2,
+   "ton": "explaining"
+  },
+  {
+   "id": "L60",
+   "perso": "MICHEL",
+   "texte": "Jamais chauffée.",
+   "debut": 148.76,
+   "fin_fenetre": 150.75,
+   "debut_src": 149.0,
+   "ton": "firmly"
+  },
+  {
+   "id": "L61",
+   "perso": "RICHARD",
+   "texte": "Betterave ?",
+   "debut": 150.514,
+   "fin_fenetre": 151.85,
+   "debut_src": 150.8,
+   "ton": "skeptical"
+  },
+  {
+   "id": "L62",
+   "perso": "MICHEL",
+   "texte": "Betterave.",
+   "debut": 151.86,
+   "fin_fenetre": 153.05,
+   "debut_src": 151.9,
+   "ton": "smiling"
+  },
+  {
+   "id": "L63",
+   "perso": "RICHARD",
+   "texte": "Et ça fait quoi ?",
+   "debut": 153.341,
+   "fin_fenetre": 154.35,
+   "debut_src": 153.1,
+   "ton": "curious"
+  },
+  {
+   "id": "L64",
+   "perso": "MICHEL",
+   "texte": "Avec l'âge, surtout après quarante ans, le corps produit moins d'oxyde nitrique.",
+   "debut": 154.615,
+   "fin_fenetre": 159.88,
+   "debut_src": 154.4,
+   "ton": "calm, explaining"
+  },
+  {
+   "id": "L65",
+   "perso": "MICHEL",
+   "texte": "C'est le signal qui dit aux vaisseaux : ouvrez-vous.",
+   "debut": 159.77,
+   "fin_fenetre": 163.78,
+   "debut_src": 159.93,
+   "ton": "explaining"
+  },
+  {
+   "id": "L66",
+   "perso": "MICHEL",
+   "texte": "Sans lui, les vaisseaux restent serrés, et la tension monte.",
+   "debut": 163.67,
+   "fin_fenetre": 170.37,
+   "debut_src": 163.83,
+   "ton": "explaining, serious"
+  },
+  {
+   "id": "L67",
+   "perso": "MICHEL",
+   "texte": "Le corps les change en oxyde nitrique.",
+   "debut": 170.26,
+   "fin_fenetre": 174.31,
+   "debut_src": 170.42,
+   "vitesse": 1.07,
+   "ton": "explaining"
+  },
+  {
+   "id": "L68",
+   "perso": "MICHEL",
+   "texte": "Les vaisseaux se détendent à nouveau.",
+   "debut": 174.12,
+   "fin_fenetre": 180.61,
+   "debut_src": 174.36,
+   "ton": "calm"
+  },
+  {
+   "id": "L69",
+   "perso": "MICHEL",
+   "texte": "Le sang circule mieux.",
+   "debut": 180.5,
+   "fin_fenetre": 182.83,
+   "debut_src": 180.66,
+   "ton": "reassuring"
+  },
+  {
+   "id": "L70",
+   "perso": "RICHARD",
+   "texte": "Je vais en commander.",
+   "debut": 182.74,
+   "fin_fenetre": 184.75,
+   "debut_src": 182.88,
+   "vitesse": 1.07,
+   "ton": "eager"
+  },
+  {
+   "id": "L71",
+   "perso": "MICHEL",
+   "texte": "Non.",
+   "debut": 184.56,
+   "fin_fenetre": 185.77,
+   "debut_src": 184.8,
+   "ton": "firmly"
+  },
+  {
+   "id": "L72",
+   "perso": "RICHARD",
+   "texte": "Pourquoi ?",
+   "debut": 185.66,
+   "fin_fenetre": 186.77,
+   "debut_src": 185.82,
+   "ton": "surprised"
+  },
+  {
+   "id": "L73",
+   "perso": "MICHEL",
+   "texte": "Tu vas jeter ton argent.",
+   "debut": 186.76,
+   "fin_fenetre": 188.77,
+   "debut_src": 186.82,
+   "vitesse": 1.07,
+   "ton": "firmly"
+  },
+  {
+   "id": "L74",
+   "perso": "MICHEL",
+   "texte": "Moi, j'en ai essayé cinq.",
+   "debut": 188.668,
+   "fin_fenetre": 191.37,
+   "debut_src": 188.82,
+   "vitesse": 1.07,
+   "ton": "rueful"
+  },
+  {
+   "id": "L75",
+   "perso": "MICHEL",
+   "texte": "Un goût de terre.",
+   "debut": 191.38,
+   "fin_fenetre": 193.19,
+   "debut_src": 191.42,
+   "vitesse": 1.07,
+   "ton": "disgusted"
+  },
+  {
+   "id": "L76",
+   "perso": "MICHEL",
+   "texte": "Et aucun effet.",
+   "debut": 193.395,
+   "fin_fenetre": 195.03,
+   "debut_src": 193.24,
+   "ton": "frustrated"
+  },
+  {
+   "id": "L77",
+   "perso": "RICHARD",
+   "texte": "Je croyais que c'était pareil.",
+   "debut": 195.135,
+   "fin_fenetre": 196.91,
+   "debut_src": 195.08,
+   "vitesse": 1.07,
+   "ton": "surprised"
+  },
+  {
+   "id": "L78",
+   "perso": "MICHEL",
+   "texte": "La bonne n'est jamais chauffée.",
+   "debut": 196.875,
+   "fin_fenetre": 199.55,
+   "debut_src": 196.96,
+   "ton": "firmly"
+  },
+  {
+   "id": "L79",
+   "perso": "MICHEL",
+   "texte": "La poudre bon marché est séchée à chaud.",
+   "debut": 199.44,
+   "fin_fenetre": 202.75,
+   "debut_src": 199.6,
+   "vitesse": 1.07,
+   "ton": "explaining"
+  },
+  {
+   "id": "L80",
+   "perso": "MICHEL",
+   "texte": "Et la chaleur détruit les nitrates.",
+   "debut": 202.723,
+   "fin_fenetre": 205.07,
+   "debut_src": 202.8,
+   "vitesse": 1.07,
+   "ton": "serious"
+  },
+  {
+   "id": "L81",
+   "perso": "MICHEL",
+   "texte": "Il n'en reste presque rien.",
+   "debut": 205.08,
+   "fin_fenetre": 207.07,
+   "debut_src": 205.12,
+   "vitesse": 1.07,
+   "ton": "serious"
+  },
+  {
+   "id": "L82",
+   "perso": "MICHEL",
+   "texte": "Juste de la poussière rouge.",
+   "debut": 207.06,
+   "fin_fenetre": 211.83,
+   "debut_src": 207.12,
+   "ton": "scornful"
+  },
+  {
+   "id": "L83",
+   "perso": "MICHEL",
+   "texte": "La plupart des marques ne s'embêtent pas.",
+   "debut": 211.72,
+   "fin_fenetre": 214.67,
+   "debut_src": 211.88,
+   "ton": "annoyed"
+  },
+  {
+   "id": "L84",
+   "perso": "MICHEL",
+   "texte": "La basse température, c'est lent et cher.",
+   "debut": 214.649,
+   "fin_fenetre": 217.19,
+   "debut_src": 214.72,
+   "vitesse": 1.07,
+   "ton": "explaining"
+  },
+  {
+   "id": "L85",
+   "perso": "MICHEL",
+   "texte": "Alors elles chauffent et collent une étiquette.",
+   "debut": 217.709,
+   "fin_fenetre": 220.83,
+   "debut_src": 217.24,
+   "vitesse": 1.07,
+   "ton": "scornful"
+  },
+  {
+   "id": "L86",
+   "perso": "RICHARD",
+   "texte": "Lequel est le bon ?",
+   "debut": 220.729,
+   "fin_fenetre": 222.45,
+   "debut_src": 220.88,
+   "vitesse": 1.07,
+   "ton": "curious"
+  },
+  {
+   "id": "L87",
+   "perso": "MICHEL",
+   "texte": "Betalia.",
+   "debut": 222.389,
+   "fin_fenetre": 224.01,
+   "debut_src": 222.5,
+   "ton": "confident"
+  },
+  {
+   "id": "L88",
+   "perso": "MICHEL",
+   "texte": "Le seul que je prends.",
+   "debut": 223.834,
+   "fin_fenetre": 225.69,
+   "debut_src": 224.06,
+   "vitesse": 1.07,
+   "ton": "confident, warm"
+  },
+  {
+   "id": "L89",
+   "perso": "MICHEL",
+   "texte": "Fait à basse température.",
+   "debut": 225.7,
+   "fin_fenetre": 228.09,
+   "debut_src": 225.74,
+   "vitesse": 1.07,
+   "ton": "confident"
+  },
+  {
+   "id": "L90",
+   "perso": "MICHEL",
+   "texte": "Mille cent milligrammes par jour.",
+   "debut": 227.9,
+   "fin_fenetre": 230.29,
+   "debut_src": 228.14,
+   "vitesse": 1.07,
+   "ton": "confident"
+  },
+  {
+   "id": "L91",
+   "perso": "MICHEL",
+   "texte": "Avec fer et vitamine C.",
+   "debut": 230.28,
+   "fin_fenetre": 232.19,
+   "debut_src": 230.34,
+   "vitesse": 1.07,
+   "ton": "confident"
+  },
+  {
+   "id": "L92",
+   "perso": "MICHEL",
+   "texte": "Deux gélules par jour.",
+   "debut": 232.212,
+   "fin_fenetre": 233.61,
+   "debut_src": 232.24,
+   "vitesse": 1.07,
+   "ton": "calm"
+  },
+  {
+   "id": "L93",
+   "perso": "MICHEL",
+   "texte": "C'est tout.",
+   "debut": 233.913,
+   "fin_fenetre": 234.77,
+   "debut_src": 233.66,
+   "ton": "smiling"
+  },
+  {
+   "id": "L94",
+   "perso": "RICHARD",
+   "texte": "C'est tout ?",
+   "debut": 235.013,
+   "fin_fenetre": 235.83,
+   "debut_src": 234.82,
+   "ton": "surprised"
+  },
+  {
+   "id": "L95",
+   "perso": "MICHEL",
+   "texte": "C'est tout.",
+   "debut": 236.073,
+   "fin_fenetre": 239.59,
+   "debut_src": 235.88,
+   "ton": "smiling, confident"
+  },
+  {
+   "id": "L96",
+   "perso": "FEMME",
+   "texte": "Combien de temps ?",
+   "debut": 239.4,
+   "fin_fenetre": 241.09,
+   "debut_src": 239.64,
+   "vitesse": 1.07,
+   "ton": "worried"
+  },
+  {
+   "id": "L97",
+   "perso": "RICHARD",
+   "texte": "Jusqu'au prochain rendez-vous.",
+   "debut": 240.98,
+   "fin_fenetre": 242.65,
+   "debut_src": 241.14,
+   "vitesse": 1.07,
+   "ton": "calm, determined"
+  },
+  {
+   "id": "L98",
+   "perso": "FEMME",
+   "texte": "Et si ça ne marche pas ?",
+   "debut": 242.754,
+   "fin_fenetre": 246.99,
+   "debut_src": 242.7,
+   "ton": "worried"
+  },
+  {
+   "id": "L99",
+   "perso": "RICHARD",
+   "texte": "On verra avec le médecin.",
+   "debut": 246.96,
+   "fin_fenetre": 252.17,
+   "debut_src": 247.04,
+   "ton": "calm, reassuring"
+  },
+  {
+   "id": "L100",
+   "perso": "FEMME",
+   "texte": "Tu ne t'es pas réveillé une seule fois ?",
+   "debut": 252.076,
+   "fin_fenetre": 254.75,
+   "debut_src": 252.22,
+   "ton": "amazed, sleepy"
+  },
+  {
+   "id": "L101",
+   "perso": "RICHARD",
+   "texte": "Pas une fois.",
+   "debut": 254.76,
+   "fin_fenetre": 260.48,
+   "debut_src": 254.8,
+   "ton": "smiling"
+  },
+  {
+   "id": "L102",
+   "perso": "FILS",
+   "texte": "Ça fait des heures, papa.",
+   "debut": 260.387,
+   "fin_fenetre": 261.95,
+   "debut_src": 260.53,
+   "vitesse": 1.07,
+   "ton": "impressed"
+  },
+  {
+   "id": "L103",
+   "perso": "RICHARD",
+   "texte": "Même pas fatigué.",
+   "debut": 262.233,
+   "fin_fenetre": 267.35,
+   "debut_src": 262.0,
+   "ton": "proud, cheerful"
+  },
+  {
+   "id": "L104",
+   "perso": "PETITFILS",
+   "texte": "Papi, je peux me mettre au volant ?",
+   "debut": 267.331,
+   "fin_fenetre": 270.62,
+   "debut_src": 267.4,
+   "ton": "excited"
+  },
+  {
+   "id": "L105",
+   "perso": "RICHARD",
+   "texte": "Monte, bonhomme.",
+   "debut": 270.32,
+   "fin_fenetre": 275.85,
+   "debut_src": 270.67,
+   "ton": "warmly, laughing"
+  },
+  {
+   "id": "L106",
+   "perso": "DOCTEUR",
+   "texte": "Douze, huit.",
+   "debut": 275.55,
+   "fin_fenetre": 278.25,
+   "debut_src": 275.9,
+   "ton": "pleasantly surprised"
+  },
+  {
+   "id": "L107",
+   "perso": "RICHARD",
+   "texte": "Vous pouvez répéter ?",
+   "debut": 278.06,
+   "fin_fenetre": 279.75,
+   "debut_src": 278.3,
+   "ton": "stunned"
+  },
+  {
+   "id": "L108",
+   "perso": "DOCTEUR",
+   "texte": "Douze-huit.",
+   "debut": 279.64,
+   "fin_fenetre": 281.25,
+   "debut_src": 279.8,
+   "vitesse": 1.07,
+   "ton": "smiling"
+  },
+  {
+   "id": "L109",
+   "perso": "DOCTEUR",
+   "texte": "Vérifié deux fois.",
+   "debut": 281.09,
+   "fin_fenetre": 283.05,
+   "debut_src": 281.3,
+   "vitesse": 1.07,
+   "ton": "happy"
+  },
+  {
+   "id": "L110",
+   "perso": "DOCTEUR",
+   "texte": "Tout ce que vous faites en ce moment, surtout, continuez.",
+   "debut": 282.913,
+   "fin_fenetre": 291.1,
+   "debut_src": 283.1,
+   "ton": "warmly"
+  },
+  {
+   "id": "L111",
+   "perso": "FEMME",
+   "texte": "Tu as réussi ?",
+   "debut": 291.42,
+   "fin_fenetre": 292.95,
+   "debut_src": 291.5,
+   "ton": "emotional, hopeful"
+  },
+  {
+   "id": "L112",
+   "perso": "RICHARD",
+   "texte": "On a réussi.",
+   "debut": 292.928,
+   "fin_fenetre": 294.35,
+   "debut_src": 293.0,
+   "ton": "emotional, smiling"
+  },
+  {
+   "id": "L113",
+   "perso": "FEMME",
+   "texte": "J'aurais dû te faire confiance.",
+   "debut": 294.36,
+   "fin_fenetre": 296.55,
+   "debut_src": 294.4,
+   "ton": "tearful, smiling"
+  },
+  {
+   "id": "L114",
+   "perso": "RICHARD",
+   "texte": "Tu voulais que je reste.",
+   "debut": 296.5,
+   "fin_fenetre": 297.65,
+   "debut_src": 296.6,
+   "vitesse": 1.07,
+   "ton": "tender"
+  },
+  {
+   "id": "L115",
+   "perso": "RICHARD",
+   "texte": "On ne peut pas demander mieux.",
+   "debut": 298.203,
+   "fin_fenetre": 303.45,
+   "debut_src": 297.7,
+   "ton": "tender, emotional"
+  },
+  {
+   "id": "L116",
+   "perso": "PETITFILS",
+   "texte": "Papi, tu m'apprendras à conduire ?",
+   "debut": 303.42,
+   "fin_fenetre": 306.36,
+   "debut_src": 303.5,
+   "ton": "excited"
+  },
+  {
+   "id": "L117",
+   "perso": "RICHARD",
+   "texte": "Oui, bonhomme.",
+   "debut": 306.06,
+   "fin_fenetre": 308.36,
+   "debut_src": 306.41,
+   "ton": "warmly, laughing"
+  },
+  {
+   "id": "L118",
+   "perso": "RICHARD",
+   "texte": "Je vais t'apprendre.",
+   "debut": 308.09,
+   "fin_fenetre": 310.45,
+   "debut_src": 308.41,
+   "ton": "tender"
+  },
+  {
+   "id": "L119",
+   "perso": "RICHARD",
+   "texte": "J'ai failli trop attendre.",
+   "debut": 310.182,
+   "fin_fenetre": 312.3,
+   "debut_src": 310.5,
+   "vitesse": 1.07,
+   "ton": "reflective, sincere"
+  },
+  {
+   "id": "L120",
+   "perso": "RICHARD",
+   "texte": "Ne faites pas cette erreur.",
+   "debut": 312.31,
+   "fin_fenetre": 314.06,
+   "debut_src": 312.35,
+   "vitesse": 1.07,
+   "ton": "sincere, serious"
+  },
+  {
+   "id": "L121",
+   "perso": "RICHARD",
+   "texte": "Betalia, l'extrait de betterave.",
+   "debut": 314.267,
+   "fin_fenetre": 317.14,
+   "debut_src": 314.11,
+   "vitesse": 1.07,
+   "ton": "warm, sincere"
+  },
+  {
+   "id": "L123",
+   "perso": "RICHARD",
+   "texte": "Mille cent milligrammes par jour.",
+   "debut": 317.127,
+   "fin_fenetre": 318.96,
+   "debut_src": 317.19,
+   "vitesse": 1.07,
+   "ton": "calm"
+  },
+  {
+   "id": "L124",
+   "perso": "RICHARD",
+   "texte": "Avec fer et vitamine C.",
+   "debut": 319.259,
+   "fin_fenetre": 320.88,
+   "debut_src": 319.01,
+   "vitesse": 1.07,
+   "ton": "calm"
+  },
+  {
+   "id": "L125",
+   "perso": "RICHARD",
+   "texte": "Deux gélules par jour.",
+   "debut": 321.176,
+   "fin_fenetre": 322.56,
+   "debut_src": 320.93,
+   "vitesse": 1.07,
+   "ton": "calm"
+  },
+  {
+   "id": "L126",
+   "perso": "RICHARD",
+   "texte": "En ce moment : 2 achetées, 1 offerte.",
+   "debut": 322.822,
+   "fin_fenetre": 325.12,
+   "debut_src": 322.61,
+   "vitesse": 1.07,
+   "ton": "friendly"
+  },
+  {
+   "id": "L127",
+   "perso": "RICHARD",
+   "texte": "Satisfait ou remboursé pendant 90 jours.",
+   "debut": 325.597,
+   "fin_fenetre": 329.05,
+   "debut_src": 325.17,
+   "vitesse": 1.07,
+   "ton": "reassuring"
+  },
+  {
+   "id": "L128",
+   "perso": "RICHARD",
+   "texte": "Lien en dessous.",
+   "debut": 328.94,
+   "fin_fenetre": 330.18,
+   "debut_src": 329.1,
+   "vitesse": 1.07,
+   "ton": "friendly"
+  },
+  {
+   "id": "L129",
+   "perso": "RICHARD",
+   "texte": "Prenez soin de votre cœur.",
+   "debut": 330.04,
+   "fin_fenetre": 331.66,
+   "debut_src": 330.23,
+   "vitesse": 1.07,
+   "ton": "sincere, warm"
+  },
+  {
+   "id": "L130",
+   "perso": "RICHARD",
+   "texte": "Pas seulement pour vous. Pour ceux à qui vous manqueriez, si vous n'étiez plus là.",
+   "debut": 331.957,
+   "fin_fenetre": 336.85,
+   "debut_src": 331.71,
+   "vitesse": 1.07,
+   "ton": "emotional, sincere"
+  }
+ ],
+ "mix": {
+  "fond": "musique"
+ },
+ "rendu": {
+  "encodeur": "x264",
+  "crf": 16,
+  "sous_titres": {
+   "mode": "phrase",
+   "y": 1365,
+   "taille": 49.5,
+   "graisse": 600,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    3,
+    4.5
+   ],
+   "flou": 3.5999999999999996,
+   "trait": 2,
+   "max_car_ligne": 16,
+   "interligne": 1.24,
+   "largeur": 990,
+   "police": "DMSans.ttf",
+   "scinder": {
+    "L2": [
+     "Papa !",
+     "Qu'est-ce qui se passe ?"
+    ],
+    "L3": [
+     "Rien.",
+     "On étouffe, là-dessous."
+    ],
+    "L13": [
+     "Notre fils de 32 ans a pleuré.",
+     "Il a peur de te perdre."
+    ],
+    "L17": [
+     "Il disait pareil, Richard.",
+     "Et il est parti à 61 ans."
+    ],
+    "L18": [
+     "Ton fils a un petit",
+     "garçon qui ne se",
+     "souviendra pas de toi."
+    ],
+    "L21": [
+     "Richard, je ne vais",
+     "pas tourner autour du pot."
+    ],
+    "L24": [
+     "Assez pour traiter",
+     "dès aujourd'hui."
+    ],
+    "L27": [
+     "Mon père a laissé traîner",
+     "pendant vingt ans."
+    ],
+    "L30": [
+     "Il a raté mon mariage,",
+     "coincé dans son fauteuil."
+    ],
+    "L31": [
+     "Je ne ferai pas ça",
+     "à mon fils."
+    ],
+    "L35": [
+     "Vous n'avez pas des mois,",
+     "Richard."
+    ],
+    "L46": [
+     "Et si je te disais",
+     "que je suis passé par là ?"
+    ],
+    "L59": [
+     "Mais seulement",
+     "à basse température."
+    ],
+    "L64": [
+     "Avec l'âge, surtout",
+     "après quarante ans,",
+     "le corps produit moins",
+     "d'oxyde nitrique."
+    ],
+    "L65": [
+     "C'est le signal",
+     "qui dit aux vaisseaux :",
+     "ouvrez-vous."
+    ],
+    "L66": [
+     "Sans lui, les vaisseaux",
+     "restent serrés,",
+     "et la tension monte."
+    ],
+    "L67": [
+     "Le corps les change",
+     "en oxyde nitrique."
+    ],
+    "L68": [
+     "Les vaisseaux se",
+     "détendent à nouveau."
+    ],
+    "L78": [
+     "La bonne n'est",
+     "jamais chauffée."
+    ],
+    "L79": [
+     "La poudre bon marché",
+     "est séchée à chaud."
+    ],
+    "L80": [
+     "Et la chaleur",
+     "détruit les nitrates."
+    ],
+    "L82": [
+     "Juste de la poussière",
+     "rouge."
+    ],
+    "L83": [
+     "La plupart des marques",
+     "ne s'embêtent pas."
+    ],
+    "L84": [
+     "La basse température,",
+     "c'est lent et cher."
+    ],
+    "L85": [
+     "Alors elles chauffent",
+     "et collent une étiquette."
+    ],
+    "L90": [
+     "Mille cent",
+     "milligrammes par jour."
+    ],
+    "L97": [
+     "Jusqu'au prochain",
+     "rendez-vous."
+    ],
+    "L100": [
+     "Tu ne t'es pas réveillé",
+     "une seule fois ?"
+    ],
+    "L104": [
+     "Papi, je peux me",
+     "mettre au volant ?"
+    ],
+    "L110": [
+     "Tout ce que vous",
+     "faites en ce moment,",
+     "surtout, continuez."
+    ],
+    "L113": [
+     "J'aurais dû te",
+     "faire confiance."
+    ],
+    "L115": [
+     "On ne peut pas",
+     "demander mieux."
+    ],
+    "L116": [
+     "Papi, tu m'apprendras",
+     "à conduire ?"
+    ],
+    "L121": [
+     "Betalia, l'extrait",
+     "de betterave."
+    ],
+    "L123": [
+     "Mille cent",
+     "milligrammes par jour."
+    ],
+    "L126": [
+     "En ce moment :",
+     "2 achetées, 1 offerte."
+    ],
+    "L127": [
+     "Satisfait ou remboursé",
+     "pendant 90 jours."
+    ],
+    "L130": [
+     "Pas seulement pour vous.",
+     "Pour ceux à qui vous manqueriez,",
+     "si vous n'étiez plus là."
+    ]
+   }
+  },
+  "textes": [
+   {
+    "images": [
+     118,
+     232
+    ],
+    "lignes": [
+     "Il pensait avoir encore le temps…"
+    ],
+    "y": 105,
+    "taille": 64,
+    "graisse": 800,
+    "couleur": [
+     255,
+     255,
+     255
+    ],
+    "couleur_ombre": [
+     0,
+     0,
+     0
+    ],
+    "decalage": [
+     3,
+     4
+    ],
+    "flou": 4,
+    "trait": 4,
+    "largeur": 1040,
+    "police": "DMSans.ttf"
+   }
+  ]
+ },
+ "marque": "Betalia",
+ "produit": "Betalia Extrait de betterave, fer et vitamine C (60 gélules)",
+ "site": "velyzio.com",
+ "offre": "2 achetées + 1 offerte ; satisfait ou remboursé 90 jours (sans se justifier)",
+ "controle": {
+  "sans_voix": []
+ },
+ "notes": [
+  "Source PL 337 s, 360x640 30 fps, mini-film IA (mention 'Wygenerowane przez AI' au début).",
+  "Sous-titres type 2 : fixes, blanc sans fond, centrés bas-milieu -> Vmake puis nos sous-titres.",
+  "Textes à l'écran : mention IA (début), cartes de recherche Google ~88-105 s, écran téléphone fiche produit MyBeet ~225-229 s, flacon sur le plan de travail ~238 s, titres DZIEŃ 14/30/60 (~250-272 s), carte de fin 2+1 GRATIS / 90 DNI GWARANCJI / Link poniżej + flacon MyBeet (~330-337 s).",
+  "6 personnages : RICHARD, FEMME, FILS, DOCTEUR, MICHEL (Mirek), PETITFILS. Voix de la pub finale supposée = RICHARD (à confirmer par l'élève).",
+  "Adaptation : Richard accepte le traitement du médecin et ajoute Betalia (pas de refus de médicament) ; pas d'allégation 'la tension baisse' pour le produit ; 'pressé à froid' -> 'obtenu à basse température' (fiche produit Betalia).",
+  "Vmake annoncé : 2 crédits/s x 337 s = 674 crédits."
+ ],
+ "bilan": {
+  "duree_source_s": 337,
+  "vmake_s": 0,
+  "caracteres_elevenlabs": 14800,
+  "replicate_appels": 9,
+  "reprises": "v01 : 21 ; v02 : 6 répliques refaites (prononciation, durée)",
+  "problemes": [
+   "Vidéo de 337 s (5 min 37) : un mini-film à 6 personnages au lieu d'une voix unique.",
+   "Pub source : l'homme refuse son traitement contre l'hypertension et le remplace par le complément. Adaptée : il accepte le traitement et ajoute Betalia ; plus de « la tension baisse » pour le produit ; cartes de recherche sans « sans médicaments ».",
+   "« Pressé à froid » remplacé par « obtenu à basse température » (la fiche produit Betalia ne dit pas pressé à froid). « Même pour les boîtes vides » retiré (pas sur la page de l'élève).",
+   "Clonage ElevenLabs bloqué (403 detected_captcha_voice) pour Richard, la femme, le médecin et Michel : voix de bibliothèque choisies par l'élève (David, Loulou, François Louis, HenryD). Fils et petit-fils clonés puis clones supprimés.",
+   "Voix de bibliothèque plus lentes que l'original : 40 répliques raccourcies, vitesse 1,07 ; retard max 0,64 s (L23).",
+   "Replicate : analyse.py en urllib sans User-Agent -> 403 ; demucs sur 337 s bloqué plus de 15 min ; refait en 4 morceaux (429 = 1 prédiction à la fois). Groq aussi transcrit avec en-tête User-Agent.",
+   "Sans Vmake (élève sans crédits) : bandeau blanc fixe 200 px (blocs_fixes.py), sous_titres découpés avec scinder (2 lignes).",
+   "Textes incrustés refaits dans un nouveau src.mp4 (montage_src.py) : mention IA, 7 cartes de recherche, 2 barres avec frappe, 2 écrans de téléphone (flou / texte FR suivi), page produit Betalia collée sur le téléphone (suivi du zoom), JOUR 14/30/60, offre de fin, étiquette du flacon remplacée par la photo Betalia (cuisine et fin).",
+   "Sons non verbaux (soupirs, sanglots) perdus avec la piste voix : controle.py signale 5 petits trous de voix.",
+   "v02 (demande de l'élève : voix pas terribles, image pas terrible, début nul, décalage des lèvres) :",
+   "Voix : clonage toujours bloqué (detected_captcha_voice) même après passage de l'élève à un abonnement supérieur ; voix d'origine retrouvées avec /v1/similar-voices (bibliothèque PL : Adam, Magdalena, Luke, Rafał, Ian), générées en eleven_v4 avec balises d'émotion (ton par réplique), souffle avant la parole coupé à 0,35 s, accélération max 1,12, retard max 0,61 s.",
+   "Image : sous-titres polonais effacés avec LaMa (big-lama.pt, Apache 2.0) sur CPU (environ 1 h pour 6 000 images), au lieu du bandeau blanc ; vidéo agrandie en 1080x1920 avant le rendu ; sous-titres blancs à ombre comme l'original.",
+   "Début : 4 premières secondes (plan large immobile, sans voix) coupées ; accroche « Il pensait avoir encore le temps… » sur les 4 premières secondes. Durée 333,1 s (98,8 %).",
+   "Lèvres : essais LatentSync (Replicate, environ 0,06 $ par plan) et MuseTalk (MIT, CPU, environ 4 s par image) sur 3 plans : amélioration faible et irrégulière (source 360x640, bouches de 20 px) ; abandonné avec l'accord de l'élève.",
+   "Fichier final ré-encodé en crf 24 pour rester sous la limite GitHub de 100 Mo (80 Mo)."
+  ],
+  "version": "v02"
+ }
+}
