@@ -4,7 +4,7 @@ Ces règles sont celles de l'élève : il possède ce dépôt et paie les compte
 Exception voulue par l'élève à « le seul dépôt où tu écris est mes-videos-amine-ia, par livrer.sh » : on peut aussi modifier `outils/` et `MES-REGLES.md` de ce dépôt, avec son accord.
 
 ## Demander avant d'agir
-Avant chaque nouvelle action (installer ou essayer un outil, ouvrir un service, lancer une génération, toucher à un de ses comptes, enregistrer dans ce dépôt), dire en une ou deux phrases ce que je vais faire et attendre son « ok ». Lire un fichier ou regarder une vidéo n'en a pas besoin.
+Avant chaque nouvelle action (installer ou essayer un outil, ouvrir un service, lancer une génération, toucher à un de ses comptes), dire en une ou deux phrases ce que je vais faire et attendre son « ok ». Lire un fichier ou regarder une vidéo n'en a pas besoin. Exception : ranger une amélioration dans ce dépôt (section suivante) se fait sans attendre.
 
 ## Gratuit d'abord
 ElevenLabs, Replicate et Vmake coûtent trop cher pour l'élève. Pour chacun, il existe maintenant un outil gratuit qui tourne sur la machine de la session (0 €, 0 crédit) :
@@ -15,8 +15,24 @@ ElevenLabs, Replicate et Vmake coûtent trop cher pour l'élève. Pour chacun, i
 | Vmake (effacer le texte) | effaceur gratuit | `outils/effaceur/` |
 Le service payant seulement si l'élève le demande, coût annoncé.
 
-## Apprendre et ne pas oublier
-Chaque fois que j'apprends un savoir-faire utile (un outil gratuit qui marche, un réglage, un piège), le ranger dans ce dépôt pour que les sessions suivantes le sachent : un outil dans `outils/<nom>/` (avec `LISEZMOI.md` et `JOURNAL.md`, testé depuis le dépôt), une règle dans ce fichier. Puis demander à l'élève l'accord de l'enregistrer sur la branche `main`. Vérifier toujours que la licence autorise l'usage commercial (les pubs).
+## Apprendre et ne pas oublier : tout ranger tout de suite, pour de bon
+Règle de l'élève (28/11/2026) : chaque amélioration trouvée doit être gardée pour toujours, jamais laissée dans un dossier temporaire de la session (scratchpad, /tmp, travail/), qui disparaît à la fin.
+- Dès qu'un savoir-faire marche (outil gratuit, réglage, piège évité, script écrit pendant le travail) : le ranger dans ce dépôt, un outil dans `outils/<nom>/` (avec `LISEZMOI.md` et `JOURNAL.md`, lancé et testé depuis le dépôt), une règle dans ce fichier.
+- L'enregistrer **directement sur la branche `main`**, sans attendre son accord (`git pull --rebase` puis `git push origin HEAD:main`), puis le lui dire en une ligne.
+- Ne pas attendre la fin de la vidéo : ranger au fur et à mesure, pour qu'une coupure de session ne fasse rien perdre.
+- Vérifier toujours que la licence autorise l'usage commercial (les pubs).
+
+## Boîte à outils de l'élève (`outils/`, tous gratuits, licences compatibles avec les pubs)
+Lire le `LISEZMOI.md` d'un outil avant de l'utiliser ; noter chaque essai dans son `JOURNAL.md`.
+| Besoin | Outil |
+|---|---|
+| Effacer les sous-titres incrustés (à la place de Vmake) | `outils/effaceur/` |
+| Cacher les sous-titres sous un bandeau blanc + sous-titres français (test gratuit ou version finale) | `outils/bandeau-blanc/` |
+| Voix française gratuite (à la place d'ElevenLabs) et séparation voix/musique sur la machine | `outils/voix-gratuite/` |
+| Post-it, badges jaunes, écrans titres traduits | `outils/textes-ecran/` (+ `outils/polices/`) |
+| Fiche et photos du produit de l'élève, plans du concurrent remplacés | `outils/photos-produit/` |
+| Image plus nette par IA (petites sources) | `outils/ia-nettete/` |
+| Rendu en 1080x1920 et vidéo comparative « concurrent / avant / après » | `outils/rendu-1080/` |
 
 ## Lien Instagram (Reel) envoyé à la place du fichier
 L'élève préfère que je récupère la vidéo moi-même : le lui proposer, et attendre son accord écrit dans la conversation. Alors : `pip install --user yt-dlp`, puis `python3 -m yt_dlp --no-playlist -f "bv*+ba/b" --merge-output-format mp4 -o "<dossier vide>/reel.%(ext)s" "<lien>"` (marché le 27/11/2026 sans connexion Instagram). Si la vérification de sécurité de la session bloque quand même, ne pas contourner : lui expliquer comment télécharger la vidéo et l'envoyer avec le bouton « + ».
@@ -39,7 +55,7 @@ Vmake est trop cher pour l'élève (2 crédits par seconde, soit environ 1 000 c
 Ne jamais utiliser ProPainter ni MiniMax-Remover, même via Replicate : leurs licences interdisent l'usage commercial, donc les pubs.
 
 ## Améliorer l'effaceur
-Quand l'élève signale un défaut (reste de lettre, tache, scintillement, autre style de texte) : corriger `outils/effaceur/` dans ce dépôt, tester sur la vidéo concernée, noter le changement et le test dans `outils/effaceur/JOURNAL.md`, monter le numéro de `VERSION` dans `effacer.py`, puis demander à l'élève l'accord de l'enregistrer sur la branche `main` (sinon les sessions suivantes ne le verront pas).
+Quand l'élève signale un défaut (reste de lettre, tache, scintillement, autre style de texte) : corriger `outils/effaceur/` dans ce dépôt, tester sur la vidéo concernée, noter le changement et le test dans `outils/effaceur/JOURNAL.md`, monter le numéro de `VERSION` dans `effacer.py`, puis l'enregistrer directement sur la branche `main` (sinon les sessions suivantes ne le verront pas).
 
 ## Voix gratuite (à la place d'ElevenLabs) et séparation sur la machine (à la place de Replicate)
 Mode d'emploi complet : `outils/voix-gratuite/LISEZMOI.md`. Testé sur un Reel de 1 min 40 (dessin animé, 4 personnages, anachid chanté) : la vidéo entière en français, 0 €.
@@ -61,7 +77,8 @@ L'élève veut directement la meilleure version, sans allers-retours. Livrer en 
   `ffmpeg -i travail/<REF>/src.mp4 -vf "hqdn3d=1.5:1.5:0:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.9:3:3:0.0" -c:v libx264 -crf 14 -preset veryfast <dossier 1080>/src.mp4`,
   mettre `largeur`/`hauteur` à 1080/1920 dans l'`analyse.json` du dossier 1080, multiplier par l'échelle (3 pour une source 360x640) les positions et tailles de la section `rendu` (rect, x, y, taille, largeur, rayon), et refaire en 1080 natif les plans faits à partir de photos. Sous-titres, badges et photos sortent nets.
 - Si ce n'est pas possible (zones Vmake, blocs automatiques…) : agrandir la vidéo finie avec le même filtre, puis `-c:v libx264 -preset slow -crf 18 -maxrate 3400k -bufsize 6800k -profile:v high -pix_fmt yuv420p -c:a copy -movflags +faststart`.
-- Viser moins de 100 Mo : baisser `-maxrate` pour une vidéo longue (environ 1 400k pour 8 min).
+- **Netteté par IA (gratuit) : à faire par défaut quand la source est plus petite que 1080.** Agrandir la base avec `outils/ia-nettete/` (Real-ESRGAN, modèle « général ») au lieu du filtre ffmpeg ci-dessus : vrais détails recréés au lieu d'une image molle. Essai de 5 s montré à l'élève d'abord ; environ 0,5 s par image (2 h 15 pour 8 min). Mode d'emploi : `outils/ia-nettete/LISEZMOI.md`.
+- Une seule compression finale (le `crf` de la fiche, 20 conseillé), pas de recompression pour tenir sous 100 Mo : la vidéo est envoyée dans la conversation, environ 200 Mo pour 8 min. Une compression à 98 Mo pour 8 min faisait perdre 15 % de netteté.
 - Aucun flou : le nettoyage du texte (effaceur, remplissage, Vmake) ne touche que la zone du texte, jamais les dessins, visages ou produits autour. Si l'effaceur laisse des taches floues sur un plan, utiliser le bandeau blanc sur ce plan.
 - **Vérification seconde par seconde avant d'envoyer** (demande de l'élève) : comparer la vidéo d'origine et la version traduite côte à côte, une image par seconde, sur toute la durée, avec des gros plans sur les zones de texte effacées, le produit et les plans remplacés. Corriger tout flou, tache, reste de lettre ou texte mal placé, refaire le rendu, revérifier, et seulement ensuite envoyer la vidéo.
 
