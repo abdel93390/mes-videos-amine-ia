@@ -4,7 +4,7 @@ Ces règles sont celles de l'élève : il possède ce dépôt et paie les compte
 Exception voulue par l'élève à « le seul dépôt où tu écris est mes-videos-amine-ia, par livrer.sh » : on peut aussi modifier `outils/` et `MES-REGLES.md` de ce dépôt, avec son accord.
 
 ## Demander avant d'agir
-Avant chaque nouvelle action (installer ou essayer un outil, ouvrir un service, lancer une génération, toucher à un de ses comptes, enregistrer dans ce dépôt), dire en une ou deux phrases ce que je vais faire et attendre son « ok ». Lire un fichier ou regarder une vidéo n'en a pas besoin.
+Avant chaque nouvelle action (installer ou essayer un outil, ouvrir un service, lancer une génération, toucher à un de ses comptes), dire en une ou deux phrases ce que je vais faire et attendre son « ok ». Lire un fichier ou regarder une vidéo n'en a pas besoin. Exception : ranger une amélioration dans ce dépôt (section suivante) se fait sans attendre.
 
 ## Gratuit d'abord
 ElevenLabs, Replicate et Vmake coûtent trop cher pour l'élève. Pour chacun, il existe maintenant un outil gratuit qui tourne sur la machine de la session (0 €, 0 crédit) :
@@ -15,9 +15,12 @@ ElevenLabs, Replicate et Vmake coûtent trop cher pour l'élève. Pour chacun, i
 | Vmake (effacer le texte) | effaceur gratuit | `outils/effaceur/` |
 Le service payant seulement si l'élève le demande, coût annoncé.
 
-## Apprendre et ne pas oublier
-Chaque fois que j'apprends un savoir-faire utile (un outil gratuit qui marche, un réglage, un piège), le ranger dans ce dépôt pour que les sessions suivantes le sachent : un outil dans `outils/<nom>/` (avec `LISEZMOI.md` et `JOURNAL.md`, testé depuis le dépôt), une règle dans ce fichier. Puis demander à l'élève l'accord de l'enregistrer sur la branche `main`. Vérifier toujours que la licence autorise l'usage commercial (les pubs).
-
+## Apprendre et ne pas oublier : tout ranger tout de suite, pour de bon
+Règle de l'élève (28/11/2026) : chaque amélioration trouvée doit être gardée pour toujours, jamais laissée dans un dossier temporaire de la session (scratchpad, /tmp, travail/), qui disparaît à la fin.
+- Dès qu'un savoir-faire marche (outil gratuit, réglage, piège évité, script écrit pendant le travail) : le ranger dans ce dépôt, un outil dans `outils/<nom>/` (avec `LISEZMOI.md` et `JOURNAL.md`, lancé et testé depuis le dépôt), une règle dans ce fichier.
+- L'enregistrer **directement sur la branche `main`**, sans attendre son accord (`git pull --rebase` puis `git push origin HEAD:main`), puis le lui dire en une ligne.
+- Ne pas attendre la fin de la vidéo : ranger au fur et à mesure, pour qu'une coupure de session ne fasse rien perdre.
+- Vérifier toujours que la licence autorise l'usage commercial (les pubs).
 ## Lien Instagram (Reel) envoyé à la place du fichier
 L'élève préfère que je récupère la vidéo moi-même : le lui proposer, et attendre son accord écrit dans la conversation. Alors : `pip install --user yt-dlp`, puis `python3 -m yt_dlp --no-playlist -f "bv*+ba/b" --merge-output-format mp4 -o "<dossier vide>/reel.%(ext)s" "<lien>"` (marché le 27/11/2026 sans connexion Instagram). Si la vérification de sécurité de la session bloque quand même, ne pas contourner : lui expliquer comment télécharger la vidéo et l'envoyer avec le bouton « + ».
 
@@ -39,7 +42,7 @@ Vmake est trop cher pour l'élève (2 crédits par seconde, soit environ 1 000 c
 Ne jamais utiliser ProPainter ni MiniMax-Remover, même via Replicate : leurs licences interdisent l'usage commercial, donc les pubs.
 
 ## Améliorer l'effaceur
-Quand l'élève signale un défaut (reste de lettre, tache, scintillement, autre style de texte) : corriger `outils/effaceur/` dans ce dépôt, tester sur la vidéo concernée, noter le changement et le test dans `outils/effaceur/JOURNAL.md`, monter le numéro de `VERSION` dans `effacer.py`, puis demander à l'élève l'accord de l'enregistrer sur la branche `main` (sinon les sessions suivantes ne le verront pas).
+Quand l'élève signale un défaut (reste de lettre, tache, scintillement, autre style de texte) : corriger `outils/effaceur/` dans ce dépôt, tester sur la vidéo concernée, noter le changement et le test dans `outils/effaceur/JOURNAL.md`, monter le numéro de `VERSION` dans `effacer.py`, puis l'enregistrer directement sur la branche `main` (sinon les sessions suivantes ne le verront pas).
 
 ## Voix gratuite (à la place d'ElevenLabs) et séparation sur la machine (à la place de Replicate)
 Mode d'emploi complet : `outils/voix-gratuite/LISEZMOI.md`. Testé sur un Reel de 1 min 40 (dessin animé, 4 personnages, anachid chanté) : la vidéo entière en français, 0 €.
