@@ -11,7 +11,7 @@ from commun import charger, langue, CACHE
 from speechbrain.inference.speaker import EncoderClassifier
 
 d, moteur = sys.argv[1], sys.argv[2]
-lignes, refs = charger(d)
+lignes, refs = charger(d, moteur)
 code = langue(d)
 dv = os.path.join(d, "voix", moteur)
 enc = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb", savedir=os.path.join(CACHE, "ecapa"),
@@ -32,7 +32,10 @@ def norm(t):
     for a, b in (("oummi", "ummi"), ("oumi", "ummi"), ("alhamdoulillah", "alhamdulillah"), ("alhamdoulilah", "alhamdulillah"),
                  ("soubhanallah", "subhanallah"), ("hadji", "haji")):
         t = t.replace(a, b)
-    return re.sub(r"[^a-z ]", " ", t.replace("'", " ")).split()
+    t = re.sub(r"\b(oumi|umi|oumy|umy|oummi)\b", "ummi", t)
+    mots = re.sub(r"[^a-z ]", " ", t.replace("'", " ")).split()
+    # « nourri » / « nourrie » / « nourris » se prononcent pareil : ne pas compter la fin muette
+    return [m.rstrip("s").rstrip("e") if len(m) > 3 else m for m in mots]
 
 fe = os.path.join(dv, "ecoutes.json")
 ecoutes = json.load(open(fe, encoding="utf-8")) if os.path.exists(fe) else {}

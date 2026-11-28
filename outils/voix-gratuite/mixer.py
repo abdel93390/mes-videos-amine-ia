@@ -56,6 +56,9 @@ for l in lignes:
             v, _ = sf.read(f"{t}/b.wav")
     a, b = int(l["debut"] * SR), int(l["fin"] * SR)
     ref = rms(parole[a:b])
+    # voix toujours bien au-dessus du fond (8 dB au moins) : une réplique chuchotée dans l'original devient
+    # incompréhensible en traduction (« Ne cours pas » entendu « Le coup de pas », Reel IGDGB du 28/11/2026)
+    ref = max(ref, rms(fond[a:b].mean(axis=1)) * 10 ** (8 / 20))
     if ref > 0 and rms(v) > 0:
         v = v * (ref / rms(v))
     v = fondus(v, 0.01)

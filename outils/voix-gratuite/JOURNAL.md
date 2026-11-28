@@ -31,6 +31,17 @@ Une entrée par version : ce qui a changé, sur quelle vidéo c'est testé, ce q
   - les pauses au milieu des répliques n'étaient pas reprises (« Jeune homme… [1 s] …c'est vrai que… »).
   Ajout de `caler.py` et de l'étirement à la durée d'origine dans `mixer.py`. Script refait : 39 lignes, coupées aux pauses et à la bonne longueur.
 
+- Vidéo refaite avec le script calé (28/11/2026), 39 lignes :
+  - décalage maximal sur la bouche : **0,11 s** (voix A) et **0,22 s** (voix B), contre 0,75 s avant ;
+  - phrases françaises presque de la même durée que l'original ;
+  - toutes les répliques bien entendues seules ;
+  - vérification une image par seconde, original et traduction côte à côte : rien de changé à l'image.
+- Corrections faites pendant ce test :
+  - `texte_a` / `texte_b` : un texte propre à une voix. La voix A déformait « Parce qu'Allah m'a donné d'abord » et « Donner ne rend jamais pauvre », mais dit bien « …en premier » et « La charité ne rend jamais pauvre ».
+  - Niveau de la voix : 8 dB au moins au-dessus du fond. « Ne cours pas », chuchoté dans l'original, devenait « Le coup de pas » ; remplacé aussi par « Ne t'enfuis pas ! », plus fidèle (le garçon s'enfuit) et sans confusion possible.
+  - Réécoute : « nourri » et « nourrie », « Umi » et « Oummi » comptent comme justes, puisqu'ils se prononcent pareil.
+- Essai de la bouche refaite (LatentSync, démo gratuite Hugging Face, 5 s) : l'élève a trouvé que « avant c'était mieux ». La bouche d'origine est gardée.
+
 **Piège de mesure :** quand un son dure déjà au début de la fenêtre (pleurs, chant), le « début réel » sort 0,3 s trop tôt. `caler.py` garde alors le début de la ligne.
 
 **Problèmes rencontrés :**

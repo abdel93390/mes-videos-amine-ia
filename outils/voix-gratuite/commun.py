@@ -11,12 +11,16 @@ LANGUES_B = {"ar", "my", "da", "nl", "fi", "fr", "de", "el", "he", "hi", "id", "
              "pl", "pt", "ru", "es", "sw", "sv", "tl", "th", "tr", "vi", "zh", "en"}
 
 
-def charger(dossier):
-    """Lit <dossier>/voix/lignes.json et refs.json ; complète 'place' (temps disponible jusqu'à la réplique suivante)."""
+def charger(dossier, moteur=None):
+    """Lit <dossier>/voix/lignes.json et refs.json ; complète 'place' (temps disponible jusqu'à la réplique suivante).
+    Avec moteur ('a' ou 'b') : une ligne peut avoir un texte propre à cette voix ("texte_a", "texte_b"),
+    quand l'une des deux voix déforme une tournure que l'autre dit bien."""
     v = os.path.join(dossier, "voix")
     lignes = json.load(open(os.path.join(v, "lignes.json"), encoding="utf-8"))
     refs = json.load(open(os.path.join(v, "refs.json"), encoding="utf-8"))
     for i, l in enumerate(lignes):
+        if moteur and l.get(f"texte_{moteur}"):
+            l["texte"] = l[f"texte_{moteur}"]
         if "place" not in l:
             suivante = lignes[i + 1]["debut"] if i + 1 < len(lignes) else l["fin"] + 1.0
             l["place"] = round(max(l["fin"] - l["debut"], suivante - l["debut"] - 0.1), 2)

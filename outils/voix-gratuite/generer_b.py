@@ -14,7 +14,7 @@ prises = 3
 if "--prises" in av:
     i = av.index("--prises"); prises = int(av[i + 1]); del av[i:i + 2]
 d, perso, ids = av[0], av[1], set(av[2:])
-lignes, refs = charger(d)
+lignes, refs = charger(d, "b")
 code = langue(d)
 if code not in LANGUES_B:
     raise SystemExit(f"la voix B ne parle pas « {code} »")
