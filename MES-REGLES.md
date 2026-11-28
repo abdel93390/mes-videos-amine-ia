@@ -32,6 +32,8 @@ Lire le `LISEZMOI.md` d'un outil avant de l'utiliser ; noter chaque essai dans s
 | Post-it, badges jaunes, écrans titres traduits | `outils/textes-ecran/` (+ `outils/polices/`) |
 | Fiche et photos du produit de l'élève, plans du concurrent remplacés | `outils/photos-produit/` |
 | Image plus nette par IA (petites sources) | `outils/ia-nettete/` |
+| Effacer les sous-titres SANS flou : vrai décor repris dans les images voisines (LaMa seulement où ça bouge) | `outils/fond-reel/` |
+| Pub « mini-film » à plusieurs personnages : une voix par personnage, émotions jouées, calage | `outils/voix-expressives/` |
 | Pubs « tableau noir » : mots à la craie et étiquette du flacon refaits | `outils/craie-tableau/` |
 | Fond fixe : effacer les sous-titres avec le vrai fond des images voisines ; recaler une sortie Vmake qui a perdu des images | `outils/fond-temporel/` |
 | Rendu en 1080x1920 et vidéo comparative « concurrent / avant / après » | `outils/rendu-1080/` |
@@ -117,3 +119,9 @@ Musique chantée (anachid, chanson) : la séparation ordinaire range le chant av
 ## Séparation voix / musique : toujours, sur la machine d'abord (0 €)
 Toujours séparer la voix et la musique, pour toutes les vidéos : il le faut pour cloner les voix et pour le mixage. Par défaut sur la machine (étape 1 de « Voix gratuite » : `ADCLONER_DEMUCS=local`), pas sur Replicate. Replicate seulement si l'élève le demande, ou si la machine n'y arrive pas, coût annoncé. Sur Replicate, pour une vidéo longue (envoi automatique refusé) :
 `analyse.py` peut recevoir un refus 403 de Replicate à l'envoi, et une séparation demandée en sortie wav peut rester bloquée (12 min sur un fichier de 88 Mo, annulée). Envoyer `full.wav` avec `curl` sur `https://api.replicate.com/v1/files`, créer la prédiction demucs avec `"format": "mp3", "mp3_bitrate": 320` (environ 25 s pour 8 min), puis convertir les deux pistes en wav dans `dm/htdemucs/full/` (`vocals.wav`, `no_vocals.wav`). Vérifier le statut toutes les 10 s et annuler après 2 min en « processing ».
+
+## Leçons MYBEET (28/11/2026)
+- Clonage ElevenLabs bloqué (« detected_captcha_voice ») : ne pas contourner ; chercher la voix d'origine avec `outils/voix-expressives/voix_proches.py` (gratuit) — les pubs IA utilisent souvent des voix de la bibliothèque.
+- Valider les voix sur des tests courts AVANT la génération complète : une version refaite = tous les caractères payés deux fois. Les balises d'émotion sont facturées comme du texte.
+- Demander d'abord à l'élève s'il peut récupérer la version HD de la pub (bibliothèque Meta, via l'agent branché sur son Chrome) : 720x1280 au lieu de 360x640 donne de vrais détails, mieux que l'IA seule.
+- Synchronisation des lèvres (LatentSync payant, MuseTalk gratuit) essayée sur une source 360x640 : gain presque invisible ; ne pas la proposer sur une petite source.
