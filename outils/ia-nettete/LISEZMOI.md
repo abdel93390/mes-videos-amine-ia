@@ -14,6 +14,12 @@ Licence : Real-ESRGAN, BSD-3 (usage commercial autorisé, donc les pubs). Modèl
    - Reprise automatique : si la session coupe, relancer la même commande (morceaux de 1000 images dans `<sortie>_morceaux/`).
 3. Ensuite, comme pour la version 1080 (MES-REGLES.md, « Qualité ») : `analyse.json` à 1080x1920, positions et tailles de la section `rendu` multipliées par l'échelle, `rendu.py`, et **une seule compression finale** (le `crf` de la fiche, 20 conseillé ; pas de recompression derrière).
 
+## Version rapide (conseillée) : `agrandir_rapide.py`
+Même modèle, mais moteur OpenVINO (Intel, Apache 2.0) + plusieurs images en parallèle + calcul INT8 calibré sur la vidéo (`--int8`) : image identique à l'œil (PSNR 45 dB), **environ 3 fois plus rapide** que `agrandir.py`.
+- Installer : `bash installer.sh`, puis `pip install openvino nncf opencv-python-headless`.
+- `python3 agrandir_rapide.py <entree.mp4> <sortie.mp4> --taille 1080x1920 --int8 [--debut-ia N]` (images avant N : simple agrandissement, pour un début qui sera coupé). Reprise automatique par morceaux de 1000 images.
+- Source 720x1280 (« IA maximum ») : environ 1,2 s par image ; source 360x640 : bien moins.
+
 ## Temps de calcul (mesuré le 28/11/2026, processeur Xeon 4 cœurs de la session)
 - Modèle général : 2,5 s par image en calcul normal, **0,5 s par image en bfloat16** (le script l'active seul si le processeur le permet : `amx_bf16` / `avx512_bf16` dans /proc/cpuinfo). Écart d'image invisible (0,16 sur 255).
 - Vidéo de 8 min 23 (15 083 images) : environ 2 h 15 avec le modèle général, 1 h 10 avec le modèle animation.

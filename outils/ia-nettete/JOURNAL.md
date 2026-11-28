@@ -9,3 +9,9 @@
 - Résultat : détails (variance du laplacien, ramenée à 360x640, bandeau exclu) **3,2 fois ceux de l'original** (médiane), contre 0,9 pour la version lanczos ; 5 secondes sur 503 sous 0,9 (écrans noirs, photos). Aucune trace d'origine ni écart anormal.
 - Fichier final crf 20 : 303 Mo pour 8 min 23 (4,7 Mbit/s : l'IA ajoute du détail, donc plus lourd que les 200 Mo prévus). Envoyé tel quel dans la conversation, sans problème ; la comparaison 3 vidéos (crf 22, plafond 2 500k) : 158 Mo.
 - Avis de l'élève sur l'extrait de 30 s : « c'est parfait » → IA de netteté par défaut (MES-REGLES.md).
+
+## v2 — 28/11/2026 (MYBEET, source HD 720x1280 récupérée dans la bibliothèque Meta)
+- HD simple / HD + IA depuis 540 / HD + IA depuis 720 comparés en zoom : l'élève a choisi l'IA depuis 720 (« maximum »), la plus nette en gardant les vraies rides.
+- Temps sur 720x1280 : torch bf16 3,3 s/image ; OpenVINO bf16 1,93 s ; OpenVINO débit (4 requêtes en parallèle) 1,66 s ; OpenVINO INT8 (nncf, 17 morceaux 256x256 de calibration) environ 30 % de mieux encore, écart 1,06/255 (PSNR 45 dB), invisible. 10 000 images : environ 3 h 15 au lieu de 9 h.
+- Ne pas lancer l'IA pendant un autre gros calcul (effacement, montage) : tout ralentit, et la conversion du modèle en pleine taille avait manqué de mémoire (convertir avec une petite entrée 64x64 et une taille dynamique).
+- Outil `agrandir_rapide.py` testé depuis le dépôt (60 images, 30 IA + 30 lanczos, 1080x1920).
