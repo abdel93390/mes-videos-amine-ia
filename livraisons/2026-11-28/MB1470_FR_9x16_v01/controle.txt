@@ -1,0 +1,11 @@
+OK     :
+  - format 1080x1920 identique à la source
+  - durée vidéo 259.40 s / source 259.40 s = 100.0 %
+  - phrases plus longues que leur fenêtre : aucune
+ALERTE :
+  - mots affichés contre voix : 1 écart(s) notable(s) [('mille cent milligrammes', '1100 mg')]
+  - sous-titres de moins de 0,3 s : [('Papa,', 0.27), ('et toi,', 0.27)]
+  - trous de voix absents de la source : L05→L06 13.6-15.9 s (source parle 2.3 s), L06→L07 17.7-25.4 s (source parle 7.7 s), L12→L13 55.4-56.4 s (source parle 1.0 s), L23→L24 92.4-94.1 s (source parle 0.8 s), L29→L30 113.3-114.4 s (source parle 1.3 s)
+À vérifier à la main (non automatisable) : fidélité de la voix à l'écoute, logo ou texte d'origine sur les micro-plans, qualité des plans remplacés.
+planche : travail/MB1470_1080/controle_planche.jpg
+FIN
