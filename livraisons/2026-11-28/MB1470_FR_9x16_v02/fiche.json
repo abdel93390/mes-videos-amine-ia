@@ -1,0 +1,597 @@
+{
+ "ref": "MB1470",
+ "langue_source": "pl",
+ "langue_cible": "fr",
+ "voix": {
+  "id": "fEtpdogpDkBrq53KdupV",
+  "repli_id": "",
+  "vitesse_max": 1.07
+ },
+ "lignes": [
+  {
+   "id": "L01",
+   "perso": "F",
+   "texte": "Maman, papi est tout rouge, comme le père Noël !",
+   "debut": 4.0,
+   "fin_fenetre": 7.1
+  },
+  {
+   "id": "L02",
+   "perso": "M",
+   "texte": "Papa, ça va ?",
+   "debut": 7.4,
+   "fin_fenetre": 8.8
+  },
+  {
+   "id": "L03",
+   "perso": "M",
+   "texte": "Il gèle, et toi, tu transpires.",
+   "debut": 9.0,
+   "fin_fenetre": 10.8
+  },
+  {
+   "id": "L04",
+   "perso": "P",
+   "texte": "C'est la clim de l'avion.",
+   "debut": 10.9,
+   "fin_fenetre": 12.7
+  },
+  {
+   "id": "L05",
+   "perso": "P",
+   "texte": "Je vais bien.",
+   "debut": 12.9,
+   "fin_fenetre": 15.0
+  },
+  {
+   "id": "L06",
+   "perso": "P",
+   "texte": "Et il est où, mon câlin ?",
+   "debut": 15.9,
+   "fin_fenetre": 18.2
+  },
+  {
+   "id": "L07",
+   "perso": "G",
+   "texte": "Papi a fait tomber le bois.",
+   "debut": 25.4,
+   "fin_fenetre": 28.2
+  },
+  {
+   "id": "L08",
+   "perso": "M",
+   "texte": "Papa ?",
+   "debut": 28.4,
+   "fin_fenetre": 30.4
+  },
+  {
+   "id": "L09",
+   "perso": "P",
+   "texte": "Les marches glissent.",
+   "debut": 30.72,
+   "fin_fenetre": 32.4
+  },
+  {
+   "id": "L10",
+   "perso": "P",
+   "texte": "C'est tout.",
+   "debut": 32.5,
+   "fin_fenetre": 34.5
+  },
+  {
+   "id": "L11",
+   "perso": "F",
+   "texte": "Papi, t'es malade ?",
+   "debut": 47.98,
+   "fin_fenetre": 50.5
+  },
+  {
+   "id": "L12",
+   "perso": "M",
+   "texte": "Papa, c'est la troisième fois.",
+   "debut": 53.98,
+   "fin_fenetre": 56.35
+  },
+  {
+   "id": "L13",
+   "perso": "M",
+   "texte": "Tu avais promis de voir le médecin.",
+   "debut": 56.42,
+   "fin_fenetre": 58.5
+  },
+  {
+   "id": "L14",
+   "perso": "P",
+   "texte": "J'y suis allé.",
+   "debut": 58.58,
+   "fin_fenetre": 59.5
+  },
+  {
+   "id": "L15",
+   "perso": "P",
+   "texte": "Il dit que j'ai trop de tension, et les vaisseaux raides.",
+   "debut": 59.66,
+   "fin_fenetre": 63.2
+  },
+  {
+   "id": "L16",
+   "perso": "P",
+   "texte": "Il veut me donner des cachets.",
+   "debut": 63.3,
+   "fin_fenetre": 66.5
+  },
+  {
+   "id": "L17",
+   "perso": "P",
+   "texte": "Mon père en a pris pendant douze ans.",
+   "debut": 67.48,
+   "fin_fenetre": 70.2
+  },
+  {
+   "id": "L18",
+   "perso": "P",
+   "texte": "Toujours fatigué, la tête ailleurs, complètement absent.",
+   "debut": 70.86,
+   "fin_fenetre": 75.8,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L19",
+   "perso": "P",
+   "texte": "Pas moi.",
+   "debut": 76.34,
+   "fin_fenetre": 77.9
+  },
+  {
+   "id": "L20",
+   "perso": "P",
+   "texte": "Pas à Noël.",
+   "debut": 78.12,
+   "fin_fenetre": 80.5
+  },
+  {
+   "id": "L21",
+   "perso": "A",
+   "texte": "J'ai vécu la même chose, il y a vingt ans.",
+   "debut": 86.76,
+   "fin_fenetre": 89.4
+  },
+  {
+   "id": "L22",
+   "perso": "P",
+   "texte": "Toi ?",
+   "debut": 89.54,
+   "fin_fenetre": 90.35
+  },
+  {
+   "id": "L23",
+   "perso": "P",
+   "texte": "Tu viens de couper la moitié d'un arbre !",
+   "debut": 90.44,
+   "fin_fenetre": 93.9
+  },
+  {
+   "id": "L24",
+   "perso": "A",
+   "texte": "À l'époque, je n'arrivais même pas à la boîte aux lettres.",
+   "debut": 94.08,
+   "fin_fenetre": 97.9
+  },
+  {
+   "id": "L25",
+   "perso": "P",
+   "texte": "Qu'est-ce qui a changé ?",
+   "debut": 98.08,
+   "fin_fenetre": 100.5
+  },
+  {
+   "id": "L26",
+   "perso": "A",
+   "texte": "La betterave.",
+   "debut": 101.46,
+   "fin_fenetre": 103.1
+  },
+  {
+   "id": "L27",
+   "perso": "M",
+   "texte": "La betterave ? Je fais une soupe pour le réveillon !",
+   "debut": 103.32,
+   "fin_fenetre": 106.8
+  },
+  {
+   "id": "L28",
+   "perso": "A",
+   "texte": "Pas celle de la casserole.",
+   "debut": 106.9,
+   "fin_fenetre": 108.8
+  },
+  {
+   "id": "L29",
+   "perso": "A",
+   "texte": "Un extrait à basse température, car la chaleur détruit ce qu'elle a de meilleur :",
+   "debut": 108.9,
+   "fin_fenetre": 114.3,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L30",
+   "perso": "A",
+   "texte": "les nitrates.",
+   "debut": 114.4,
+   "fin_fenetre": 116.6
+  },
+  {
+   "id": "L31",
+   "perso": "A",
+   "texte": "Avec l'âge, surtout après 40 ans, le corps produit moins d'oxyde nitrique.",
+   "debut": 116.7,
+   "fin_fenetre": 121.7,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L32",
+   "perso": "A",
+   "texte": "C'est important pour une bonne circulation.",
+   "debut": 121.8,
+   "fin_fenetre": 127.5
+  },
+  {
+   "id": "L33",
+   "perso": "A",
+   "texte": "Chaque année, il y en a un peu moins.",
+   "debut": 127.82,
+   "fin_fenetre": 130.66,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L34",
+   "perso": "A",
+   "texte": "Avec les années, la circulation se fait moins bien, et on s'essouffle vite, même pour soulever une petite fille de six ans.",
+   "debut": 130.72,
+   "fin_fenetre": 142.0,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L35",
+   "perso": "A",
+   "texte": "Les nitrates de la betterave, le corps les transforme en oxyde nitrique.",
+   "debut": 142.36,
+   "fin_fenetre": 147.0,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L36",
+   "perso": "A",
+   "texte": "Ce qui aide à garder une bonne circulation, année après année.",
+   "debut": 147.15,
+   "fin_fenetre": 152.4,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L37",
+   "perso": "P",
+   "texte": "J'ai de la poudre de betterave du supermarché.",
+   "debut": 152.62,
+   "fin_fenetre": 155.95,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L38",
+   "perso": "A",
+   "texte": "La pas chère ?",
+   "debut": 156.02,
+   "fin_fenetre": 157.8,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L39",
+   "perso": "P",
+   "texte": "Oui.",
+   "debut": 157.88,
+   "fin_fenetre": 159.2,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L40",
+   "perso": "A",
+   "texte": "Séchée à chaud.",
+   "debut": 159.32,
+   "fin_fenetre": 160.8
+  },
+  {
+   "id": "L41",
+   "perso": "A",
+   "texte": "Il n'en reste que de la poussière rouge.",
+   "debut": 160.84,
+   "fin_fenetre": 163.45
+  },
+  {
+   "id": "L42",
+   "perso": "A",
+   "texte": "À basse température, c'est un vrai complément.",
+   "debut": 163.52,
+   "fin_fenetre": 168.3
+  },
+  {
+   "id": "L43",
+   "perso": "A",
+   "texte": "Joyeux Noël.",
+   "debut": 168.56,
+   "fin_fenetre": 169.6
+  },
+  {
+   "id": "L44",
+   "perso": "A",
+   "texte": "Deux gélules par jour, avec un verre d'eau.",
+   "debut": 170.0,
+   "fin_fenetre": 173.35,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L45",
+   "perso": "A",
+   "texte": "En plus de ce que ton médecin te prescrira.",
+   "debut": 173.42,
+   "fin_fenetre": 177.0
+  },
+  {
+   "id": "L46",
+   "perso": "P",
+   "texte": "Je me disais que c'était l'avion.",
+   "debut": 211.0,
+   "fin_fenetre": 213.7,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L47",
+   "perso": "P",
+   "texte": "Puis je me disais que c'était l'âge.",
+   "debut": 213.86,
+   "fin_fenetre": 216.9
+  },
+  {
+   "id": "L48",
+   "perso": "P",
+   "texte": "Ce n'était ni l'un, ni l'autre.",
+   "debut": 217.06,
+   "fin_fenetre": 219.8,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L49",
+   "perso": "P",
+   "texte": "Si vous aussi, vous vous dites la même chose, n'attendez pas le matin de Noël pour savoir ce qu'il en est vraiment.",
+   "debut": 219.94,
+   "fin_fenetre": 227.7,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L50",
+   "perso": "P",
+   "texte": "Betalia.",
+   "debut": 227.84,
+   "fin_fenetre": 228.8
+  },
+  {
+   "id": "L51",
+   "perso": "P",
+   "texte": "Extrait de betterave, à basse température.",
+   "debut": 229.05,
+   "fin_fenetre": 231.5
+  },
+  {
+   "id": "L52",
+   "perso": "P",
+   "texte": "Mille cent milligrammes par jour.",
+   "debut": 231.58,
+   "fin_fenetre": 233.75
+  },
+  {
+   "id": "L53",
+   "perso": "P",
+   "texte": "Avec du fer et de la vitamine C.",
+   "debut": 233.8,
+   "fin_fenetre": 236.35,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L54",
+   "perso": "P",
+   "texte": "En ce moment, deux boîtes achetées, la troisième offerte. Et quatre-vingt-dix jours satisfait ou remboursé, sans vous justifier.",
+   "debut": 236.4,
+   "fin_fenetre": 244.3,
+   "vitesse": 0.9
+  },
+  {
+   "id": "L55",
+   "perso": "P",
+   "texte": "Le lien est juste en dessous.",
+   "debut": 245.13,
+   "fin_fenetre": 247.1
+  },
+  {
+   "id": "L56",
+   "perso": "P",
+   "texte": "Prenez soin de votre cœur, pour passer chaque Noël avec ceux que vous aimez.",
+   "debut": 247.2,
+   "fin_fenetre": 253.0,
+   "vitesse": 0.9
+  }
+ ],
+ "mix": {
+  "fond": "musique",
+  "niveau_fond": 1.0,
+  "note": "fond sonore d'origine gardé (choix de l'élève) ; de 176,4 à 210,8 s le son d'origine complet (rires des enfants, sans paroles)"
+ },
+ "rendu": {
+  "encodeur": "x264",
+  "crf": 19,
+  "zones_vmake": {
+   "mode": "auto",
+   "marge": 36,
+   "adoucir": 8
+  },
+  "patches": [
+   {
+    "images": [
+     0,
+     150
+    ],
+    "rect": [
+     312,
+     1806,
+     768,
+     1882
+    ],
+    "remplir": [
+     45,
+     45,
+     45
+    ],
+    "rayon": 38,
+    "lignes": [
+     {
+      "texte": "Généré par IA",
+      "x": 540,
+      "y": 1844,
+      "taille": 30,
+      "graisse": 500,
+      "couleur": [
+       235,
+       235,
+       235
+      ],
+      "ancre": "mm"
+     }
+    ]
+   },
+   {
+    "images": [
+     5389,
+     5436
+    ],
+    "rect": [
+     0,
+     880,
+     1080,
+     1040
+    ],
+    "remplir": [
+     3,
+     3,
+     3
+    ],
+    "lignes": [
+     {
+      "texte": "LE PREMIER MOIS",
+      "x": 540,
+      "y": 962,
+      "taille": 58,
+      "graisse": 500,
+      "couleur": [
+       255,
+       255,
+       255
+      ],
+      "ancre": "mm"
+     }
+    ]
+   }
+  ],
+  "sous_titres": {
+   "mode": "mots",
+   "y": 1365,
+   "taille": 52,
+   "graisse": 600,
+   "couleur": [
+    255,
+    255,
+    255
+   ],
+   "couleur_ombre": [
+    0,
+    0,
+    0
+   ],
+   "decalage": [
+    1,
+    3
+   ],
+   "flou": 2.0,
+   "trait": 4,
+   "max_mots": 4,
+   "max_car": 24,
+   "max_car_ligne": 14,
+   "interligne": 1.18,
+   "largeur": 900
+  },
+  "remplacements": [
+   {
+    "images": [
+     7586,
+     7586
+    ],
+    "image": 7587
+   }
+  ]
+ },
+ "marque": "Betalia",
+ "produit": "Betalia Extrait de betterave, fer et vitamine C (60 gélules)",
+ "site": "",
+ "offre": "2 achetées + 1 offerte, garantie 90 jours satisfait ou remboursé (fiche : sans avoir à se justifier)",
+ "controle": {
+  "sans_voix": [
+   "Généré par IA",
+   "LE PREMIER MOIS"
+  ]
+ },
+ "personnages": {
+  "F": "fillette",
+  "G": "petit garçon",
+  "M": "maman",
+  "P": "papi (pull rouge, puis narrateur pull bordeaux)",
+  "A": "ami barbu (veste marron)"
+ },
+ "voix_persos": {
+  "F": {
+   "id": "eoisLzL4n4HaSHUUsOZs",
+   "nom": "clone fillette"
+  },
+  "G": {
+   "id": "w37L3bgIJgLyqpfYISy1",
+   "nom": "clone garçon"
+  },
+  "M": {
+   "id": "9IeGxhWPya5Je1kpqhoL",
+   "nom": "clone maman"
+  },
+  "P": {
+   "id": "RqRSoMbU7rG0JGMP7zDD",
+   "nom": "Patrick (bibliothèque, clone bloqué, choix de l'élève)"
+  },
+  "A": {
+   "id": "fEtpdogpDkBrq53KdupV",
+   "nom": "David (bibliothèque, clone bloqué, choix de l'élève)"
+  }
+ },
+ "version_sante": "douce (choix de l'élève 28/11/2026)",
+ "bilan": {
+  "duree_source_s": 259.4,
+  "vmake_s": 0,
+  "effaceur": "v1",
+  "caracteres_elevenlabs": 2631,
+  "replicate_appels": 1,
+  "reprises": 11,
+  "problemes": [
+   "Clonage bloqué par ElevenLabs (vérification captcha) pour le papi et l'ami barbu : voix de bibliothèque Patrick et David, choisies par l'élève sur 2 bandes-annonces",
+   "Clones de la maman, fillette et garçon OK (échantillons de 12 s, 5 s et 2 s), supprimés après génération",
+   "Transcription Groq ratée sur 0-27 s et 175-211 s (musique, enfants) : texte polonais relu sur les sous-titres incrustés",
+   "Essais de voix : environ 370 caractères perdus (voix non choisies + reprises), plus que les 250 annoncés",
+   "Séparation Replicate envoyée avec curl en mp3 320k : 25 s, sans blocage",
+   "Script complet envoyé à l'élève après la génération des voix (au lieu d'avant) ; aucune phrase changée",
+   "Fond sonore d'origine gardé à la demande de l'élève (pas de musique pendant les dialogues) ; son d'origine complet de 176 à 211 s (rires des enfants, sans paroles)",
+   "v02 : petit flacon MyBeet sur la table (7348-7586) remplacé par l'étiquette Betalia (photo1), suivie image par image avec cv2 ; photo C5 prolongée jusqu'à 7347 (flacon tenu en main) ; image 7586 remplacée par 7587",
+   "v02 : vérification seconde par seconde (originale/française côte à côte) et mesure de netteté des zones effacées (rapport médian 1,05) : rien à corriger"
+  ]
+ }
+}
