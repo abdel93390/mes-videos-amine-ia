@@ -7,8 +7,11 @@ MossFormer2_SE_48K (ClearVoice, Apache 2.0) : environ 8 fois la durée de la vid
 import os, sys, subprocess, tempfile, time
 import numpy as np, soundfile as sf, librosa
 
-d = sys.argv[1]
+d = os.path.abspath(sys.argv[1])
 dm = os.path.join(d, "dm", "htdemucs", "full")
+# ClearVoice range son modèle dans ./checkpoints du dossier courant : travailler dans le cache, jamais dans un dépôt
+CACHE_CV = os.path.join(os.environ.get("VOIX_GRATUITE_CACHE", os.path.expanduser("~/.cache/voix-gratuite")), "clearvoice")
+os.makedirs(CACHE_CV, exist_ok=True)
 for f in ("vocals.wav", "no_vocals.wav"):
     if not os.path.exists(os.path.join(dm, f)):
         raise SystemExit(f"manque {dm}/{f} : lancer d'abord analyse.py avec ADCLONER_DEMUCS=local (voir LISEZMOI.md)")
@@ -18,6 +21,7 @@ with tempfile.TemporaryDirectory() as t:
     entree = os.path.join(t, "voix48.wav")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(dm, "vocals.wav"), "-ar", "48000", "-ac", "1", entree], check=True)
     from clearvoice import ClearVoice
+    os.chdir(CACHE_CV)
     cv = ClearVoice(task="speech_enhancement", model_names=["MossFormer2_SE_48K"])
     w = cv(input_path=entree, online_write=False)
     cv.write(w, output_path=os.path.join(d, "sep", "parole.wav"))
