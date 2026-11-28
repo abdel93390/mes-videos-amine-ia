@@ -22,6 +22,18 @@ Règle de l'élève (28/11/2026) : chaque amélioration trouvée doit être gard
 - Ne pas attendre la fin de la vidéo : ranger au fur et à mesure, pour qu'une coupure de session ne fasse rien perdre.
 - Vérifier toujours que la licence autorise l'usage commercial (les pubs).
 
+## Boîte à outils de l'élève (`outils/`, tous gratuits, licences compatibles avec les pubs)
+Lire le `LISEZMOI.md` d'un outil avant de l'utiliser ; noter chaque essai dans son `JOURNAL.md`.
+| Besoin | Outil |
+|---|---|
+| Effacer les sous-titres incrustés (à la place de Vmake) | `outils/effaceur/` |
+| Cacher les sous-titres sous un bandeau blanc + sous-titres français (test gratuit ou version finale) | `outils/bandeau-blanc/` |
+| Voix française gratuite (à la place d'ElevenLabs) et séparation voix/musique sur la machine | `outils/voix-gratuite/` |
+| Post-it, badges jaunes, écrans titres traduits | `outils/textes-ecran/` (+ `outils/polices/`) |
+| Fiche et photos du produit de l'élève, plans du concurrent remplacés | `outils/photos-produit/` |
+| Image plus nette par IA (petites sources) | `outils/ia-nettete/` |
+| Rendu en 1080x1920 et vidéo comparative « concurrent / avant / après » | `outils/rendu-1080/` |
+
 ## Lien Instagram (Reel) envoyé à la place du fichier
 L'élève préfère que je récupère la vidéo moi-même : le lui proposer, et attendre son accord écrit dans la conversation. Alors : `pip install --user yt-dlp`, puis `python3 -m yt_dlp --no-playlist -f "bv*+ba/b" --merge-output-format mp4 -o "<dossier vide>/reel.%(ext)s" "<lien>"` (marché le 27/11/2026 sans connexion Instagram). Si la vérification de sécurité de la session bloque quand même, ne pas contourner : lui expliquer comment télécharger la vidéo et l'envoyer avec le bouton « + ».
 
