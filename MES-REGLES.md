@@ -21,6 +21,7 @@ Règle de l'élève (28/11/2026) : chaque amélioration trouvée doit être gard
 - L'enregistrer **directement sur la branche `main`**, sans attendre son accord (`git pull --rebase` puis `git push origin HEAD:main`), puis le lui dire en une ligne.
 - Ne pas attendre la fin de la vidéo : ranger au fur et à mesure, pour qu'une coupure de session ne fasse rien perdre.
 - Vérifier toujours que la licence autorise l'usage commercial (les pubs).
+
 ## Lien Instagram (Reel) envoyé à la place du fichier
 L'élève préfère que je récupère la vidéo moi-même : le lui proposer, et attendre son accord écrit dans la conversation. Alors : `pip install --user yt-dlp`, puis `python3 -m yt_dlp --no-playlist -f "bv*+ba/b" --merge-output-format mp4 -o "<dossier vide>/reel.%(ext)s" "<lien>"` (marché le 27/11/2026 sans connexion Instagram). Si la vérification de sécurité de la session bloque quand même, ne pas contourner : lui expliquer comment télécharger la vidéo et l'envoyer avec le bouton « + ».
 
@@ -64,7 +65,8 @@ L'élève veut directement la meilleure version, sans allers-retours. Livrer en 
   `ffmpeg -i travail/<REF>/src.mp4 -vf "hqdn3d=1.5:1.5:0:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.9:3:3:0.0" -c:v libx264 -crf 14 -preset veryfast <dossier 1080>/src.mp4`,
   mettre `largeur`/`hauteur` à 1080/1920 dans l'`analyse.json` du dossier 1080, multiplier par l'échelle (3 pour une source 360x640) les positions et tailles de la section `rendu` (rect, x, y, taille, largeur, rayon), et refaire en 1080 natif les plans faits à partir de photos. Sous-titres, badges et photos sortent nets.
 - Si ce n'est pas possible (zones Vmake, blocs automatiques…) : agrandir la vidéo finie avec le même filtre, puis `-c:v libx264 -preset slow -crf 18 -maxrate 3400k -bufsize 6800k -profile:v high -pix_fmt yuv420p -c:a copy -movflags +faststart`.
-- Viser moins de 100 Mo : baisser `-maxrate` pour une vidéo longue (environ 1 400k pour 8 min).
+- **Netteté par IA (gratuit) : à faire par défaut quand la source est plus petite que 1080.** Agrandir la base avec `outils/ia-nettete/` (Real-ESRGAN, modèle « général ») au lieu du filtre ffmpeg ci-dessus : vrais détails recréés au lieu d'une image molle. Essai de 5 s montré à l'élève d'abord ; environ 0,5 s par image (2 h 15 pour 8 min). Mode d'emploi : `outils/ia-nettete/LISEZMOI.md`.
+- Une seule compression finale (le `crf` de la fiche, 20 conseillé), pas de recompression pour tenir sous 100 Mo : la vidéo est envoyée dans la conversation, environ 200 Mo pour 8 min. Une compression à 98 Mo pour 8 min faisait perdre 15 % de netteté.
 - Aucun flou : le nettoyage du texte (effaceur, remplissage, Vmake) ne touche que la zone du texte, jamais les dessins, visages ou produits autour. Si l'effaceur laisse des taches floues sur un plan, utiliser le bandeau blanc sur ce plan.
 - **Vérification seconde par seconde avant d'envoyer** (demande de l'élève) : comparer la vidéo d'origine et la version traduite côte à côte, une image par seconde, sur toute la durée, avec des gros plans sur les zones de texte effacées, le produit et les plans remplacés. Corriger tout flou, tache, reste de lettre ou texte mal placé, refaire le rendu, revérifier, et seulement ensuite envoyer la vidéo.
 
