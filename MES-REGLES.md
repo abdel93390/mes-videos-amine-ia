@@ -32,6 +32,8 @@ Lire le `LISEZMOI.md` d'un outil avant de l'utiliser ; noter chaque essai dans s
 | Post-it, badges jaunes, écrans titres traduits | `outils/textes-ecran/` (+ `outils/polices/`) |
 | Fiche et photos du produit de l'élève, plans du concurrent remplacés | `outils/photos-produit/` |
 | Image plus nette par IA (petites sources) | `outils/ia-nettete/` |
+| Pubs « tableau noir » : mots à la craie et étiquette du flacon refaits | `outils/craie-tableau/` |
+| Fond fixe : effacer les sous-titres avec le vrai fond des images voisines ; recaler une sortie Vmake qui a perdu des images | `outils/fond-temporel/` |
 | Rendu en 1080x1920 et vidéo comparative « concurrent / avant / après » | `outils/rendu-1080/` |
 
 ## Lien Instagram (Reel) envoyé à la place du fichier
