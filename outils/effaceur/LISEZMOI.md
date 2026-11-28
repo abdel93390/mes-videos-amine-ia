@@ -25,3 +25,7 @@ Le premier appel de la session installe les outils dans `~/.cache/effaceur` (que
 - Le reste (repérage du texte, assemblage) a été écrit pour ce dépôt.
 
 L'historique des versions et des tests est dans [JOURNAL.md](JOURNAL.md).
+
+## Vérifier qu'il n'y a ni flou ni reste de lettre (demande de l'élève)
+`python3 /home/user/mes-videos-amine-ia/outils/effaceur/verifier.py travail/<REF>/src.mp4 travail/<REF>/clean_vmake.mp4 --bande Y0 Y1`
+Donne la netteté de la zone effacée par rapport au décor autour (1 = aussi net) et les pires images, puis le nombre d'images avec des restes de lettres. Regarder les pires en gros plan (original | effacé | final) et montrer l'image à l'élève.
